@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gemini Collaborator</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <span class="gem">✦</span>
+        <span class="title">Gemini Collaborator</span>
+      </div>
+      <button id="settingsBtn" class="icon-btn" title="Settings">⚙</button>
+    </div>
+
+    <!-- Settings Panel (hidden by default) -->
+    <div id="settingsPanel" class="settings-panel hidden">
+      <label>Google Gemini API Key</label>
+      <input type="password" id="apiKeyInput" placeholder="AIza..." />
+      <button id="saveKeyBtn" class="btn primary">Save Key</button>
+      <span id="keyStatus" class="status-msg"></span>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="chat">Chat</button>
+      <button class="tab" data-tab="tasks">Tasks</button>
+    </div>
+
+    <!-- Chat Tab -->
+    <div id="chatTab" class="tab-content active">
+      <div id="chatMessages" class="messages">
+        <div class="message gemini">
+          <span class="avatar">✦</span>
+          <div class="bubble">Hi! I'm Gemini. Ask me anything or share a task with me.</div>
+        </div>
+      </div>
+      <div class="input-row">
+        <textarea id="chatInput" placeholder="Ask Gemini something..." rows="2"></textarea>
+        <button id="sendBtn" class="send-btn">➤</button>
+      </div>
+    </div>
+
+    <!-- Tasks Tab -->
+    <div id="tasksTab" class="tab-content hidden">
+      <div class="task-input-area">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button id="addTaskBtn" class="btn primary small">Add</button>
+      </div>
+      <ul id="taskList" class="task-list"></ul>
+      <div class="task-actions">
+        <button id="askGeminiBtn" class="btn gemini-btn">✦ Ask Gemini about my tasks</button>
+      </div>
+      <div id="geminiTaskResponse" class="gemini-task-response hidden"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
