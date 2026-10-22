@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import { UpdatePrompt } from './UpdatePrompt';
 
 const NAV = [
   { to: '/', label: 'Accueil', icon: '🏠' },
@@ -20,6 +21,7 @@ export function AppLayout() {
       <main id="contenu" className="flex-1 px-4 pb-24 pt-4">
         <Outlet />
       </main>
+      <UpdatePrompt />
       <nav
         className="fixed bottom-0 left-0 right-0 border-t border-slate-200 bg-white/95 backdrop-blur"
         aria-label="Navigation principale"

@@ -13,12 +13,16 @@ données restent sur l'appareil.
 
 | Phase | Contenu | État |
 |---|---|---|
-| 1 | Moteur de leçons, synthèse vocale, 3 types d'exercices, niveau A0 complet, stockage local | **terminée** |
+| 1 | Moteur de leçons, synthèse vocale, 3 types d'exercices, niveau A0 complet, stockage local, installation et fonctionnement hors ligne | **terminée** |
 | 2 | Reconnaissance vocale, révision espacée (SM-2), niveau A1 | à venir |
-| 3 | Fiches de grammaire, test de positionnement, tests de fin d'unité, PWA hors ligne, A2–B1 | à venir |
+| 3 | Fiches de grammaire consultables, test de positionnement, tests de fin d'unité, A2–B1 | à venir |
 | 4 | Accessibilité, polissage, tests, déploiement | à venir |
 
 Contenu disponible : **4 unités A0, 12 leçons, 107 mots et expressions, 72 exercices**.
+
+L'application s'installe depuis le navigateur (« Ajouter à l'écran d'accueil ») et fonctionne
+entièrement hors ligne après la première visite — sauf la synthèse vocale si l'appareil n'utilise
+qu'une voix en ligne.
 
 ## Installation et lancement local
 
