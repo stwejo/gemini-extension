@@ -74,6 +74,45 @@ export function getLesson(lessonId: string): LessonLocation | undefined {
   return undefined;
 }
 
+export interface RuleRef {
+  ruleId: string;
+  title_fr: string;
+  body_fr: string;
+  examples: { nl: string; fr: string }[];
+  exceptions_fr: string[];
+  lessonId: string;
+  level: Level;
+}
+
+/**
+ * Les regles sont definies dans les lecons (source unique) : on les collecte ici.
+ * La section grammaire consultable (phase 3) s'appuiera sur cette meme liste.
+ */
+export function getRules(): RuleRef[] {
+  const rules: RuleRef[] = [];
+  for (const unit of getCourse()) {
+    for (const lesson of unit.lessons) {
+      for (const step of lesson.steps) {
+        if (step.type !== 'rule') continue;
+        rules.push({
+          ruleId: step.ruleId,
+          title_fr: step.title_fr,
+          body_fr: step.body_fr,
+          examples: step.examples.map(({ nl, fr }) => ({ nl, fr })),
+          exceptions_fr: step.exceptions_fr,
+          lessonId: lesson.id,
+          level: unit.level,
+        });
+      }
+    }
+  }
+  return rules;
+}
+
+export function getRule(ruleId: string): RuleRef | undefined {
+  return getRules().find((rule) => rule.ruleId === ruleId);
+}
+
 /** Toutes les lecons du cours, dans l'ordre pedagogique. */
 export function getAllLessons(): LessonLocation[] {
   return getCourse().flatMap((unit) =>
