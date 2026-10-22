@@ -141,3 +141,120 @@ describe('Remise en ordre', () => {
     expect(screen.getByRole('status')).toHaveTextContent('Position 2');
   });
 });
+
+const cloze: Exercise = {
+  id: 'e4',
+  type: 'cloze',
+  sentence: 'Ik ___ in Luik.',
+  fr: 'J’habite à Liège.',
+  answers: ['woon'],
+  choices: [],
+  errorTags: [],
+};
+
+const clozeChoices: Exercise = { ...cloze, id: 'e5', choices: ['woon', 'woont', 'wonen'] };
+
+const translate: Exercise = {
+  id: 'e6',
+  type: 'translate',
+  direction: 'fr-nl',
+  prompt: 'Je parle un peu néerlandais.',
+  expected: ['Ik spreek een beetje Nederlands.'],
+  errorTags: [],
+};
+
+const errorCorrection: Exercise = {
+  id: 'e7',
+  type: 'errorCorrection',
+  wrong: 'Ik woont in Luik.',
+  correct: ['Ik woon in Luik.'],
+  fr: 'J’habite à Liège.',
+  errorTags: [],
+};
+
+const speakRepeat: Exercise = {
+  id: 'e8',
+  type: 'speakRepeat',
+  nl: 'Goedemorgen!',
+  fr: 'Bonjour !',
+  errorTags: [],
+};
+
+describe('Texte à trous', () => {
+  it('accepte le mot écrit correctement', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={cloze} onAnswer={onAnswer} />);
+    await user.type(screen.getByLabelText('Mot manquant'), 'woon');
+    await user.click(screen.getByRole('button', { name: 'Vérifier' }));
+    expect(onAnswer).toHaveBeenCalledWith(true, 'woon');
+    expect(screen.getByRole('status')).toHaveTextContent('Correct');
+  });
+
+  it('montre la réponse attendue quand le mot est faux', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={cloze} onAnswer={onAnswer} />);
+    await user.type(screen.getByLabelText('Mot manquant'), 'woont');
+    await user.click(screen.getByRole('button', { name: 'Vérifier' }));
+    expect(onAnswer).toHaveBeenCalledWith(false, 'woont');
+    expect(screen.getByRole('status')).toHaveTextContent('woon');
+  });
+
+  it('propose des choix quand le contenu en donne', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={clozeChoices} onAnswer={onAnswer} />);
+    expect(screen.queryByLabelText('Mot manquant')).toBeNull();
+    await user.click(screen.getByRole('button', { name: 'woont' }));
+    expect(onAnswer).toHaveBeenCalledWith(false, 'woont');
+  });
+});
+
+describe('Traduction', () => {
+  it('accepte la traduction attendue', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={translate} onAnswer={onAnswer} />);
+    await user.type(screen.getByLabelText('Ta traduction'), 'Ik spreek een beetje Nederlands.');
+    await user.click(screen.getByRole('button', { name: 'Vérifier' }));
+    expect(onAnswer).toHaveBeenCalledWith(true, 'Ik spreek een beetje Nederlands.');
+  });
+
+  it('explique ce qui manque', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={translate} onAnswer={onAnswer} />);
+    await user.type(screen.getByLabelText('Ta traduction'), 'Ik spreek Nederlands.');
+    await user.click(screen.getByRole('button', { name: 'Vérifier' }));
+    expect(onAnswer).toHaveBeenCalledWith(false, 'Ik spreek Nederlands.');
+    expect(screen.getByRole('status')).toHaveTextContent('beetje');
+  });
+});
+
+describe('Correction d’erreur', () => {
+  it('valide la phrase corrigée', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={errorCorrection} onAnswer={onAnswer} />);
+    await user.click(screen.getByRole('button', { name: 'Copier la phrase' }));
+    const field = screen.getByLabelText('Phrase corrigée');
+    await user.clear(field);
+    await user.type(field, 'Ik woon in Luik.');
+    await user.click(screen.getByRole('button', { name: 'Vérifier' }));
+    expect(onAnswer).toHaveBeenCalledWith(true, 'Ik woon in Luik.');
+  });
+});
+
+describe('Répétition orale sans reconnaissance vocale', () => {
+  it('propose l’auto-évaluation et le dit clairement', async () => {
+    const user = userEvent.setup();
+    const onAnswer = vi.fn();
+    render(<ExerciseView exercise={speakRepeat} onAnswer={onAnswer} />);
+
+    expect(screen.getByText(/ne propose pas la reconnaissance vocale/)).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: "J'y arrive" }));
+    expect(onAnswer).toHaveBeenCalledWith(true, '(auto-évaluation : réussi)');
+    expect(screen.getByRole('status')).toHaveTextContent('Auto-évaluation');
+  });
+});

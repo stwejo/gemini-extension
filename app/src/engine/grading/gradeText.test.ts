@@ -63,3 +63,22 @@ describe('gradeText', () => {
     expect(() => gradeText('test', [])).toThrow();
   });
 });
+
+describe('tolérance aux fautes de frappe', () => {
+  it('n accepte aucune approximation sur une réponse courte', () => {
+    // La différence woon / woont est grammaticale : elle ne doit jamais passer.
+    expect(gradeText('woont', ['woon']).accepted).toBe(false);
+    expect(gradeText('het', ['de']).accepted).toBe(false);
+    expect(gradeText('ben', ['bent']).accepted).toBe(false);
+  });
+
+  it('tolère une faute de frappe sur un mot long', () => {
+    expect(gradeText('goedemorgn', ['goedemorgen']).accepted).toBe(true);
+    expect(gradeText('alstubliefd', ['alstublieft']).accepted).toBe(true);
+  });
+
+  it('reste strict sur une phrase courte entière', () => {
+    expect(gradeText('ik ben moe', ['ik ben moe']).accepted).toBe(true);
+    expect(gradeText('ik bent moe', ['ik ben moe']).accepted).toBe(false);
+  });
+});

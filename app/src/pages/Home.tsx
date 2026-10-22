@@ -4,7 +4,7 @@ import { getCourse } from '@/content';
 import { buildPath, findNextLesson } from '@/engine/path';
 import { getAllLessonProgress } from '@/db/repositories/progress';
 import { computeStreak, getActivity, getRecentActivity } from '@/db/repositories/activity';
-import { countCards } from '@/db/repositories/srs';
+import { countCards, getDueCount, getNextDueDate } from '@/db/repositories/srs';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { TtsStatus } from '@/components/audio/PlayButton';
 import { useApp } from '@/context/AppContext';
@@ -15,6 +15,8 @@ export function Home() {
   const today = useLiveQuery(() => getActivity(), [], undefined);
   const recent = useLiveQuery(() => getRecentActivity(60), [], []);
   const cards = useLiveQuery(countCards, [], 0);
+  const due = useLiveQuery(getDueCount, [], 0);
+  const nextDue = useLiveQuery(getNextDueDate, [], null);
 
   const levels = buildPath(getCourse(), progress);
   const next = findNextLesson(levels);
@@ -89,16 +91,26 @@ export function Home() {
       </section>
 
       <section className="card">
-        <h2 className="font-semibold">Ma liste de révision</h2>
-        <p className="mt-1 text-slate-700">
-          {cards} {cards === 1 ? 'élément enregistré' : 'éléments enregistrés'}
-        </p>
-        <p className="mt-1 text-sm text-slate-600">
-          Les sessions de révision espacée (algorithme SM-2) arrivent à l'étape suivante. En
-          attendant, tu peux relire et réécouter toute ta liste.
-        </p>
+        <h2 className="font-semibold">Révision du jour</h2>
+        {due > 0 ? (
+          <>
+            <p className="mt-1 text-slate-700">
+              <span className="font-semibold">{due}</span>{' '}
+              {due === 1 ? 'élément à revoir' : 'éléments à revoir'} aujourd'hui. Les éléments
+              souvent ratés passent en premier.
+            </p>
+            <Link to="/revision" className="btn-primary mt-3 w-full">
+              Réviser maintenant
+            </Link>
+          </>
+        ) : (
+          <p className="mt-1 text-slate-700">
+            Rien à réviser aujourd'hui.
+            {nextDue ? ` Prochaine révision le ${nextDue}.` : ' Termine une leçon pour alimenter ta liste.'}
+          </p>
+        )}
         <Link to="/vocabulaire" className="btn-secondary mt-3 w-full">
-          Ouvrir ma liste
+          Ma liste ({cards})
         </Link>
       </section>
     </div>

@@ -4,6 +4,7 @@ import { UpdatePrompt } from './UpdatePrompt';
 const NAV = [
   { to: '/', label: 'Accueil', icon: '🏠' },
   { to: '/parcours', label: 'Parcours', icon: '🗺️' },
+  { to: '/revision', label: 'Révision', icon: '🔁' },
   { to: '/vocabulaire', label: 'Mots', icon: '📒' },
   { to: '/reglages', label: 'Réglages', icon: '⚙️' },
 ];

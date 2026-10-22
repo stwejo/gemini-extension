@@ -34,8 +34,8 @@ export function VocabPage() {
       <header>
         <h1 className="text-2xl font-bold">Ma liste</h1>
         <p className="text-slate-600">
-          Tout ce que tu as vu en leçon. Les sessions de révision espacée arrivent à l'étape
-          suivante du projet ; la liste est déjà enregistrée pour elles.
+          Tout ce que tu as vu en leçon. La révision espacée pioche ici : chaque élément revient
+          juste avant que tu l'oublies.
         </p>
       </header>
 

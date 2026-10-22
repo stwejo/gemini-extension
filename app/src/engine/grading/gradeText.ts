@@ -23,9 +23,24 @@ export interface GradeTextOptions {
   acceptTypos?: boolean;
 }
 
+/** En dessous de cette longueur, un mot doit etre ecrit exactement. */
+const EXACT_BELOW = 8;
+
 /** Nombre de caracteres de difference encore consideres comme une faute de frappe. */
 function typoBudget(target: string): number {
   return target.length <= 12 ? 1 : Math.floor(target.length * 0.08) + 1;
+}
+
+/**
+ * Une difference n'est une faute de frappe que si elle porte sur un mot long.
+ * Sur un mot court, l'ecart est grammatical, pas typographique : woon / woont,
+ * de / het, ben / bent doivent etre comptes faux.
+ */
+function looksLikeTypo(words: TokenDiff[]): boolean {
+  if (words.some((word) => word.status === 'manquant' || word.status === 'superflu')) return false;
+  return words
+    .filter((word) => word.status !== 'ok')
+    .every((word) => (word.expected?.length ?? 0) >= EXACT_BELOW);
 }
 
 /**
@@ -79,7 +94,7 @@ export function gradeText(
     verdict = 'correct';
   } else if (onlyCaseOrAccents) {
     verdict = 'presque';
-  } else if (acceptTypos && best.distance <= typoBudget(best.normalizedTarget)) {
+  } else if (acceptTypos && best.distance <= typoBudget(best.normalizedTarget) && looksLikeTypo(words)) {
     verdict = 'presque';
   } else {
     verdict = 'incorrect';

@@ -4,6 +4,7 @@ import { AppProvider } from '@/context/AppContext';
 import { Home } from '@/pages/Home';
 import { PathPage } from '@/pages/Path';
 import { LessonPage } from '@/pages/Lesson';
+import { ReviewPage } from '@/pages/Review';
 import { VocabPage } from '@/pages/Vocab';
 import { SettingsPage } from '@/pages/Settings';
 
@@ -42,6 +43,7 @@ export const router = createRouter(
         { index: true, element: <Home /> },
         { path: 'parcours', element: <PathPage /> },
         { path: 'lecon/:lessonId', element: <LessonPage /> },
+        { path: 'revision', element: <ReviewPage /> },
         { path: 'vocabulaire', element: <VocabPage /> },
         { path: 'reglages', element: <SettingsPage /> },
         { path: '*', element: <Navigate to="/" replace /> },

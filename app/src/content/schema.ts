@@ -141,11 +141,76 @@ export const WordOrderExerciseSchema = z.object({
   extraTokens: z.array(Text).default([]),
 });
 
+/** Repeter une phrase a voix haute (reconnaissance vocale ou auto-evaluation). */
+export const SpeakRepeatExerciseSchema = z.object({
+  ...ExerciseBase,
+  type: z.literal('speakRepeat'),
+  nl: Text,
+  fr: Text,
+});
+
+/** Texte a trous : la phrase contient ___ a l'endroit du trou. */
+export const ClozeExerciseSchema = z.object({
+  ...ExerciseBase,
+  type: z.literal('cloze'),
+  sentence: Text,
+  fr: Text,
+  /** Reponses acceptees pour le trou. */
+  answers: z.array(Text).min(1),
+  /** Propositions a choisir ; vide = l'utilisateur ecrit lui-meme. */
+  choices: z.array(Text).default([]),
+});
+
+/** Traduction dans un sens ou dans l'autre. */
+export const TranslateExerciseSchema = z.object({
+  ...ExerciseBase,
+  type: z.literal('translate'),
+  direction: z.enum(['fr-nl', 'nl-fr']),
+  /** Phrase de depart, dans la langue source. */
+  prompt: Text,
+  /** Traductions acceptees ; la premiere sert de correction affichee. */
+  expected: z.array(Text).min(1),
+});
+
+/** Correction d'erreur : une phrase fausse a reecrire correctement. */
+export const ErrorCorrectionExerciseSchema = z.object({
+  ...ExerciseBase,
+  type: z.literal('errorCorrection'),
+  wrong: Text,
+  correct: z.array(Text).min(1),
+  fr: Text,
+});
+
+/** Dialogue a roles : l'application joue un role, l'utilisateur repond. */
+export const RoleplayExerciseSchema = z.object({
+  ...ExerciseBase,
+  type: z.literal('roleplay'),
+  situation_fr: Text,
+  /** Role tenu par l'utilisateur, affiche avant de commencer. */
+  userRole_fr: Text,
+  turns: z
+    .array(
+      z.object({
+        speaker: z.enum(['app', 'user']),
+        nl: Text,
+        fr: Text,
+        /** Pour un tour de l'utilisateur : les reponses acceptees. */
+        expected: z.array(Text).default([]),
+      }),
+    )
+    .min(2),
+});
+
 export const ExerciseSchema = z
   .discriminatedUnion('type', [
     McqAudioExerciseSchema,
     DictationExerciseSchema,
     WordOrderExerciseSchema,
+    SpeakRepeatExerciseSchema,
+    ClozeExerciseSchema,
+    TranslateExerciseSchema,
+    ErrorCorrectionExerciseSchema,
+    RoleplayExerciseSchema,
   ])
   .superRefine((ex, ctx) => {
     if (ex.type === 'mcqAudio' && ex.answerIndex >= ex.choices.length) {
@@ -155,12 +220,46 @@ export const ExerciseSchema = z
         path: ['answerIndex'],
       });
     }
+    if (ex.type === 'cloze' && !ex.sentence.includes('___')) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "la phrase doit contenir ___ a l'emplacement du trou",
+        path: ['sentence'],
+      });
+    }
+    if (ex.type === 'roleplay') {
+      ex.turns.forEach((turn, index) => {
+        if (turn.speaker === 'user' && turn.expected.length === 0) {
+          ctx.addIssue({
+            code: z.ZodIssueCode.custom,
+            message: "un tour de l'utilisateur doit proposer au moins une reponse modele",
+            path: ['turns', index, 'expected'],
+          });
+        }
+      });
+      if (!ex.turns.some((turn) => turn.speaker === 'user')) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: "le dialogue doit contenir au moins un tour de l'utilisateur",
+          path: ['turns'],
+        });
+      }
+    }
   });
 export type Exercise = z.infer<typeof ExerciseSchema>;
 export type ExerciseType = Exercise['type'];
 
 /** Types d'exercices reellement implementes par l'UI (verifie par la validation). */
-export const IMPLEMENTED_EXERCISE_TYPES = ['mcqAudio', 'dictation', 'wordOrder'] as const;
+export const IMPLEMENTED_EXERCISE_TYPES = [
+  'mcqAudio',
+  'dictation',
+  'wordOrder',
+  'speakRepeat',
+  'cloze',
+  'translate',
+  'errorCorrection',
+  'roleplay',
+] as const;
 
 const StepBase = { id: Id };
 

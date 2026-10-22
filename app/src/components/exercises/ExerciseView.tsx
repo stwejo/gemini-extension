@@ -1,5 +1,10 @@
+import { ClozeExercise } from './ClozeExercise';
 import { DictationExercise } from './DictationExercise';
+import { ErrorCorrectionExercise } from './ErrorCorrectionExercise';
 import { McqAudioExercise } from './McqAudioExercise';
+import { RoleplayExercise } from './RoleplayExercise';
+import { SpeakRepeatExercise } from './SpeakRepeatExercise';
+import { TranslateExercise } from './TranslateExercise';
 import { WordOrderExercise } from './WordOrderExercise';
 import type { Exercise } from '@/content/schema';
 
@@ -20,5 +25,15 @@ export function ExerciseView({ exercise, onAnswer }: Props) {
       return <DictationExercise exercise={exercise} onAnswer={onAnswer} />;
     case 'wordOrder':
       return <WordOrderExercise exercise={exercise} onAnswer={onAnswer} />;
+    case 'speakRepeat':
+      return <SpeakRepeatExercise exercise={exercise} onAnswer={onAnswer} />;
+    case 'cloze':
+      return <ClozeExercise exercise={exercise} onAnswer={onAnswer} />;
+    case 'translate':
+      return <TranslateExercise exercise={exercise} onAnswer={onAnswer} />;
+    case 'errorCorrection':
+      return <ErrorCorrectionExercise exercise={exercise} onAnswer={onAnswer} />;
+    case 'roleplay':
+      return <RoleplayExercise exercise={exercise} onAnswer={onAnswer} />;
   }
 }

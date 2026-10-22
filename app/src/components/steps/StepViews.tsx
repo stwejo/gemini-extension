@@ -154,8 +154,8 @@ function RepeatStepView({ step }: { step: StepOf<'repeat'> }) {
         {step.instructions_fr ?? 'Écoute chaque phrase, puis répète-la à voix haute.'}
       </p>
       <p className="rounded-xl bg-slate-100 p-3 text-sm text-slate-700">
-        La reconnaissance vocale (comparaison automatique de ce que tu prononces) arrive à l'étape
-        suivante du projet. Pour l'instant, écoute, répète, puis réécoute pour comparer toi-même.
+        Écoute, répète à voix haute, puis réécoute pour comparer. Les exercices de répétition
+        notés avec le micro arrivent dans l'étape « Pratique ».
       </p>
       <ul className="space-y-3">
         {step.chunks.map((chunk, index) => (
