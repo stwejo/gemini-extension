@@ -18,6 +18,14 @@ export function UpdatePrompt() {
     setUpdate(() => () => void updateSW(true));
   }, []);
 
+  // Le message "prete hors ligne" est une simple confirmation : il disparait seul
+  // pour ne pas masquer les boutons de la lecon.
+  useEffect(() => {
+    if (!offlineReady) return;
+    const timer = setTimeout(() => setOfflineReady(false), 6000);
+    return () => clearTimeout(timer);
+  }, [offlineReady]);
+
   if (!needRefresh && !offlineReady) return null;
 
   return (
