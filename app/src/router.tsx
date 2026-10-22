@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { createBrowserRouter, createHashRouter, Navigate } from 'react-router-dom';
 import { AppLayout } from '@/components/ui/AppLayout';
 import { AppProvider } from '@/context/AppContext';
 import { Home } from '@/pages/Home';
@@ -15,7 +15,13 @@ function Shell() {
   );
 }
 
-export const router = createBrowserRouter(
+/**
+ * Routage par # (VITE_ROUTER=hash) pour les hebergements statiques qui ne
+ * savent pas rediriger les routes inconnues vers index.html.
+ */
+const createRouter = import.meta.env.VITE_ROUTER === 'hash' ? createHashRouter : createBrowserRouter;
+
+export const router = createRouter(
   [
     {
       path: '/',

@@ -6,6 +6,8 @@ import { fileURLToPath } from 'node:url';
 // `VITE_BASE` permet de deployer dans un sous-chemin (GitHub Pages).
 // Exemple : VITE_BASE=/mon-repo/ npm run build
 const base = process.env.VITE_BASE ?? '/';
+// Le service worker peut etre desactive pour une simple previsualisation.
+const withPwa = process.env.VITE_PWA !== 'false';
 
 export default defineConfig({
   base,
@@ -16,7 +18,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    VitePWA({
+    ...(withPwa ? [VitePWA({
       registerType: 'prompt',
       includeAssets: ['icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png'],
       manifest: {
@@ -40,7 +42,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         cleanupOutdatedCaches: true,
       },
-    }),
+    })] : []),
   ],
   test: {
     environment: 'jsdom',
