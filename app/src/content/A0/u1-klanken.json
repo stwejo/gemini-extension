@@ -1,0 +1,1404 @@
+{
+  "id": "a0-u1",
+  "level": "A0",
+  "order": 1,
+  "theme": "Sons et orthographe",
+  "title_fr": "Les sons du néerlandais",
+  "description_fr": "Les sons qui posent problème aux francophones (g/ch, voyelles longues et courtes, ij/ei) et comment épeler son nom.",
+  "lessons": [
+    {
+      "id": "a0-u1-l1",
+      "order": 1,
+      "title_fr": "Goedemorgen ! Le son g / ch",
+      "title_nl": "Goedemorgen!",
+      "goals_fr": [
+        "Saluer le matin et demander si tout va bien",
+        "Reconnaître et produire le son g / ch"
+      ],
+      "minutes": 12,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Deux voisins se croisent devant l'immeuble, le matin.",
+          "lines": [
+            {
+              "speaker": "De buurman",
+              "nl": "Goedemorgen!",
+              "fr": "Bonjour ! (le matin)"
+            },
+            {
+              "speaker": "De buurvrouw",
+              "nl": "Goedemorgen. Alles goed?",
+              "fr": "Bonjour. Tout va bien ?",
+              "note_fr": "Formule très courante, littéralement « tout bien ? »."
+            },
+            {
+              "speaker": "De buurman",
+              "nl": "Ja, heel goed. En jij?",
+              "fr": "Oui, très bien. Et toi ?"
+            },
+            {
+              "speaker": "De buurvrouw",
+              "nl": "Ook goed, dank je.",
+              "fr": "Bien aussi, merci."
+            },
+            {
+              "speaker": "De buurman",
+              "nl": "Tot straks!",
+              "fr": "À tout à l'heure !"
+            },
+            {
+              "speaker": "De buurvrouw",
+              "nl": "Tot straks!",
+              "fr": "À tout à l'heure !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "À quel moment de la journée se passe ce dialogue ?",
+              "choices": [
+                "Le matin",
+                "L'après-midi",
+                "Le soir"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Goedemorgen » contient morgen = le matin."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Comment la voisine dit-elle qu'elle va bien aussi ?",
+              "choices": [
+                "Ook goed",
+                "Niet goed",
+                "Tot straks"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "ook = aussi."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Écoute puis répète à voix haute. Le g se racle au fond de la gorge.",
+          "chunks": [
+            {
+              "nl": "Goedemorgen!",
+              "fr": "Bonjour ! (le matin)",
+              "hint_fr": "gou-de-MOR-ghe(n)"
+            },
+            {
+              "nl": "Alles goed?",
+              "fr": "Tout va bien ?"
+            },
+            {
+              "nl": "Ja, heel goed.",
+              "fr": "Oui, très bien."
+            },
+            {
+              "nl": "En jij?",
+              "fr": "Et toi ?"
+            },
+            {
+              "nl": "Dank je.",
+              "fr": "Merci."
+            },
+            {
+              "nl": "Tot straks!",
+              "fr": "À tout à l'heure !"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-goedemorgen",
+              "nl": "goedemorgen",
+              "fr": "bonjour (le matin)",
+              "pos": "interjection",
+              "pronHint_fr": "le g se racle au fond de la gorge",
+              "examples": [
+                {
+                  "nl": "Goedemorgen, mevrouw!",
+                  "fr": "Bonjour, madame !"
+                }
+              ],
+              "tags": [
+                "begroeting",
+                "klank-g"
+              ]
+            },
+            {
+              "id": "voc-goed",
+              "nl": "goed",
+              "fr": "bien, bon",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Het gaat goed.",
+                  "fr": "Ça va bien."
+                }
+              ],
+              "tags": [
+                "klank-g"
+              ]
+            },
+            {
+              "id": "voc-alles",
+              "nl": "alles",
+              "fr": "tout",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Alles goed?",
+                  "fr": "Tout va bien ?"
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-heel",
+              "nl": "heel",
+              "fr": "très",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Heel goed!",
+                  "fr": "Très bien !"
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-ook",
+              "nl": "ook",
+              "fr": "aussi",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik ook.",
+                  "fr": "Moi aussi."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-dank-je",
+              "nl": "dank je",
+              "fr": "merci (informel)",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Dank je wel!",
+                  "fr": "Merci beaucoup !"
+                }
+              ],
+              "variant": {
+                "note_fr": "« dank u » et « dank u wel » sont les formes de politesse (vouvoiement), utilisées partout."
+              },
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-tot-straks",
+              "nl": "tot straks",
+              "fr": "à tout à l'heure",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Tot straks!",
+                  "fr": "À tout à l'heure !"
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-de-buurman",
+              "nl": "de buurman",
+              "fr": "le voisin",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de buurmannen",
+              "examples": [
+                {
+                  "nl": "Mijn buurman heet Tom.",
+                  "fr": "Mon voisin s'appelle Tom."
+                }
+              ],
+              "tags": [
+                "mensen"
+              ]
+            },
+            {
+              "id": "voc-acht",
+              "nl": "acht",
+              "fr": "huit",
+              "pos": "numeral",
+              "pronHint_fr": "le ch se racle comme le g",
+              "examples": [
+                {
+                  "nl": "Het is acht uur.",
+                  "fr": "Il est huit heures."
+                }
+              ],
+              "tags": [
+                "cijfers",
+                "klank-ch"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Réécoute ces phrases du dialogue et observe les lettres mises en évidence.",
+          "examples": [
+            {
+              "nl": "Goedemorgen!",
+              "fr": "Bonjour !",
+              "highlight": [
+                "g"
+              ]
+            },
+            {
+              "nl": "Alles goed?",
+              "fr": "Tout va bien ?",
+              "highlight": [
+                "g"
+              ]
+            },
+            {
+              "nl": "Het is acht uur.",
+              "fr": "Il est huit heures.",
+              "highlight": [
+                "ch"
+              ]
+            },
+            {
+              "nl": "Graag!",
+              "fr": "Volontiers !",
+              "highlight": [
+                "G"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Comment se prononce le g de « goed » ?",
+            "choices": [
+              "Comme un raclement au fond de la gorge",
+              "Comme le g français de « gare »",
+              "Comme le j français de « jour »"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Ce son n'existe pas en français : l'air frotte au fond de la gorge."
+          },
+          "reveal_fr": "Les lettres g et ch notent le même frottement rauque. C'est le son le plus caractéristique du néerlandais."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "klank-g-ch",
+          "title_fr": "Le son g / ch",
+          "body_fr": "En néerlandais des Pays-Bas (nl-NL), les lettres g et ch se prononcent presque toujours de la même façon : un frottement rauque au fond de la gorge, comme si tu raclais la gorge. Ce son n'existe pas en français. En Flandre (nl-BE), ce frottement est plus doux (on parle de « zachte g ») et le g sonore reste distinct du ch sourd.",
+          "examples": [
+            {
+              "nl": "goed",
+              "fr": "bien"
+            },
+            {
+              "nl": "acht",
+              "fr": "huit"
+            },
+            {
+              "nl": "graag",
+              "fr": "volontiers"
+            },
+            {
+              "nl": "de nacht",
+              "fr": "la nuit"
+            }
+          ],
+          "exceptions_fr": [
+            "Dans des mots empruntés au français, le g garde souvent la prononciation d'origine : garage, giraf.",
+            "La terminaison -ig se prononce comme -ich : twintig, gezellig."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Goedemorgen!",
+              "question_fr": "Qu'entends-tu ?",
+              "choices": [
+                "Bonjour (le matin)",
+                "Bonne nuit",
+                "Au revoir"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Alles goed?",
+              "question_fr": "Que signifie cette question ?",
+              "choices": [
+                "Tout va bien ?",
+                "Où vas-tu ?",
+                "Comment t'appelles-tu ?"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "acht",
+              "question_fr": "Quel mot entends-tu ?",
+              "choices": [
+                "acht",
+                "echt",
+                "licht"
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "ruleId": "klank-g-ch",
+              "errorTags": [
+                "klank-ch"
+              ],
+              "explain_fr": "echt = vraiment, licht = la lumière. Les trois mots ont le même son ch, seule la voyelle change."
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Goedemorgen",
+              "fr": "Bonjour (le matin)",
+              "errorTags": [
+                "spelling",
+                "klank-g"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "dictation",
+              "audioNl": "Dank je",
+              "fr": "Merci",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Ja, het gaat goed.",
+              "fr": "Oui, ça va bien.",
+              "extraTokens": [
+                "niet"
+              ],
+              "errorTags": [
+                "woordorde"
+              ],
+              "hint_fr": "Le verbe gaat vient juste après le sujet het."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Il est 8 h du matin, tu croises ton voisin. Salue-le et demande si tout va bien.",
+              "expected": [
+                "Goedemorgen! Alles goed?",
+                "Goedemorgen, alles goed?"
+              ],
+              "acceptAny": false,
+              "tip_fr": "Deux phrases très courtes suffisent."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Réponds que tout va très bien et remercie (informel).",
+              "expected": [
+                "Ja, heel goed, dank je.",
+                "Heel goed, dank je."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu sais saluer le matin, demander si tout va bien et répondre. Tu as rencontré le son le plus typique du néerlandais : g / ch.",
+          "addVocabIds": [
+            "voc-goedemorgen",
+            "voc-goed",
+            "voc-alles",
+            "voc-heel",
+            "voc-ook",
+            "voc-dank-je",
+            "voc-tot-straks",
+            "voc-de-buurman",
+            "voc-acht"
+          ],
+          "addStructures": [
+            {
+              "id": "str-alles-goed",
+              "nl": "Alles goed?",
+              "fr": "Tout va bien ?"
+            },
+            {
+              "id": "str-tot-straks",
+              "nl": "Tot straks!",
+              "fr": "À tout à l'heure !"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u1-l2",
+      "order": 2,
+      "title_fr": "man ou maan ? Voyelles longues et courtes",
+      "title_nl": "Kort of lang?",
+      "goals_fr": [
+        "Entendre la différence entre voyelle courte et voyelle longue",
+        "Savoir pourquoi on écrit maan avec deux a",
+        "Présenter un membre de sa famille sur une photo"
+      ],
+      "minutes": 13,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Tom est chez Lotte et regarde une photo posée sur le meuble.",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "nl": "Wie is dat op de foto?",
+              "fr": "Qui est-ce sur la photo ?"
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Dat is mijn man, Daan.",
+              "fr": "C'est mon mari, Daan."
+            },
+            {
+              "speaker": "Tom",
+              "nl": "En wie is dat?",
+              "fr": "Et qui est-ce ?"
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Dat is mijn zoon. Hij heet Sam.",
+              "fr": "C'est mon fils. Il s'appelle Sam."
+            },
+            {
+              "speaker": "Tom",
+              "nl": "Een mooie foto! En die zon!",
+              "fr": "Une belle photo ! Et ce soleil !",
+              "note_fr": "mooi prend un -e devant un nom (een mooie foto) : la règle de l'adjectif vient au niveau A1."
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Ja, mooi hè? Dank je.",
+              "fr": "Oui, belle hein ? Merci."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Qui est Daan ?",
+              "choices": [
+                "Le mari de Lotte",
+                "Le fils de Lotte",
+                "Le voisin de Lotte"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "mijn man = mon mari (man veut dire aussi « homme »)."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que dit Tom de la photo ?",
+              "choices": [
+                "Qu'elle est belle",
+                "Qu'elle est ancienne",
+                "Qu'elle est trop sombre"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "mooi = beau, belle."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces paires : la première voyelle est courte, la seconde est longue.",
+          "chunks": [
+            {
+              "nl": "man – maan",
+              "fr": "l'homme / le mari – la lune",
+              "hint_fr": "aa = on tient le son plus longtemps"
+            },
+            {
+              "nl": "zon – zoon",
+              "fr": "le soleil – le fils"
+            },
+            {
+              "nl": "bos – boos",
+              "fr": "le bois – fâché"
+            },
+            {
+              "nl": "Dat is mijn man.",
+              "fr": "C'est mon mari."
+            },
+            {
+              "nl": "Dat is mijn zoon.",
+              "fr": "C'est mon fils."
+            },
+            {
+              "nl": "Wie is dat op de foto?",
+              "fr": "Qui est-ce sur la photo ?"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-de-man",
+              "nl": "de man",
+              "fr": "l'homme, le mari",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de mannen",
+              "examples": [
+                {
+                  "nl": "Dat is mijn man.",
+                  "fr": "C'est mon mari."
+                }
+              ],
+              "tags": [
+                "familie",
+                "klinkers"
+              ]
+            },
+            {
+              "id": "voc-de-maan",
+              "nl": "de maan",
+              "fr": "la lune",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de manen",
+              "examples": [
+                {
+                  "nl": "De maan is mooi vandaag.",
+                  "fr": "La lune est belle aujourd'hui."
+                }
+              ],
+              "tags": [
+                "klinkers"
+              ]
+            },
+            {
+              "id": "voc-de-zoon",
+              "nl": "de zoon",
+              "fr": "le fils",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de zonen",
+              "examples": [
+                {
+                  "nl": "Mijn zoon heet Sam.",
+                  "fr": "Mon fils s'appelle Sam."
+                }
+              ],
+              "tags": [
+                "familie",
+                "klinkers"
+              ]
+            },
+            {
+              "id": "voc-de-zon",
+              "nl": "de zon",
+              "fr": "le soleil",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de zonnen",
+              "examples": [
+                {
+                  "nl": "De zon is er.",
+                  "fr": "Le soleil est là."
+                }
+              ],
+              "tags": [
+                "klinkers"
+              ]
+            },
+            {
+              "id": "voc-de-foto",
+              "nl": "de foto",
+              "fr": "la photo",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de foto's",
+              "examples": [
+                {
+                  "nl": "Een mooie foto!",
+                  "fr": "Une belle photo !"
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-mijn",
+              "nl": "mijn",
+              "fr": "mon, ma, mes",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "mijn zoon",
+                  "fr": "mon fils"
+                }
+              ],
+              "tags": [
+                "bezit"
+              ]
+            },
+            {
+              "id": "voc-wie",
+              "nl": "wie",
+              "fr": "qui",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Wie is dat?",
+                  "fr": "Qui est-ce ?"
+                }
+              ],
+              "tags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "voc-mooi",
+              "nl": "mooi",
+              "fr": "beau, belle",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Dat is mooi.",
+                  "fr": "C'est beau."
+                }
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare ces quatre mots que tu viens d'entendre.",
+          "examples": [
+            {
+              "nl": "Dat is mijn man.",
+              "fr": "C'est mon mari.",
+              "highlight": [
+                "man"
+              ]
+            },
+            {
+              "nl": "De maan is mooi.",
+              "fr": "La lune est belle.",
+              "highlight": [
+                "maan"
+              ]
+            },
+            {
+              "nl": "De zon is er.",
+              "fr": "Le soleil est là.",
+              "highlight": [
+                "zon"
+              ]
+            },
+            {
+              "nl": "Dat is mijn zoon.",
+              "fr": "C'est mon fils.",
+              "highlight": [
+                "zoon"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Comment le néerlandais écrit-il une voyelle longue dans ces mots ?",
+            "choices": [
+              "Il double la lettre : aa, oo",
+              "Il ajoute un accent : à, ò",
+              "Il ajoute un h : ah, oh"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "man → maan, zon → zoon : la voyelle doublée se tient plus longtemps."
+          },
+          "reveal_fr": "Dans une syllabe fermée (qui finit par une consonne), la voyelle longue s'écrit avec deux lettres. La longueur de la voyelle change le sens du mot : ce n'est pas un détail."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "spelling-klinkers",
+          "title_fr": "Voyelle courte ou longue : comment ça s'écrit",
+          "body_fr": "Syllabe fermée (elle finit par une consonne) : une seule lettre = voyelle courte (man, zon). Deux lettres = voyelle longue (maan, zoon). Syllabe ouverte (elle finit par la voyelle) : une seule lettre suffit pour une voyelle longue (ma-nen, zo-nen = les lunes). C'est pour cela que le pluriel de man est mannen : on double la consonne pour garder la syllabe fermée et donc la voyelle courte.",
+          "examples": [
+            {
+              "nl": "man → mannen",
+              "fr": "l'homme → les hommes (voyelle courte conservée)"
+            },
+            {
+              "nl": "maan → manen",
+              "fr": "la lune → les lunes (voyelle longue en syllabe ouverte)"
+            },
+            {
+              "nl": "zon → zonnen",
+              "fr": "le soleil → les soleils"
+            },
+            {
+              "nl": "zoon → zonen",
+              "fr": "le fils → les fils"
+            }
+          ],
+          "exceptions_fr": [
+            "Les groupes ie, oe, eu, ui, ij, ei, ou, au ne se doublent jamais.",
+            "Le e final d'un mot court se prononce « e muet » : de, ze, je."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "de maan",
+              "question_fr": "Qu'entends-tu ?",
+              "choices": [
+                "la lune",
+                "l'homme",
+                "le mois"
+              ],
+              "answerIndex": 0,
+              "ruleId": "spelling-klinkers",
+              "errorTags": [
+                "klinkers"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "zon",
+              "question_fr": "Quel mot entends-tu ?",
+              "choices": [
+                "zon",
+                "zoon",
+                "zien"
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "ruleId": "spelling-klinkers",
+              "errorTags": [
+                "klinkers"
+              ],
+              "explain_fr": "zon (voyelle courte) = le soleil ; zoon (voyelle longue) = le fils."
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "de zoon",
+              "fr": "le fils",
+              "errorTags": [
+                "spelling",
+                "klinkers"
+              ],
+              "explain_fr": "Voyelle longue en syllabe fermée : deux o."
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Dat is mijn man.",
+              "fr": "C'est mon mari.",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Dat is mijn zoon.",
+              "fr": "C'est mon fils.",
+              "extraTokens": [
+                "zijn"
+              ],
+              "errorTags": [
+                "woordorde"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Wie is dat op de foto?",
+              "fr": "Qui est-ce sur la photo ?",
+              "errorTags": [
+                "woordorde",
+                "vraagwoord"
+              ],
+              "hint_fr": "Le mot interrogatif ouvre la question, le verbe suit juste après."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Montre une photo et présente ton fils.",
+              "expected": [
+                "Dat is mijn zoon.",
+                "Dit is mijn zoon."
+              ],
+              "acceptAny": false,
+              "tip_fr": "dat is = c'est (un peu plus loin), dit is = c'est (tout près)."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande à quelqu'un qui est sur la photo.",
+              "expected": [
+                "Wie is dat op de foto?",
+                "Wie is dat?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Une voyelle longue change le sens du mot (man / maan). Tu sais maintenant pourquoi le néerlandais double parfois la voyelle, parfois la consonne.",
+          "addVocabIds": [
+            "voc-de-man",
+            "voc-de-maan",
+            "voc-de-zoon",
+            "voc-de-zon",
+            "voc-de-foto",
+            "voc-mijn",
+            "voc-wie",
+            "voc-mooi"
+          ],
+          "addStructures": [
+            {
+              "id": "str-dat-is-mijn",
+              "nl": "Dat is mijn ...",
+              "fr": "C'est mon / ma ..."
+            },
+            {
+              "id": "str-wie-is-dat",
+              "nl": "Wie is dat?",
+              "fr": "Qui est-ce ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u1-l3",
+      "order": 3,
+      "title_fr": "L'alphabet : épeler son nom",
+      "title_nl": "Hoe spelt u dat?",
+      "goals_fr": [
+        "Épeler son nom en néerlandais",
+        "Comprendre la question « Hoe spelt u dat? »",
+        "Savoir que ij et ei se prononcent de la même façon"
+      ],
+      "minutes": 12,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "À l'accueil d'une école de langues. Sofie s'inscrit à un cours.",
+          "lines": [
+            {
+              "speaker": "De receptionist",
+              "nl": "Goedemiddag! Hoe heet u?",
+              "fr": "Bonjour (l'après-midi) ! Comment vous appelez-vous ?"
+            },
+            {
+              "speaker": "Sofie",
+              "nl": "Ik heet Sofie Goossens.",
+              "fr": "Je m'appelle Sofie Goossens."
+            },
+            {
+              "speaker": "De receptionist",
+              "nl": "Hoe spelt u dat, de achternaam?",
+              "fr": "Comment épelez-vous cela, le nom de famille ?",
+              "note_fr": "« u » est la forme de politesse : le verbe prend un -t (u spelt)."
+            },
+            {
+              "speaker": "Sofie",
+              "nl": "G-O-O-S-S-E-N-S.",
+              "fr": "G-O-O-S-S-E-N-S."
+            },
+            {
+              "speaker": "De receptionist",
+              "nl": "Dank u wel. En uw voornaam?",
+              "fr": "Merci beaucoup. Et votre prénom ?"
+            },
+            {
+              "speaker": "Sofie",
+              "nl": "Sofie. S-O-F-I-E.",
+              "fr": "Sofie. S-O-F-I-E."
+            },
+            {
+              "speaker": "De receptionist",
+              "nl": "Prima. Een moment, alstublieft.",
+              "fr": "Parfait. Un instant, s'il vous plaît."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Que demande la personne à l'accueil après le nom ?",
+              "choices": [
+                "De l'épeler",
+                "De le répéter plus fort",
+                "De l'écrire sur un formulaire"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "spellen = épeler."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Quel est le prénom (de voornaam) de Sofie Goossens ?",
+              "choices": [
+                "Sofie",
+                "Goossens",
+                "Prima"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "voornaam = prénom (voor = devant), achternaam = nom de famille (achter = derrière)."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète le nom des lettres, puis les phrases utiles.",
+          "chunks": [
+            {
+              "nl": "a – b – c – d – e",
+              "fr": "aa – bé – sé – dé – é",
+              "hint_fr": "les voyelles se disent longues : a = « aa »"
+            },
+            {
+              "nl": "g – h – j",
+              "fr": "ghé (g raclé) – haa – yé"
+            },
+            {
+              "nl": "i – e – ij",
+              "fr": "ie – é – « lange ij »"
+            },
+            {
+              "nl": "Hoe spelt u dat?",
+              "fr": "Comment épelez-vous cela ?"
+            },
+            {
+              "nl": "Mijn voornaam is Sofie.",
+              "fr": "Mon prénom est Sofie."
+            },
+            {
+              "nl": "Een moment, alstublieft.",
+              "fr": "Un instant, s'il vous plaît."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-de-naam",
+              "nl": "de naam",
+              "fr": "le nom",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de namen",
+              "examples": [
+                {
+                  "nl": "Wat is uw naam?",
+                  "fr": "Quel est votre nom ?"
+                }
+              ],
+              "tags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "voc-de-voornaam",
+              "nl": "de voornaam",
+              "fr": "le prénom",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de voornamen",
+              "examples": [
+                {
+                  "nl": "Mijn voornaam is Tom.",
+                  "fr": "Mon prénom est Tom."
+                }
+              ],
+              "tags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "voc-de-achternaam",
+              "nl": "de achternaam",
+              "fr": "le nom de famille",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de achternamen",
+              "examples": [
+                {
+                  "nl": "Hoe spelt u uw achternaam?",
+                  "fr": "Comment épelez-vous votre nom de famille ?"
+                }
+              ],
+              "tags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "voc-spellen",
+              "nl": "spellen",
+              "fr": "épeler",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Hoe spel je dat?",
+                  "fr": "Comment épelles-tu cela ?"
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-schrijven",
+              "nl": "schrijven",
+              "fr": "écrire",
+              "pos": "verbe",
+              "pronHint_fr": "s-ch-r : le ch se racle, puis « ij » comme dans « aïe »",
+              "examples": [
+                {
+                  "nl": "Ik schrijf mijn naam.",
+                  "fr": "J'écris mon nom."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "klank-ij"
+              ]
+            },
+            {
+              "id": "voc-alstublieft",
+              "nl": "alstublieft",
+              "fr": "s'il vous plaît / voilà",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Een moment, alstublieft.",
+                  "fr": "Un instant, s'il vous plaît."
+                }
+              ],
+              "variant": {
+                "note_fr": "Forme informelle : alsjeblieft. Les deux servent aussi à dire « voilà » quand on tend un objet."
+              },
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-dank-u-wel",
+              "nl": "dank u wel",
+              "fr": "merci beaucoup (politesse)",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Dank u wel, mevrouw.",
+                  "fr": "Merci beaucoup, madame."
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-hoe",
+              "nl": "hoe",
+              "fr": "comment",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Hoe heet u?",
+                  "fr": "Comment vous appelez-vous ?"
+                }
+              ],
+              "tags": [
+                "vraagwoord"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Écoute ces quatre mots. Deux s'écrivent avec ij, deux avec ei.",
+          "examples": [
+            {
+              "nl": "mijn",
+              "fr": "mon, ma",
+              "highlight": [
+                "ij"
+              ]
+            },
+            {
+              "nl": "klein",
+              "fr": "petit",
+              "highlight": [
+                "ei"
+              ]
+            },
+            {
+              "nl": "schrijven",
+              "fr": "écrire",
+              "highlight": [
+                "ij"
+              ]
+            },
+            {
+              "nl": "de trein",
+              "fr": "le train",
+              "highlight": [
+                "ei"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Quelle différence de prononciation entends-tu entre ij et ei ?",
+            "choices": [
+              "Aucune : les deux se prononcent de la même façon",
+              "ij se tient plus longtemps que ei",
+              "ei se prononce « é »"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "En néerlandais standard, les deux graphies notent le même son."
+          },
+          "reveal_fr": "ij et ei se prononcent pareil. Seule l'orthographe diffère : il faut donc mémoriser l'écriture de chaque mot. Quand on épelle, on dit « lange ij » pour ij et « korte ei » pour ei."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "alfabet-spellen",
+          "title_fr": "Épeler : le nom des lettres",
+          "body_fr": "Les voyelles se disent avec leur son long : a = « aa », e = « ee », i = « ie », o = « oo », u = « uu ». Lettres à retenir pour un francophone : g = « ghé » (avec le son raclé), h = « haa », j = « yé », r = « èr », w = « wé », y = « Griekse ij », z = « zèt ». ij se dit « lange ij » et ei « korte ei », car les deux se prononcent de la même façon.",
+          "examples": [
+            {
+              "nl": "Hoe spelt u dat?",
+              "fr": "Comment épelez-vous cela ? (politesse)"
+            },
+            {
+              "nl": "Hoe spel je dat?",
+              "fr": "Comment épelles-tu cela ? (informel)"
+            },
+            {
+              "nl": "Met een lange ij.",
+              "fr": "Avec un « ij » (long)."
+            },
+            {
+              "nl": "Met dubbel o.",
+              "fr": "Avec deux o."
+            }
+          ],
+          "exceptions_fr": [
+            "La lettre y s'appelle « Griekse ij » ou « ypsilon » aux Pays-Bas ; en Belgique on entend aussi « i-grec ».",
+            "Dans certaines régions, une légère différence de prononciation entre ij et ei subsiste ; en néerlandais standard, non."
+          ],
+          "needsReview": true
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Hoe spelt u dat?",
+              "question_fr": "Que te demande-t-on ?",
+              "choices": [
+                "D'épeler",
+                "De parler plus lentement",
+                "De répéter plus fort"
+              ],
+              "answerIndex": 0,
+              "ruleId": "alfabet-spellen",
+              "errorTags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "schrijven",
+              "question_fr": "Quel mot entends-tu ?",
+              "choices": [
+                "schrijven",
+                "schreven",
+                "schuiven"
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "errorTags": [
+                "klank-ij"
+              ],
+              "explain_fr": "schreven = « écrivaient » (passé), schuiven = pousser, glisser."
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Hoe heet u?",
+              "fr": "Comment vous appelez-vous ?",
+              "errorTags": [
+                "spelling",
+                "identiteit"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "mijn voornaam",
+              "fr": "mon prénom",
+              "errorTags": [
+                "spelling",
+                "klank-ij"
+              ],
+              "explain_fr": "mijn s'écrit avec « lange ij »."
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Hoe spelt u dat?",
+              "fr": "Comment épelez-vous cela ?",
+              "extraTokens": [
+                "je"
+              ],
+              "errorTags": [
+                "woordorde",
+                "vraagwoord"
+              ],
+              "hint_fr": "Hoe ouvre la question, le verbe vient ensuite, puis la personne."
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Een moment, alstublieft.",
+              "fr": "Un instant, s'il vous plaît.",
+              "errorTags": [
+                "hoffelijkheid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Donne ton prénom, puis épelle-le à voix haute comme Sofie.",
+              "expected": [
+                "Mijn voornaam is ... en dat spel je: ..."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Personne ne peut corriger ton prénom à ta place : vérifie seulement que tu utilises le nom néerlandais des lettres."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande poliment à quelqu'un d'épeler son nom de famille.",
+              "expected": [
+                "Hoe spelt u uw achternaam?",
+                "Hoe spelt u dat?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu peux donner et épeler ton nom, et tu sais que ij et ei se prononcent de la même façon. Fin de l'unité sur les sons.",
+          "addVocabIds": [
+            "voc-de-naam",
+            "voc-de-voornaam",
+            "voc-de-achternaam",
+            "voc-spellen",
+            "voc-schrijven",
+            "voc-alstublieft",
+            "voc-dank-u-wel",
+            "voc-hoe"
+          ],
+          "addStructures": [
+            {
+              "id": "str-hoe-heet-u",
+              "nl": "Hoe heet u?",
+              "fr": "Comment vous appelez-vous ?",
+              "ruleId": "alfabet-spellen"
+            },
+            {
+              "id": "str-hoe-spelt-u",
+              "nl": "Hoe spelt u dat?",
+              "fr": "Comment épelez-vous cela ?",
+              "ruleId": "alfabet-spellen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

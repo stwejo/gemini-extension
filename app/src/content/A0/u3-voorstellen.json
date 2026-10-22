@@ -1,0 +1,1447 @@
+{
+  "id": "a0-u3",
+  "level": "A0",
+  "order": 3,
+  "theme": "Se présenter",
+  "title_fr": "Se présenter",
+  "description_fr": "Dire son nom, d'où on vient, où on habite, ce qu'on fait et quelles langues on parle.",
+  "lessons": [
+    {
+      "id": "a0-u3-l1",
+      "order": 1,
+      "title_fr": "Ik ben... : dire son nom",
+      "title_nl": "Ik ben Youssef",
+      "goals_fr": [
+        "Dire son nom et demander celui de l'autre",
+        "Conjuguer le verbe zijn (être) au présent"
+      ],
+      "minutes": 12,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Premier jour d'un cours du soir. Deux participants se parlent avant le début.",
+          "lines": [
+            {
+              "speaker": "Youssef",
+              "nl": "Hoi! Ik ben Youssef. En jij, hoe heet je?",
+              "fr": "Salut ! Je suis Youssef. Et toi, comment t'appelles-tu ?"
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Ik heet Lotte. Aangenaam!",
+              "fr": "Je m'appelle Lotte. Enchantée !"
+            },
+            {
+              "speaker": "Youssef",
+              "nl": "Aangenaam. Ben jij ook nieuw hier?",
+              "fr": "Enchanté. Tu es nouvelle ici aussi ?",
+              "note_fr": "« jij bent » devient « ben jij » dans la question : le -t disparaît."
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Ja, ik ben nieuw. En jij?",
+              "fr": "Oui, je suis nouvelle. Et toi ?"
+            },
+            {
+              "speaker": "Youssef",
+              "nl": "Ik ook. De cursus is leuk, hè?",
+              "fr": "Moi aussi. Le cours est sympa, hein ?"
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Ja, heel leuk!",
+              "fr": "Oui, très sympa !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Comment s'appelle la femme ?",
+              "choices": [
+                "Lotte",
+                "Youssef",
+                "Anna"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Ik heet Lotte » = je m'appelle Lotte."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que veut dire « Aangenaam » ?",
+              "choices": [
+                "Enchanté(e)",
+                "Au revoir",
+                "Je ne comprends pas"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "C'est la formule classique quand on fait connaissance."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces phrases : ce sont celles que tu diras le plus souvent.",
+          "chunks": [
+            {
+              "nl": "Ik ben Youssef.",
+              "fr": "Je suis Youssef."
+            },
+            {
+              "nl": "Ik heet Lotte.",
+              "fr": "Je m'appelle Lotte."
+            },
+            {
+              "nl": "Hoe heet je?",
+              "fr": "Comment t'appelles-tu ?"
+            },
+            {
+              "nl": "Aangenaam!",
+              "fr": "Enchanté(e) !"
+            },
+            {
+              "nl": "Ben jij nieuw hier?",
+              "fr": "Tu es nouveau/nouvelle ici ?"
+            },
+            {
+              "nl": "Ik ben nieuw hier.",
+              "fr": "Je suis nouveau/nouvelle ici."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-zijn",
+              "nl": "zijn",
+              "fr": "être",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik ben student.",
+                  "fr": "Je suis étudiant(e)."
+                },
+                {
+                  "nl": "Jij bent nieuw.",
+                  "fr": "Tu es nouveau/nouvelle."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-heten",
+              "nl": "heten",
+              "fr": "s'appeler",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik heet Karim.",
+                  "fr": "Je m'appelle Karim."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "identiteit"
+              ]
+            },
+            {
+              "id": "voc-aangenaam",
+              "nl": "aangenaam",
+              "fr": "enchanté(e)",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Aangenaam, mevrouw.",
+                  "fr": "Enchanté, madame."
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-nieuw",
+              "nl": "nieuw",
+              "fr": "nouveau, nouvelle",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Ik ben nieuw hier.",
+                  "fr": "Je suis nouveau ici."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-leuk",
+              "nl": "leuk",
+              "fr": "sympa, chouette",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "De cursus is leuk.",
+                  "fr": "Le cours est sympa."
+                }
+              ],
+              "variant": {
+                "note_fr": "En Flandre, on entend aussi « plezant » dans la langue parlée."
+              },
+              "tags": []
+            },
+            {
+              "id": "voc-hier",
+              "nl": "hier",
+              "fr": "ici",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik woon hier.",
+                  "fr": "J'habite ici."
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-de-cursus",
+              "nl": "de cursus",
+              "fr": "le cours",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de cursussen",
+              "examples": [
+                {
+                  "nl": "De cursus begint om acht uur.",
+                  "fr": "Le cours commence à huit heures."
+                }
+              ],
+              "tags": [
+                "school"
+              ]
+            },
+            {
+              "id": "voc-ik",
+              "nl": "ik",
+              "fr": "je",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Ik ben moe.",
+                  "fr": "Je suis fatigué(e)."
+                }
+              ],
+              "tags": [
+                "pronomen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe la forme du verbe « zijn » (être) dans ces phrases du dialogue.",
+          "examples": [
+            {
+              "nl": "Ik ben Youssef.",
+              "fr": "Je suis Youssef.",
+              "highlight": [
+                "ben"
+              ]
+            },
+            {
+              "nl": "Ja, ik ben nieuw.",
+              "fr": "Oui, je suis nouvelle.",
+              "highlight": [
+                "ben"
+              ]
+            },
+            {
+              "nl": "Ben jij ook nieuw hier?",
+              "fr": "Tu es nouvelle ici aussi ?",
+              "highlight": [
+                "Ben"
+              ]
+            },
+            {
+              "nl": "De cursus is leuk.",
+              "fr": "Le cours est sympa.",
+              "highlight": [
+                "is"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Combien de formes différentes du verbe « être » vois-tu ici ?",
+            "choices": [
+              "Deux : ben et is",
+              "Une seule : ben",
+              "Trois : ben, is et zijn"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "ben avec ik et jij (dans la question), is avec il/elle/cela."
+          },
+          "reveal_fr": "Comme en français, le verbe être est irrégulier : ik ben, jij bent, hij is. À connaître par cœur."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "werkwoord-zijn",
+          "title_fr": "Le verbe zijn (être) au présent",
+          "body_fr": "ik ben / jij bent (je bent) / u bent / hij, zij, het is / wij zijn / jullie zijn / zij zijn. Dans une question où jij ou je suit le verbe, le -t disparaît : Ben jij nieuw? Ben je moe? Pour dire son nom, deux possibilités : « Ik ben Lotte » ou « Ik heet Lotte ».",
+          "examples": [
+            {
+              "nl": "Ik ben Lotte.",
+              "fr": "Je suis Lotte."
+            },
+            {
+              "nl": "Jij bent nieuw.",
+              "fr": "Tu es nouveau/nouvelle."
+            },
+            {
+              "nl": "Ben jij nieuw?",
+              "fr": "Es-tu nouveau/nouvelle ?"
+            },
+            {
+              "nl": "Wij zijn hier.",
+              "fr": "Nous sommes ici."
+            }
+          ],
+          "exceptions_fr": [
+            "Le -t ne disparaît que devant jij / je, et seulement quand le pronom suit le verbe : « Bent u nieuw? » garde le -t."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Hoe heet je?",
+              "question_fr": "Que te demande-t-on ?",
+              "choices": [
+                "Ton nom",
+                "Ton âge",
+                "Ton adresse"
+              ],
+              "answerIndex": 0,
+              "ruleId": "werkwoord-zijn",
+              "errorTags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Ben jij nieuw hier?",
+              "question_fr": "Quelle phrase entends-tu ?",
+              "choices": [
+                "Ben jij nieuw hier?",
+                "Jij bent nieuw hier.",
+                "Ik ben nieuw hier."
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "ruleId": "werkwoord-zijn",
+              "errorTags": [
+                "woordorde",
+                "werkwoord"
+              ],
+              "explain_fr": "Dans la question, le verbe passe devant le sujet et perd son -t."
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Ik heet Lotte.",
+              "fr": "Je m'appelle Lotte.",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Aangenaam!",
+              "fr": "Enchanté(e) !",
+              "errorTags": [
+                "spelling"
+              ],
+              "explain_fr": "Deux a au début : aan-ge-naam."
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Ik ben nieuw hier.",
+              "fr": "Je suis nouveau/nouvelle ici.",
+              "extraTokens": [
+                "bent"
+              ],
+              "errorTags": [
+                "werkwoord",
+                "woordorde"
+              ],
+              "ruleId": "werkwoord-zijn"
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Ben jij ook nieuw?",
+              "fr": "Tu es nouveau/nouvelle aussi ?",
+              "errorTags": [
+                "woordorde"
+              ],
+              "ruleId": "werkwoord-zijn",
+              "hint_fr": "Question fermée : le verbe passe en première position."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Présente-toi avec ton prénom, puis demande son nom à l'autre personne (tutoiement).",
+              "expected": [
+                "Ik ben ... En jij, hoe heet je?",
+                "Ik heet ... Hoe heet je?"
+              ],
+              "acceptAny": true,
+              "tip_fr": "Remplace les points par ton prénom. Compare ensuite avec le modèle."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande à quelqu'un s'il est nouveau ici.",
+              "expected": [
+                "Ben jij nieuw hier?",
+                "Ben je nieuw hier?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu peux dire ton nom, demander celui de l'autre, et tu connais le verbe zijn au présent.",
+          "addVocabIds": [
+            "voc-zijn",
+            "voc-heten",
+            "voc-aangenaam",
+            "voc-nieuw",
+            "voc-leuk",
+            "voc-hier",
+            "voc-de-cursus",
+            "voc-ik"
+          ],
+          "addStructures": [
+            {
+              "id": "str-ik-heet",
+              "nl": "Ik heet ...",
+              "fr": "Je m'appelle ...",
+              "ruleId": "werkwoord-zijn"
+            },
+            {
+              "id": "str-ben-jij",
+              "nl": "Ben jij ...?",
+              "fr": "Es-tu ... ?",
+              "ruleId": "werkwoord-zijn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u3-l2",
+      "order": 2,
+      "title_fr": "D'où viens-tu ? Où habites-tu ?",
+      "title_nl": "Waar kom je vandaan?",
+      "goals_fr": [
+        "Dire son pays et sa ville",
+        "Poser les questions waar kom je vandaan / waar woon je",
+        "Conjuguer un verbe régulier au présent"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Pendant la pause du cours, Anna et Karim parlent de l'endroit où ils vivent.",
+          "lines": [
+            {
+              "speaker": "Anna",
+              "nl": "Waar kom je vandaan, Karim?",
+              "fr": "D'où viens-tu, Karim ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Ik kom uit België.",
+              "fr": "Je viens de Belgique."
+            },
+            {
+              "speaker": "Anna",
+              "nl": "En waar woon je?",
+              "fr": "Et où habites-tu ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Ik woon in Luik. En jij?",
+              "fr": "J'habite à Liège. Et toi ?",
+              "note_fr": "Luik est le nom néerlandais de Liège."
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Ik kom uit Nederland. Ik woon in Utrecht.",
+              "fr": "Je viens des Pays-Bas. J'habite à Utrecht."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Mooie stad!",
+              "fr": "Belle ville !"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Ja, heel mooi.",
+              "fr": "Oui, très belle."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "D'où vient Karim ?",
+              "choices": [
+                "De Belgique",
+                "Des Pays-Bas",
+                "De France"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Ik kom uit België » : uit = de (provenance)."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Dans quelle ville habite Anna ?",
+              "choices": [
+                "Utrecht",
+                "Luik",
+                "Amsterdam"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Ik woon in Utrecht » : in = à (pour une ville)."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète, puis remplace par ton pays et ta ville.",
+          "chunks": [
+            {
+              "nl": "Waar kom je vandaan?",
+              "fr": "D'où viens-tu ?",
+              "hint_fr": "vandaan se place à la fin"
+            },
+            {
+              "nl": "Ik kom uit België.",
+              "fr": "Je viens de Belgique."
+            },
+            {
+              "nl": "Waar woon je?",
+              "fr": "Où habites-tu ?"
+            },
+            {
+              "nl": "Ik woon in Luik.",
+              "fr": "J'habite à Liège."
+            },
+            {
+              "nl": "Hij woont in Utrecht.",
+              "fr": "Il habite à Utrecht."
+            },
+            {
+              "nl": "Wij wonen in Nederland.",
+              "fr": "Nous habitons aux Pays-Bas."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-komen",
+              "nl": "komen",
+              "fr": "venir",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik kom uit Frankrijk.",
+                  "fr": "Je viens de France."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-wonen",
+              "nl": "wonen",
+              "fr": "habiter",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik woon in Brussel.",
+                  "fr": "J'habite à Bruxelles."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-uit",
+              "nl": "uit",
+              "fr": "de (provenance)",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "Ik kom uit Luik.",
+                  "fr": "Je viens de Liège."
+                }
+              ],
+              "tags": [
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "voc-in",
+              "nl": "in",
+              "fr": "à, dans, en",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "Ik woon in Gent.",
+                  "fr": "J'habite à Gand."
+                }
+              ],
+              "tags": [
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "voc-het-land",
+              "nl": "het land",
+              "fr": "le pays",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de landen",
+              "examples": [
+                {
+                  "nl": "Uit welk land kom je?",
+                  "fr": "De quel pays viens-tu ?"
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-de-stad",
+              "nl": "de stad",
+              "fr": "la ville",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de steden",
+              "examples": [
+                {
+                  "nl": "Mooie stad!",
+                  "fr": "Belle ville !"
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-belgie",
+              "nl": "België",
+              "fr": "la Belgique",
+              "pos": "nom-propre",
+              "examples": [
+                {
+                  "nl": "Ik kom uit België.",
+                  "fr": "Je viens de Belgique."
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-nederland",
+              "nl": "Nederland",
+              "fr": "les Pays-Bas",
+              "pos": "nom-propre",
+              "examples": [
+                {
+                  "nl": "Zij komt uit Nederland.",
+                  "fr": "Elle vient des Pays-Bas."
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-luik",
+              "nl": "Luik",
+              "fr": "Liège",
+              "pos": "nom-propre",
+              "examples": [
+                {
+                  "nl": "Ik woon in Luik.",
+                  "fr": "J'habite à Liège."
+                }
+              ],
+              "variant": {
+                "note_fr": "Plusieurs villes wallonnes ont un nom néerlandais : Luik (Liège), Namen (Namur), Bergen (Mons), Doornik (Tournai)."
+              },
+              "tags": [
+                "plaats"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe la fin du verbe wonen dans ces phrases.",
+          "examples": [
+            {
+              "nl": "Ik woon in Luik.",
+              "fr": "J'habite à Liège.",
+              "highlight": [
+                "woon"
+              ]
+            },
+            {
+              "nl": "Jij woont in Utrecht.",
+              "fr": "Tu habites à Utrecht.",
+              "highlight": [
+                "woont"
+              ]
+            },
+            {
+              "nl": "Waar woon je?",
+              "fr": "Où habites-tu ?",
+              "highlight": [
+                "woon"
+              ]
+            },
+            {
+              "nl": "Wij wonen in Nederland.",
+              "fr": "Nous habitons aux Pays-Bas.",
+              "highlight": [
+                "wonen"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Pourquoi « jij woont » devient-il « woon je » dans la question ?",
+            "choices": [
+              "Parce que le -t disparaît quand je / jij suit le verbe",
+              "Parce que la question est au passé",
+              "Parce que le verbe change complètement"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "C'est la même règle que « jij bent » → « ben je »."
+          },
+          "reveal_fr": "Un verbe régulier au présent : radical pour ik, radical + t pour jij / u / hij, infinitif pour le pluriel. Et le -t tombe quand je ou jij vient après le verbe."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "werkwoord-present",
+          "title_fr": "Le présent des verbes réguliers",
+          "body_fr": "On part de l'infinitif (wonen) et on enlève -en : il reste le radical (woon). ik + radical : ik woon. jij / u / hij / zij / het + radical + t : jij woont, hij woont. wij / jullie / zij : infinitif : wij wonen. Quand je ou jij se place après le verbe (question, inversion), le -t disparaît : Waar woon je? Woon je in Luik?",
+          "examples": [
+            {
+              "nl": "ik woon – jij woont – hij woont",
+              "fr": "j'habite – tu habites – il habite"
+            },
+            {
+              "nl": "wij wonen – jullie wonen – zij wonen",
+              "fr": "nous habitons – vous habitez – ils habitent"
+            },
+            {
+              "nl": "Waar woon je?",
+              "fr": "Où habites-tu ?"
+            },
+            {
+              "nl": "Woont u in Brussel?",
+              "fr": "Habitez-vous à Bruxelles ?"
+            }
+          ],
+          "exceptions_fr": [
+            "Le -t ne tombe jamais avec u : « Woont u hier? ».",
+            "Si le radical finit déjà par -t, on n'ajoute rien : heten → jij heet.",
+            "Le radical suit les règles d'orthographe des voyelles : wonen → woon, spreken → spreek."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Ik kom uit België.",
+              "question_fr": "Que dit cette personne ?",
+              "choices": [
+                "Elle vient de Belgique",
+                "Elle habite en Belgique",
+                "Elle va en Belgique"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "plaats"
+              ],
+              "explain_fr": "komen uit = venir de (origine) ; wonen in = habiter à."
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Waar woon je?",
+              "question_fr": "Quelle question entends-tu ?",
+              "choices": [
+                "Où habites-tu ?",
+                "D'où viens-tu ?",
+                "Comment t'appelles-tu ?"
+              ],
+              "answerIndex": 0,
+              "ruleId": "werkwoord-present",
+              "errorTags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Ik woon in Luik.",
+              "fr": "J'habite à Liège.",
+              "errorTags": [
+                "spelling",
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Waar kom je vandaan?",
+              "fr": "D'où viens-tu ?",
+              "errorTags": [
+                "spelling",
+                "vraagwoord"
+              ],
+              "explain_fr": "vandaan se place à la fin de la question."
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Ik kom uit Nederland.",
+              "fr": "Je viens des Pays-Bas.",
+              "extraTokens": [
+                "in"
+              ],
+              "errorTags": [
+                "woordorde",
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Waar woon je?",
+              "fr": "Où habites-tu ?",
+              "extraTokens": [
+                "woont"
+              ],
+              "errorTags": [
+                "werkwoord"
+              ],
+              "ruleId": "werkwoord-present",
+              "hint_fr": "Après le verbe, « je » fait tomber le -t."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis d'où tu viens et où tu habites (deux phrases).",
+              "expected": [
+                "Ik kom uit België. Ik woon in Luik."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Garde la structure : Ik kom uit + pays. Ik woon in + ville."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande à quelqu'un, en le tutoyant, où il habite.",
+              "expected": [
+                "Waar woon je?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu sais dire ton pays et ta ville, poser les deux questions correspondantes, et conjuguer un verbe régulier au présent.",
+          "addVocabIds": [
+            "voc-komen",
+            "voc-wonen",
+            "voc-uit",
+            "voc-in",
+            "voc-het-land",
+            "voc-de-stad",
+            "voc-belgie",
+            "voc-nederland",
+            "voc-luik"
+          ],
+          "addStructures": [
+            {
+              "id": "str-waar-kom-je-vandaan",
+              "nl": "Waar kom je vandaan?",
+              "fr": "D'où viens-tu ?",
+              "ruleId": "werkwoord-present"
+            },
+            {
+              "id": "str-ik-woon-in",
+              "nl": "Ik woon in ...",
+              "fr": "J'habite à ...",
+              "ruleId": "werkwoord-present"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u3-l3",
+      "order": 3,
+      "title_fr": "Que fais-tu ? Travail, études, langues",
+      "title_nl": "Wat doe je?",
+      "goals_fr": [
+        "Dire ce qu'on fait (études, travail)",
+        "Dire quelles langues on parle",
+        "Former le radical d'un verbe correctement"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Toujours pendant la pause. Els demande à Karim ce qu'il fait.",
+          "lines": [
+            {
+              "speaker": "Els",
+              "nl": "Wat doe je, Karim?",
+              "fr": "Que fais-tu, Karim ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Ik studeer. Ik studeer voor opvoeder.",
+              "fr": "J'étudie. Je fais des études d'éducateur.",
+              "note_fr": "Le nom du métier varie : voir la fiche de vocabulaire."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Interessant! En werk je ook?",
+              "fr": "Intéressant ! Et tu travailles aussi ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Ja, ik werk in een school.",
+              "fr": "Oui, je travaille dans une école."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Spreek je Nederlands op je werk?",
+              "fr": "Tu parles néerlandais au travail ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Een beetje. Ik spreek vooral Frans.",
+              "fr": "Un peu. Je parle surtout français."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Je Nederlands is goed!",
+              "fr": "Ton néerlandais est bon !"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Dank je!",
+              "fr": "Merci !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Où travaille Karim ?",
+              "choices": [
+                "Dans une école",
+                "Dans un magasin",
+                "Il ne travaille pas"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Ik werk in een school »."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Quelle langue Karim parle-t-il surtout ?",
+              "choices": [
+                "Le français",
+                "Le néerlandais",
+                "L'anglais"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "vooral = surtout."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète, puis adapte à ta situation.",
+          "chunks": [
+            {
+              "nl": "Wat doe je?",
+              "fr": "Que fais-tu ?"
+            },
+            {
+              "nl": "Ik studeer.",
+              "fr": "J'étudie."
+            },
+            {
+              "nl": "Ik werk in een school.",
+              "fr": "Je travaille dans une école."
+            },
+            {
+              "nl": "Ik spreek een beetje Nederlands.",
+              "fr": "Je parle un peu néerlandais."
+            },
+            {
+              "nl": "Ik spreek vooral Frans.",
+              "fr": "Je parle surtout français."
+            },
+            {
+              "nl": "Spreek je Nederlands?",
+              "fr": "Tu parles néerlandais ?"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-werken",
+              "nl": "werken",
+              "fr": "travailler",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik werk in Luik.",
+                  "fr": "Je travaille à Liège."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-studeren",
+              "nl": "studeren",
+              "fr": "étudier, faire des études",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik studeer in Brussel.",
+                  "fr": "J'étudie à Bruxelles."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "school"
+              ]
+            },
+            {
+              "id": "voc-spreken",
+              "nl": "spreken",
+              "fr": "parler",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik spreek Frans.",
+                  "fr": "Je parle français."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "talen"
+              ]
+            },
+            {
+              "id": "voc-doen",
+              "nl": "doen",
+              "fr": "faire",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Wat doe je?",
+                  "fr": "Que fais-tu ?"
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-de-school",
+              "nl": "de school",
+              "fr": "l'école",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de scholen",
+              "examples": [
+                {
+                  "nl": "Ik werk in een school.",
+                  "fr": "Je travaille dans une école."
+                }
+              ],
+              "tags": [
+                "school"
+              ]
+            },
+            {
+              "id": "voc-het-werk",
+              "nl": "het werk",
+              "fr": "le travail",
+              "pos": "nom",
+              "article": "het",
+              "examples": [
+                {
+                  "nl": "Op mijn werk spreek ik Frans.",
+                  "fr": "À mon travail, je parle français."
+                }
+              ],
+              "tags": [
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-de-opvoeder",
+              "nl": "de opvoeder",
+              "fr": "l'éducateur, l'éducatrice",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de opvoeders",
+              "examples": [
+                {
+                  "nl": "Ik studeer voor opvoeder.",
+                  "fr": "Je fais des études d'éducateur."
+                }
+              ],
+              "variant": {
+                "nlBE": "opvoeder / begeleider",
+                "nlNL": "pedagogisch medewerker / begeleider",
+                "note_fr": "Le terme usuel dépend du pays et du secteur : à vérifier auprès d'un locuteur natif ou dans l'offre d'emploi concernée."
+              },
+              "needsReview": true,
+              "tags": [
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-frans",
+              "nl": "Frans",
+              "fr": "le français",
+              "pos": "nom-propre",
+              "examples": [
+                {
+                  "nl": "Ik spreek Frans.",
+                  "fr": "Je parle français."
+                }
+              ],
+              "tags": [
+                "talen"
+              ]
+            },
+            {
+              "id": "voc-nederlands",
+              "nl": "Nederlands",
+              "fr": "le néerlandais",
+              "pos": "nom-propre",
+              "examples": [
+                {
+                  "nl": "Spreek je Nederlands?",
+                  "fr": "Tu parles néerlandais ?"
+                }
+              ],
+              "tags": [
+                "talen"
+              ]
+            },
+            {
+              "id": "voc-vooral",
+              "nl": "vooral",
+              "fr": "surtout",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik spreek vooral Frans.",
+                  "fr": "Je parle surtout français."
+                }
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare l'infinitif et la forme avec ik.",
+          "examples": [
+            {
+              "nl": "werken → ik werk",
+              "fr": "travailler → je travaille",
+              "highlight": [
+                "werk"
+              ]
+            },
+            {
+              "nl": "wonen → ik woon",
+              "fr": "habiter → j'habite",
+              "highlight": [
+                "woon"
+              ]
+            },
+            {
+              "nl": "spreken → ik spreek",
+              "fr": "parler → je parle",
+              "highlight": [
+                "spreek"
+              ]
+            },
+            {
+              "nl": "studeren → ik studeer",
+              "fr": "étudier → j'étudie",
+              "highlight": [
+                "studeer"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Pourquoi « wonen » donne-t-il « woon » avec deux o ?",
+            "choices": [
+              "Parce que la syllabe devient fermée et que la voyelle doit rester longue",
+              "Parce que tous les radicaux doublent leur voyelle",
+              "Parce que c'est un verbe irrégulier"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "wo-nen : syllabe ouverte, un seul o suffit. woon : syllabe fermée, il faut deux o pour garder la voyelle longue."
+          },
+          "reveal_fr": "Le radical n'est pas seulement « l'infinitif sans -en » : l'orthographe s'adapte pour conserver le son de la voyelle. C'est la règle des voyelles longues et courtes vue dans l'unité 1."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "werkwoord-stam-spelling",
+          "title_fr": "Former le radical : attention à l'orthographe",
+          "body_fr": "On enlève -en à l'infinitif, puis on adapte l'orthographe pour garder le même son. Voyelle longue en syllabe ouverte qui se retrouve en syllabe fermée : on double la voyelle (wonen → woon, spreken → spreek, studeren → studeer). Consonne double qui n'est plus nécessaire : on en enlève une (pakken → pak, zitten → zit). Rien à changer quand le radical est déjà fermé : werken → werk.",
+          "examples": [
+            {
+              "nl": "wonen → ik woon",
+              "fr": "habiter → j'habite"
+            },
+            {
+              "nl": "pakken → ik pak",
+              "fr": "prendre → je prends"
+            },
+            {
+              "nl": "werken → ik werk",
+              "fr": "travailler → je travaille"
+            },
+            {
+              "nl": "studeren → ik studeer",
+              "fr": "étudier → j'étudie"
+            }
+          ],
+          "exceptions_fr": [
+            "Les verbes en -ven et -zen changent la consonne : leven → ik leef, lezen → ik lees.",
+            "doen, gaan, staan, zien et zijn sont irréguliers : ik doe, ik ga, ik sta, ik zie, ik ben."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Ik werk in een school.",
+              "question_fr": "Que dit cette personne ?",
+              "choices": [
+                "Elle travaille dans une école",
+                "Elle étudie à l'école",
+                "Elle cherche une école"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "werk"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Ik spreek een beetje Nederlands.",
+              "question_fr": "Quel niveau annonce cette personne ?",
+              "choices": [
+                "Elle parle un peu néerlandais",
+                "Elle parle couramment",
+                "Elle ne parle pas néerlandais"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "talen"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Ik studeer.",
+              "fr": "J'étudie.",
+              "errorTags": [
+                "spelling",
+                "werkwoord"
+              ],
+              "ruleId": "werkwoord-stam-spelling",
+              "explain_fr": "studeren → studeer : deux e pour garder la voyelle longue."
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Ik spreek vooral Frans.",
+              "fr": "Je parle surtout français.",
+              "errorTags": [
+                "spelling"
+              ],
+              "ruleId": "werkwoord-stam-spelling"
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Ik spreek een beetje Nederlands.",
+              "fr": "Je parle un peu néerlandais.",
+              "errorTags": [
+                "woordorde"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Werk je in een school?",
+              "fr": "Tu travailles dans une école ?",
+              "extraTokens": [
+                "werkt"
+              ],
+              "errorTags": [
+                "werkwoord",
+                "woordorde"
+              ],
+              "ruleId": "werkwoord-present",
+              "hint_fr": "Question fermée + « je » après le verbe : pas de -t."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis ce que tu fais (études ou travail) et quelle(s) langue(s) tu parles.",
+              "expected": [
+                "Ik studeer. Ik spreek Frans en een beetje Nederlands."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Deux phrases simples suffisent. Compare ensuite avec le modèle."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande à quelqu'un s'il parle néerlandais (tutoiement).",
+              "expected": [
+                "Spreek je Nederlands?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu peux te présenter complètement : nom, origine, lieu de vie, activité et langues. Tu sais aussi former correctement le radical d'un verbe.",
+          "addVocabIds": [
+            "voc-werken",
+            "voc-studeren",
+            "voc-spreken",
+            "voc-doen",
+            "voc-de-school",
+            "voc-het-werk",
+            "voc-de-opvoeder",
+            "voc-frans",
+            "voc-nederlands",
+            "voc-vooral"
+          ],
+          "addStructures": [
+            {
+              "id": "str-wat-doe-je",
+              "nl": "Wat doe je?",
+              "fr": "Que fais-tu ?"
+            },
+            {
+              "id": "str-ik-spreek",
+              "nl": "Ik spreek een beetje Nederlands.",
+              "fr": "Je parle un peu néerlandais.",
+              "ruleId": "werkwoord-stam-spelling"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

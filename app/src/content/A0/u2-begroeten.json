@@ -1,0 +1,1358 @@
+{
+  "id": "a0-u2",
+  "level": "A0",
+  "order": 2,
+  "theme": "Salutations et politesse",
+  "title_fr": "Saluer et être poli",
+  "description_fr": "Dire bonjour selon le moment de la journée, demander comment ça va, et choisir entre tutoiement et vouvoiement.",
+  "lessons": [
+    {
+      "id": "a0-u2-l1",
+      "order": 1,
+      "title_fr": "Hallo et tot ziens",
+      "title_nl": "Hallo en tot ziens",
+      "goals_fr": [
+        "Saluer selon le moment de la journée",
+        "Prendre congé (tot ziens, tot morgen, welterusten)",
+        "Faire un achat très simple"
+      ],
+      "minutes": 11,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Dans une boulangerie, en début d'après-midi.",
+          "lines": [
+            {
+              "speaker": "De klant",
+              "nl": "Goedemiddag!",
+              "fr": "Bonjour ! (l'après-midi)"
+            },
+            {
+              "speaker": "De verkoper",
+              "nl": "Goedemiddag! Een brood?",
+              "fr": "Bonjour ! Un pain ?"
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Ja, een brood, alstublieft.",
+              "fr": "Oui, un pain, s'il vous plaît."
+            },
+            {
+              "speaker": "De verkoper",
+              "nl": "Alstublieft.",
+              "fr": "Voilà.",
+              "note_fr": "alstublieft sert aussi à dire « voilà » quand on tend un objet."
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Dank u wel. Dag!",
+              "fr": "Merci beaucoup. Au revoir !"
+            },
+            {
+              "speaker": "De verkoper",
+              "nl": "Dag, tot ziens!",
+              "fr": "Au revoir, à bientôt !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "À quel moment de la journée se passe la scène ?",
+              "choices": [
+                "L'après-midi",
+                "Le matin",
+                "Le soir"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "middag = l'après-midi (plus précisément le milieu de la journée)."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que dit le vendeur en tendant le pain ?",
+              "choices": [
+                "Alstublieft",
+                "Dank u wel",
+                "Tot ziens"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "Le même mot sert pour « s'il vous plaît » et « voilà »."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète chaque salutation à voix haute.",
+          "chunks": [
+            {
+              "nl": "Hallo!",
+              "fr": "Salut ! / Bonjour !"
+            },
+            {
+              "nl": "Goedemiddag!",
+              "fr": "Bonjour ! (après-midi)"
+            },
+            {
+              "nl": "Goedenavond!",
+              "fr": "Bonsoir !",
+              "hint_fr": "attention au -n- : goedeNavond"
+            },
+            {
+              "nl": "Dag!",
+              "fr": "Bonjour ! / Au revoir !"
+            },
+            {
+              "nl": "Tot ziens!",
+              "fr": "Au revoir ! / À bientôt !"
+            },
+            {
+              "nl": "Welterusten!",
+              "fr": "Bonne nuit ! (en allant dormir)"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-hallo",
+              "nl": "hallo",
+              "fr": "salut, bonjour (neutre)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Hallo, ik ben Tom.",
+                  "fr": "Bonjour, je suis Tom."
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-hoi",
+              "nl": "hoi",
+              "fr": "salut (très informel)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Hoi Lotte!",
+                  "fr": "Salut Lotte !"
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-goedemiddag",
+              "nl": "goedemiddag",
+              "fr": "bonjour (l'après-midi)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Goedemiddag, meneer.",
+                  "fr": "Bonjour, monsieur."
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-goedenavond",
+              "nl": "goedenavond",
+              "fr": "bonsoir",
+              "pos": "interjection",
+              "pronHint_fr": "gou-de-NAA-vont",
+              "examples": [
+                {
+                  "nl": "Goedenavond, mevrouw.",
+                  "fr": "Bonsoir, madame."
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-dag",
+              "nl": "dag",
+              "fr": "bonjour / au revoir",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Dag!",
+                  "fr": "Au revoir !"
+                }
+              ],
+              "variant": {
+                "note_fr": "À l'oral, on entend souvent « goeiedag » (surtout en Flandre) pour « goedendag »."
+              },
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-tot-ziens",
+              "nl": "tot ziens",
+              "fr": "au revoir, à bientôt",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Tot ziens!",
+                  "fr": "Au revoir !"
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-tot-morgen",
+              "nl": "tot morgen",
+              "fr": "à demain",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Tot morgen, Anna!",
+                  "fr": "À demain, Anna !"
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-welterusten",
+              "nl": "welterusten",
+              "fr": "bonne nuit (en allant dormir)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Welterusten!",
+                  "fr": "Bonne nuit !"
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-het-brood",
+              "nl": "het brood",
+              "fr": "le pain",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de broden",
+              "examples": [
+                {
+                  "nl": "Een brood, alstublieft.",
+                  "fr": "Un pain, s'il vous plaît."
+                }
+              ],
+              "tags": [
+                "eten"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare ces trois salutations.",
+          "examples": [
+            {
+              "nl": "Goedemorgen!",
+              "fr": "Bonjour ! (matin)",
+              "highlight": [
+                "morgen"
+              ]
+            },
+            {
+              "nl": "Goedemiddag!",
+              "fr": "Bonjour ! (après-midi)",
+              "highlight": [
+                "middag"
+              ]
+            },
+            {
+              "nl": "Goedenavond!",
+              "fr": "Bonsoir !",
+              "highlight": [
+                "avond"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Que signifie la deuxième partie du mot (morgen, middag, avond) ?",
+            "choices": [
+              "Le moment de la journée",
+              "Le niveau de politesse",
+              "Le nombre de personnes"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "goede = bon(ne) + le moment : bon matin, bonne après-midi, bonne soirée."
+          },
+          "reveal_fr": "Toutes ces salutations sont construites de la même façon : goede + moment de la journée."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "begroetingen-tijdstip",
+          "title_fr": "Quelle salutation à quel moment",
+          "body_fr": "goedemorgen jusqu'à midi environ ; goedemiddag de midi à environ 18 h ; goedenavond le soir ; welterusten seulement quand quelqu'un va dormir. hallo et dag fonctionnent toute la journée, à l'arrivée comme au départ. hoi est très informel (amis, jeunes). Pour prendre congé : tot ziens (à bientôt), tot morgen (à demain), tot straks (à tout à l'heure).",
+          "examples": [
+            {
+              "nl": "Goedemorgen!",
+              "fr": "Bonjour ! (le matin)"
+            },
+            {
+              "nl": "Goedenavond!",
+              "fr": "Bonsoir !"
+            },
+            {
+              "nl": "Dag, tot ziens!",
+              "fr": "Au revoir, à bientôt !"
+            },
+            {
+              "nl": "Welterusten!",
+              "fr": "Bonne nuit !"
+            }
+          ],
+          "exceptions_fr": [
+            "Orthographe : goedemorgen et goedemiddag s'écrivent avec -e-, mais goedenavond et goedenacht avec -en-.",
+            "goedendag existe aussi, mais sonne plus formel que dag ou hallo."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Goedenavond!",
+              "question_fr": "À quel moment dit-on cela ?",
+              "choices": [
+                "Le soir",
+                "Le matin",
+                "En allant dormir"
+              ],
+              "answerIndex": 0,
+              "ruleId": "begroetingen-tijdstip",
+              "errorTags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Tot morgen!",
+              "question_fr": "Quelle expression entends-tu ?",
+              "choices": [
+                "Tot morgen",
+                "Tot ziens",
+                "Goedemorgen"
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "errorTags": [
+                "begroeting"
+              ],
+              "explain_fr": "tot morgen = à demain ; goedemorgen = bonjour le matin."
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Tot ziens",
+              "fr": "Au revoir",
+              "errorTags": [
+                "spelling",
+                "begroeting"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Goedenavond",
+              "fr": "Bonsoir",
+              "errorTags": [
+                "spelling"
+              ],
+              "ruleId": "begroetingen-tijdstip",
+              "explain_fr": "Attention : goedenavond s'écrit avec -en- au milieu."
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Een brood, alstublieft.",
+              "fr": "Un pain, s'il vous plaît.",
+              "errorTags": [
+                "hoffelijkheid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Tu entres dans un magasin à 15 h. Salue le vendeur et demande un pain.",
+              "expected": [
+                "Goedemiddag! Een brood, alstublieft.",
+                "Goedemiddag, een brood alstublieft."
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Tu quittes un collègue que tu reverras demain.",
+              "expected": [
+                "Dag, tot morgen!",
+                "Tot morgen!"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu sais saluer à n'importe quel moment de la journée, prendre congé et acheter quelque chose poliment.",
+          "addVocabIds": [
+            "voc-hallo",
+            "voc-hoi",
+            "voc-goedemiddag",
+            "voc-goedenavond",
+            "voc-dag",
+            "voc-tot-ziens",
+            "voc-tot-morgen",
+            "voc-welterusten",
+            "voc-het-brood"
+          ],
+          "addStructures": [
+            {
+              "id": "str-een-brood-alstublieft",
+              "nl": "Een brood, alstublieft.",
+              "fr": "Un pain, s'il vous plaît."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u2-l2",
+      "order": 2,
+      "title_fr": "Hoe gaat het ? Demander comment ça va",
+      "title_nl": "Hoe gaat het?",
+      "goals_fr": [
+        "Demander comment va quelqu'un et répondre",
+        "Découvrir la place du verbe en néerlandais"
+      ],
+      "minutes": 13,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Deux collègues se croisent dans le couloir du bureau.",
+          "lines": [
+            {
+              "speaker": "Anna",
+              "nl": "Hoi Bram! Hoe gaat het?",
+              "fr": "Salut Bram ! Comment ça va ?"
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Het gaat wel. Ik ben een beetje moe. En met jou?",
+              "fr": "Ça va à peu près. Je suis un peu fatigué. Et toi ?",
+              "note_fr": "« Het gaat wel » = ça va, sans plus."
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Met mij gaat het prima!",
+              "fr": "Moi, ça va très bien !"
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Mooi. Vandaag is het rustig.",
+              "fr": "Bien. Aujourd'hui, c'est calme."
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Ja, gelukkig! Tot later!",
+              "fr": "Oui, heureusement ! À plus tard !"
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Tot later!",
+              "fr": "À plus tard !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Comment va Bram ?",
+              "choices": [
+                "Ça va, mais il est un peu fatigué",
+                "Très bien",
+                "Pas bien du tout"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "moe = fatigué ; een beetje = un peu."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Comment Anna dit-elle qu'elle va très bien ?",
+              "choices": [
+                "Met mij gaat het prima",
+                "Het gaat wel",
+                "Vandaag is het rustig"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "prima = très bien, parfait."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces échanges : ce sont les plus utiles au quotidien.",
+          "chunks": [
+            {
+              "nl": "Hoe gaat het?",
+              "fr": "Comment ça va ?"
+            },
+            {
+              "nl": "Het gaat goed, dank je.",
+              "fr": "Ça va bien, merci."
+            },
+            {
+              "nl": "Het gaat wel.",
+              "fr": "Ça va, sans plus."
+            },
+            {
+              "nl": "Ik ben een beetje moe.",
+              "fr": "Je suis un peu fatigué(e)."
+            },
+            {
+              "nl": "En met jou?",
+              "fr": "Et toi ?"
+            },
+            {
+              "nl": "Tot later!",
+              "fr": "À plus tard !"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-hoe-gaat-het",
+              "nl": "Hoe gaat het?",
+              "fr": "Comment ça va ?",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Hoe gaat het met jou?",
+                  "fr": "Comment vas-tu ?"
+                }
+              ],
+              "variant": {
+                "note_fr": "Forme polie : « Hoe gaat het met u? »."
+              },
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-het-gaat-goed",
+              "nl": "Het gaat goed.",
+              "fr": "Ça va bien.",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Het gaat goed, dank je.",
+                  "fr": "Ça va bien, merci."
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-prima",
+              "nl": "prima",
+              "fr": "très bien, parfait",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Dat is prima.",
+                  "fr": "C'est parfait."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-een-beetje",
+              "nl": "een beetje",
+              "fr": "un peu",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Ik spreek een beetje Nederlands.",
+                  "fr": "Je parle un peu néerlandais."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-moe",
+              "nl": "moe",
+              "fr": "fatigué(e)",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Ik ben moe.",
+                  "fr": "Je suis fatigué(e)."
+                }
+              ],
+              "tags": [
+                "gevoel"
+              ]
+            },
+            {
+              "id": "voc-vandaag",
+              "nl": "vandaag",
+              "fr": "aujourd'hui",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Vandaag gaat het goed.",
+                  "fr": "Aujourd'hui, ça va bien."
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "voc-tot-later",
+              "nl": "tot later",
+              "fr": "à plus tard",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Tot later!",
+                  "fr": "À plus tard !"
+                }
+              ],
+              "tags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "voc-rustig",
+              "nl": "rustig",
+              "fr": "calme, tranquille",
+              "pos": "adjectif",
+              "pronHint_fr": "la terminaison -ig se prononce « -ich »",
+              "examples": [
+                {
+                  "nl": "Het is rustig vandaag.",
+                  "fr": "C'est calme aujourd'hui."
+                }
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe où se trouve le verbe (en évidence) dans ces phrases que tu viens d'entendre.",
+          "examples": [
+            {
+              "nl": "Het gaat goed.",
+              "fr": "Ça va bien.",
+              "highlight": [
+                "gaat"
+              ]
+            },
+            {
+              "nl": "Vandaag is het rustig.",
+              "fr": "Aujourd'hui, c'est calme.",
+              "highlight": [
+                "is"
+              ]
+            },
+            {
+              "nl": "Met mij gaat het prima.",
+              "fr": "Moi, ça va très bien.",
+              "highlight": [
+                "gaat"
+              ]
+            },
+            {
+              "nl": "Hoe gaat het?",
+              "fr": "Comment ça va ?",
+              "highlight": [
+                "gaat"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "À quelle place se trouve le verbe conjugué dans toutes ces phrases ?",
+            "choices": [
+              "En deuxième position",
+              "Toujours au tout début",
+              "Toujours à la fin"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Compte les blocs : « Vandaag » (1) + « is » (2) + « het rustig ». Le verbe reste le deuxième élément, même si la phrase ne commence pas par le sujet."
+          },
+          "reveal_fr": "C'est la règle la plus importante du néerlandais : le verbe conjugué occupe la deuxième place de la phrase. Si un autre élément passe devant (vandaag, met mij, hoe), le sujet se place juste après le verbe."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "woordorde-verb2",
+          "title_fr": "Le verbe en deuxième position",
+          "body_fr": "Dans une phrase déclarative, le verbe conjugué est le deuxième élément : Het (1) gaat (2) goed. Si la phrase commence par autre chose que le sujet, le sujet se place juste après le verbe : Vandaag (1) gaat (2) het goed. C'est ce qu'on appelle l'inversion. Dans une question avec mot interrogatif, le mot interrogatif prend la première place et le verbe garde la deuxième : Hoe (1) gaat (2) het? Dans une question fermée (réponse oui/non), le verbe passe en première position : Gaat het goed?",
+          "examples": [
+            {
+              "nl": "Het gaat goed.",
+              "fr": "Ça va bien."
+            },
+            {
+              "nl": "Vandaag gaat het goed.",
+              "fr": "Aujourd'hui, ça va bien."
+            },
+            {
+              "nl": "Hoe gaat het?",
+              "fr": "Comment ça va ?"
+            },
+            {
+              "nl": "Gaat het goed?",
+              "fr": "Est-ce que ça va ?"
+            }
+          ],
+          "exceptions_fr": [
+            "« En deuxième position » compte en blocs, pas en mots : un groupe comme « met mij » compte pour un seul élément.",
+            "Dans les subordonnées, le verbe part à la fin de la phrase : cette règle arrive au niveau B1."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Hoe gaat het met jou?",
+              "question_fr": "Que te demande-t-on ?",
+              "choices": [
+                "Comment tu vas",
+                "Comment tu t'appelles",
+                "D'où tu viens"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "begroeting"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Ik ben een beetje moe.",
+              "question_fr": "Que dit cette personne ?",
+              "choices": [
+                "Elle est un peu fatiguée",
+                "Elle va très bien",
+                "Elle est en retard"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "gevoel"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Hoe gaat het?",
+              "fr": "Comment ça va ?",
+              "errorTags": [
+                "spelling",
+                "begroeting"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Het gaat goed, dank je.",
+              "fr": "Ça va bien, merci.",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Vandaag gaat het goed.",
+              "fr": "Aujourd'hui, ça va bien.",
+              "alsoAccept": [
+                "Het gaat vandaag goed."
+              ],
+              "errorTags": [
+                "woordorde"
+              ],
+              "ruleId": "woordorde-verb2",
+              "hint_fr": "Le verbe doit rester le deuxième élément."
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Ik ben een beetje moe.",
+              "fr": "Je suis un peu fatigué(e).",
+              "extraTokens": [
+                "niet"
+              ],
+              "errorTags": [
+                "woordorde"
+              ],
+              "ruleId": "woordorde-verb2"
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Demande à un(e) ami(e) comment il/elle va, puis dis que toi, ça va bien.",
+              "expected": [
+                "Hoe gaat het? Het gaat goed.",
+                "Hoe gaat het met jou? Met mij gaat het goed."
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Dis qu'aujourd'hui tu es un peu fatigué(e). Commence la phrase par « Vandaag ».",
+              "expected": [
+                "Vandaag ben ik een beetje moe."
+              ],
+              "acceptAny": false,
+              "tip_fr": "Attention à l'inversion : Vandaag + verbe + sujet."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu peux demander et dire comment ça va. Et tu connais la règle de base de l'ordre des mots : le verbe en deuxième position.",
+          "addVocabIds": [
+            "voc-hoe-gaat-het",
+            "voc-het-gaat-goed",
+            "voc-prima",
+            "voc-een-beetje",
+            "voc-moe",
+            "voc-vandaag",
+            "voc-tot-later",
+            "voc-rustig"
+          ],
+          "addStructures": [
+            {
+              "id": "str-hoe-gaat-het",
+              "nl": "Hoe gaat het?",
+              "fr": "Comment ça va ?",
+              "ruleId": "woordorde-verb2"
+            },
+            {
+              "id": "str-vandaag-inversie",
+              "nl": "Vandaag gaat het goed.",
+              "fr": "Aujourd'hui, ça va bien.",
+              "ruleId": "woordorde-verb2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u2-l3",
+      "order": 3,
+      "title_fr": "u ou je : tutoyer ou vouvoyer",
+      "title_nl": "U of je?",
+      "goals_fr": [
+        "Choisir entre u (vouvoiement) et je/jij (tutoiement)",
+        "Remercier, s'excuser, répondre à un merci",
+        "Utiliser meneer et mevrouw"
+      ],
+      "minutes": 12,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "À la pharmacie, le matin. Ensuite, la même personne croise une amie dans la rue.",
+          "lines": [
+            {
+              "speaker": "Mevrouw Jansen",
+              "nl": "Goedemorgen. Een aspirine, alstublieft.",
+              "fr": "Bonjour. Une aspirine, s'il vous plaît."
+            },
+            {
+              "speaker": "De apotheker",
+              "nl": "Alstublieft, mevrouw.",
+              "fr": "Voilà, madame."
+            },
+            {
+              "speaker": "Mevrouw Jansen",
+              "nl": "Dank u wel.",
+              "fr": "Merci beaucoup."
+            },
+            {
+              "speaker": "De apotheker",
+              "nl": "Graag gedaan. Een fijne dag nog!",
+              "fr": "Je vous en prie. Bonne journée !"
+            },
+            {
+              "speaker": "Mevrouw Jansen",
+              "nl": "Dank u, tot ziens.",
+              "fr": "Merci, au revoir."
+            },
+            {
+              "speaker": "Mevrouw Jansen (tegen een vriendin)",
+              "nl": "Hoi Els! Alsjeblieft, voor jou.",
+              "fr": "Salut Els ! Tiens, pour toi.",
+              "note_fr": "Avec une amie, tout passe au tutoiement : alsjeblieft, jou."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Dank je wel! Lief van je.",
+              "fr": "Merci beaucoup ! C'est gentil de ta part."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Que répond le pharmacien à « Dank u wel » ?",
+              "choices": [
+                "Graag gedaan",
+                "Alstublieft",
+                "Tot ziens"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "graag gedaan = je vous en prie (littéralement « fait volontiers »)."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Pourquoi Mme Jansen dit-elle « alsjeblieft » à son amie et « alstublieft » au pharmacien ?",
+              "choices": [
+                "Parce qu'elle tutoie son amie et vouvoie le pharmacien",
+                "Parce que l'un est un homme et l'autre une femme",
+                "Parce que les deux mots veulent dire autre chose"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "alstublieft contient u (vouvoiement), alsjeblieft contient je (tutoiement)."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète les deux versions : politesse puis tutoiement.",
+          "chunks": [
+            {
+              "nl": "Dank u wel. / Dank je wel.",
+              "fr": "Merci beaucoup. (politesse / tutoiement)"
+            },
+            {
+              "nl": "Alstublieft. / Alsjeblieft.",
+              "fr": "S'il vous plaît. / S'il te plaît."
+            },
+            {
+              "nl": "Graag gedaan.",
+              "fr": "Je vous en prie. / Je t'en prie."
+            },
+            {
+              "nl": "Sorry!",
+              "fr": "Désolé(e) !"
+            },
+            {
+              "nl": "Pardon, meneer.",
+              "fr": "Pardon, monsieur."
+            },
+            {
+              "nl": "Een fijne dag nog!",
+              "fr": "Bonne journée !"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-meneer",
+              "nl": "meneer",
+              "fr": "monsieur",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de meneren",
+              "examples": [
+                {
+                  "nl": "Dag, meneer!",
+                  "fr": "Bonjour, monsieur !"
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-mevrouw",
+              "nl": "mevrouw",
+              "fr": "madame",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de mevrouwen",
+              "examples": [
+                {
+                  "nl": "Dank u wel, mevrouw.",
+                  "fr": "Merci beaucoup, madame."
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-u",
+              "nl": "u",
+              "fr": "vous (politesse)",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Hoe heet u?",
+                  "fr": "Comment vous appelez-vous ?"
+                }
+              ],
+              "variant": {
+                "note_fr": "En Flandre, « gij / ge » s'emploie couramment à l'oral à la place de « jij / je ». Pour apprendre, garde u et je : ils sont compris partout."
+              },
+              "tags": [
+                "pronomen"
+              ]
+            },
+            {
+              "id": "voc-jij",
+              "nl": "jij / je",
+              "fr": "tu (tutoiement)",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Hoe heet je?",
+                  "fr": "Comment t'appelles-tu ?"
+                }
+              ],
+              "tags": [
+                "pronomen"
+              ]
+            },
+            {
+              "id": "voc-alsjeblieft",
+              "nl": "alsjeblieft",
+              "fr": "s'il te plaît / tiens",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Alsjeblieft, voor jou.",
+                  "fr": "Tiens, pour toi."
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-graag-gedaan",
+              "nl": "graag gedaan",
+              "fr": "je vous en prie, de rien",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Graag gedaan!",
+                  "fr": "De rien !"
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-sorry",
+              "nl": "sorry",
+              "fr": "désolé(e)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Sorry, ik ben laat.",
+                  "fr": "Désolé(e), je suis en retard."
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-pardon",
+              "nl": "pardon",
+              "fr": "pardon (pour interpeller ou s'excuser)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Pardon, mevrouw?",
+                  "fr": "Pardon, madame ?"
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare les paires suivantes, entendues dans ce dialogue et dans les leçons précédentes.",
+          "examples": [
+            {
+              "nl": "Hoe heet u?",
+              "fr": "Comment vous appelez-vous ?",
+              "highlight": [
+                "u"
+              ]
+            },
+            {
+              "nl": "Hoe heet je?",
+              "fr": "Comment t'appelles-tu ?",
+              "highlight": [
+                "je"
+              ]
+            },
+            {
+              "nl": "Dank u wel.",
+              "fr": "Merci beaucoup. (politesse)",
+              "highlight": [
+                "u"
+              ]
+            },
+            {
+              "nl": "Dank je wel.",
+              "fr": "Merci beaucoup. (tutoiement)",
+              "highlight": [
+                "je"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Dans quelle situation choisis-tu « u » ?",
+            "choices": [
+              "Avec une personne inconnue, un commerçant, dans un contexte professionnel",
+              "Avec des amis et la famille",
+              "Uniquement à l'écrit"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "u marque la distance et le respect, comme le « vous » français."
+          },
+          "reveal_fr": "Le néerlandais distingue bien u (vouvoiement) et je/jij (tutoiement). Les formules de politesse existent donc en deux versions : alstublieft / alsjeblieft, dank u / dank je."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "u-vs-je",
+          "title_fr": "u ou je : comment choisir",
+          "body_fr": "u s'emploie avec une personne inconnue, un commerçant, un supérieur, une personne âgée, et dans les situations professionnelles ou administratives. je (forme accentuée jij) s'emploie avec les amis, la famille, les enfants, souvent entre collègues du même âge. Le verbe suit : u bent, u heet, u spelt (avec -t) ; je bent, je heet. Le possessif aussi : uw naam (votre nom) / jouw naam ou je naam (ton nom). Les formules de politesse ont deux versions : alstublieft / alsjeblieft, dank u wel / dank je wel. En cas de doute avec un adulte que tu ne connais pas : utilise u.",
+          "examples": [
+            {
+              "nl": "Hoe heet u?",
+              "fr": "Comment vous appelez-vous ?"
+            },
+            {
+              "nl": "Hoe heet je?",
+              "fr": "Comment t'appelles-tu ?"
+            },
+            {
+              "nl": "Wat is uw naam?",
+              "fr": "Quel est votre nom ?"
+            },
+            {
+              "nl": "Dank je wel!",
+              "fr": "Merci beaucoup ! (tutoiement)"
+            }
+          ],
+          "exceptions_fr": [
+            "La forme standard du verbe zijn avec u est « u bent » ; on rencontre aussi « u is », surtout en Belgique.",
+            "En Flandre, « gij / ge » est très courant à l'oral ; u et je restent compris partout."
+          ],
+          "needsReview": true
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Dank u wel, mevrouw.",
+              "question_fr": "Quel registre entends-tu ?",
+              "choices": [
+                "Vouvoiement",
+                "Tutoiement",
+                "On ne peut pas le savoir"
+              ],
+              "answerIndex": 0,
+              "ruleId": "u-vs-je",
+              "errorTags": [
+                "hoffelijkheid"
+              ],
+              "explain_fr": "« dank u » et « mevrouw » marquent tous les deux la politesse."
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Alsjeblieft!",
+              "question_fr": "Quel mot entends-tu ?",
+              "choices": [
+                "alsjeblieft",
+                "alstublieft",
+                "graag gedaan"
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "ruleId": "u-vs-je",
+              "errorTags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Graag gedaan.",
+              "fr": "Je vous en prie.",
+              "errorTags": [
+                "spelling",
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Pardon, meneer.",
+              "fr": "Pardon, monsieur.",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Dank u wel, mevrouw.",
+              "fr": "Merci beaucoup, madame.",
+              "extraTokens": [
+                "je"
+              ],
+              "errorTags": [
+                "hoffelijkheid"
+              ],
+              "ruleId": "u-vs-je"
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Een fijne dag nog!",
+              "fr": "Bonne journée !",
+              "errorTags": [
+                "hoffelijkheid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Tu demandes son nom à une dame que tu ne connais pas. Emploie le vouvoiement.",
+              "expected": [
+                "Hoe heet u?",
+                "Wat is uw naam?"
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Un ami te rend service. Remercie-le et réponds à sa place « de rien ».",
+              "expected": [
+                "Dank je wel! Graag gedaan.",
+                "Dank je! Graag gedaan."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu sais choisir entre u et je, remercier, t'excuser et répondre à un merci. Fin de l'unité sur les salutations.",
+          "addVocabIds": [
+            "voc-meneer",
+            "voc-mevrouw",
+            "voc-u",
+            "voc-jij",
+            "voc-alsjeblieft",
+            "voc-graag-gedaan",
+            "voc-sorry",
+            "voc-pardon"
+          ],
+          "addStructures": [
+            {
+              "id": "str-dank-u-wel",
+              "nl": "Dank u wel.",
+              "fr": "Merci beaucoup. (politesse)",
+              "ruleId": "u-vs-je"
+            },
+            {
+              "id": "str-graag-gedaan",
+              "nl": "Graag gedaan.",
+              "fr": "Je vous en prie."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1482 @@
+{
+  "id": "a0-u4",
+  "level": "A0",
+  "order": 4,
+  "theme": "Chiffres, âge et heure",
+  "title_fr": "Chiffres, heure et jours",
+  "description_fr": "Compter, donner son âge et son numéro, dire l'heure et les jours de la semaine.",
+  "lessons": [
+    {
+      "id": "a0-u4-l1",
+      "order": 1,
+      "title_fr": "Compter de 0 à 9",
+      "title_nl": "Nul tot negen",
+      "goals_fr": [
+        "Compter de 0 à 9",
+        "Commander et demander le prix"
+      ],
+      "minutes": 11,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Dans un café, deux personnes commandent.",
+          "lines": [
+            {
+              "speaker": "De kelner",
+              "nl": "Goedemiddag! Wat mag het zijn?",
+              "fr": "Bonjour ! Qu'est-ce que ce sera ?",
+              "note_fr": "Formule figée du service : littéralement « que peut-ce être ? »."
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Twee koffie, alstublieft.",
+              "fr": "Deux cafés, s'il vous plaît."
+            },
+            {
+              "speaker": "De kelner",
+              "nl": "Twee koffie. Anders nog iets?",
+              "fr": "Deux cafés. Autre chose ?"
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Nee, dank u. Hoeveel is het?",
+              "fr": "Non, merci. Combien ça fait ?"
+            },
+            {
+              "speaker": "De kelner",
+              "nl": "Zes euro, alstublieft.",
+              "fr": "Six euros, s'il vous plaît."
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Alstublieft. Dank u!",
+              "fr": "Voilà. Merci !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Combien coûtent les deux cafés ?",
+              "choices": [
+                "6 euros",
+                "2 euros",
+                "7 euros"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "zes = six."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Comment le client demande-t-il le prix ?",
+              "choices": [
+                "Hoeveel is het?",
+                "Wat mag het zijn?",
+                "Anders nog iets?"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "hoeveel = combien."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète les chiffres, puis les phrases du café.",
+          "chunks": [
+            {
+              "nl": "nul, een, twee, drie",
+              "fr": "zéro, un, deux, trois"
+            },
+            {
+              "nl": "vier, vijf, zes",
+              "fr": "quatre, cinq, six",
+              "hint_fr": "vijf : le « ij » comme dans « aïe »"
+            },
+            {
+              "nl": "zeven, acht, negen",
+              "fr": "sept, huit, neuf",
+              "hint_fr": "acht : le ch se racle"
+            },
+            {
+              "nl": "Twee koffie, alstublieft.",
+              "fr": "Deux cafés, s'il vous plaît."
+            },
+            {
+              "nl": "Hoeveel is het?",
+              "fr": "Combien ça fait ?"
+            },
+            {
+              "nl": "Zes euro.",
+              "fr": "Six euros."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-nul",
+              "nl": "nul",
+              "fr": "zéro",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "nul euro",
+                  "fr": "zéro euro"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-een-1",
+              "nl": "een / één",
+              "fr": "un",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "één koffie",
+                  "fr": "un café (un seul)"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-twee",
+              "nl": "twee",
+              "fr": "deux",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "twee koffie",
+                  "fr": "deux cafés"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-drie",
+              "nl": "drie",
+              "fr": "trois",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "drie euro",
+                  "fr": "trois euros"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-vier",
+              "nl": "vier",
+              "fr": "quatre",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "vier dagen",
+                  "fr": "quatre jours"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-vijf",
+              "nl": "vijf",
+              "fr": "cinq",
+              "pos": "numeral",
+              "pronHint_fr": "« ij » comme dans aïe",
+              "examples": [
+                {
+                  "nl": "vijf euro",
+                  "fr": "cinq euros"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-zes",
+              "nl": "zes",
+              "fr": "six",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "zes euro",
+                  "fr": "six euros"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-zeven",
+              "nl": "zeven",
+              "fr": "sept",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "zeven dagen",
+                  "fr": "sept jours"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-negen",
+              "nl": "negen",
+              "fr": "neuf",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "negen uur",
+                  "fr": "neuf heures"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-hoeveel",
+              "nl": "hoeveel",
+              "fr": "combien",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Hoeveel is het?",
+                  "fr": "Combien ça fait ?"
+                }
+              ],
+              "tags": [
+                "vraagwoord"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe les deux façons d'écrire le chiffre « un ».",
+          "examples": [
+            {
+              "nl": "Een brood, alstublieft.",
+              "fr": "Un pain, s'il vous plaît.",
+              "highlight": [
+                "Een"
+              ]
+            },
+            {
+              "nl": "Ik wil één brood.",
+              "fr": "Je veux un (seul) pain.",
+              "highlight": [
+                "één"
+              ]
+            },
+            {
+              "nl": "Twee koffie, alstublieft.",
+              "fr": "Deux cafés, s'il vous plaît.",
+              "highlight": [
+                "Twee"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Pourquoi écrit-on parfois « één » avec deux accents ?",
+            "choices": [
+              "Pour montrer qu'il s'agit du chiffre 1 et non de l'article « un »",
+              "Parce que le mot est au pluriel",
+              "Parce qu'il est en début de phrase"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "« een » = un(e) (article) ; « één » = le chiffre 1. À l'oral, le chiffre est accentué."
+          },
+          "reveal_fr": "Les accents de « één » servent uniquement à lever l'ambiguïté avec l'article « een »."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "cijfers-0-9",
+          "title_fr": "Les chiffres de 0 à 9",
+          "body_fr": "nul (0), een/één (1), twee (2), drie (3), vier (4), vijf (5), zes (6), zeven (7), acht (8), negen (9). On écrit « één » avec des accents quand on veut insister sur le chiffre 1 face à l'article « een » (un, une). Pour demander un prix : Hoeveel is het? ou Wat kost het?",
+          "examples": [
+            {
+              "nl": "Hoeveel is het?",
+              "fr": "Combien ça fait ?"
+            },
+            {
+              "nl": "Zes euro.",
+              "fr": "Six euros."
+            },
+            {
+              "nl": "Twee koffie, alstublieft.",
+              "fr": "Deux cafés, s'il vous plaît."
+            },
+            {
+              "nl": "Ik heb één zoon.",
+              "fr": "J'ai un (seul) fils."
+            }
+          ],
+          "exceptions_fr": [
+            "Après un chiffre, les unités de mesure et de monnaie restent au singulier : twee euro, drie kilo.",
+            "« een » non accentué se prononce « un » affaibli, comme l'article français ; « één » se prononce avec un e long et appuyé."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "vier",
+              "question_fr": "Quel chiffre entends-tu ?",
+              "choices": [
+                "quatre",
+                "trois",
+                "cinq"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Hoeveel is het?",
+              "question_fr": "Que demande-t-on ?",
+              "choices": [
+                "Combien ça fait ?",
+                "Comment ça va ?",
+                "Où est-ce ?"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "zeven",
+              "question_fr": "Quel mot entends-tu ?",
+              "choices": [
+                "zeven",
+                "zes",
+                "negen"
+              ],
+              "choicesLang": "nl",
+              "answerIndex": 0,
+              "errorTags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "zeven euro",
+              "fr": "sept euros",
+              "errorTags": [
+                "spelling",
+                "cijfers"
+              ],
+              "ruleId": "cijfers-0-9",
+              "explain_fr": "euro reste au singulier après un chiffre."
+            },
+            {
+              "id": "e5",
+              "type": "dictation",
+              "audioNl": "Hoeveel is het?",
+              "fr": "Combien ça fait ?",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Twee koffie, alstublieft.",
+              "fr": "Deux cafés, s'il vous plaît.",
+              "errorTags": [
+                "hoffelijkheid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Commande trois cafés poliment.",
+              "expected": [
+                "Drie koffie, alstublieft."
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande le prix.",
+              "expected": [
+                "Hoeveel is het?",
+                "Wat kost het?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu comptes de 0 à 9, tu peux commander et demander un prix.",
+          "addVocabIds": [
+            "voc-nul",
+            "voc-een-1",
+            "voc-twee",
+            "voc-drie",
+            "voc-vier",
+            "voc-vijf",
+            "voc-zes",
+            "voc-zeven",
+            "voc-negen",
+            "voc-hoeveel"
+          ],
+          "addStructures": [
+            {
+              "id": "str-hoeveel-is-het",
+              "nl": "Hoeveel is het?",
+              "fr": "Combien ça fait ?"
+            },
+            {
+              "id": "str-twee-koffie",
+              "nl": "Twee koffie, alstublieft.",
+              "fr": "Deux cafés, s'il vous plaît."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u4-l2",
+      "order": 2,
+      "title_fr": "Jusqu'à cent : âge et numéro",
+      "title_nl": "Hoe oud ben je?",
+      "goals_fr": [
+        "Compter jusqu'à cent",
+        "Donner son âge et son numéro de téléphone",
+        "Comprendre l'ordre unité + dizaine"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Inscription dans un club de sport. L'employé remplit le formulaire.",
+          "lines": [
+            {
+              "speaker": "De medewerker",
+              "nl": "Hoe oud bent u?",
+              "fr": "Quel âge avez-vous ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Ik ben eenendertig jaar.",
+              "fr": "J'ai trente et un ans.",
+              "note_fr": "Littéralement « un-et-trente » : l'unité se dit avant la dizaine."
+            },
+            {
+              "speaker": "De medewerker",
+              "nl": "En uw telefoonnummer?",
+              "fr": "Et votre numéro de téléphone ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Nul zes, twaalf, vierentwintig, vijftig.",
+              "fr": "Zéro six, douze, vingt-quatre, cinquante."
+            },
+            {
+              "speaker": "De medewerker",
+              "nl": "Dank u. En hoe oud is uw zoon?",
+              "fr": "Merci. Et quel âge a votre fils ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Hij is twaalf.",
+              "fr": "Il a douze ans."
+            },
+            {
+              "speaker": "De medewerker",
+              "nl": "Prima, dat is alles.",
+              "fr": "Parfait, c'est tout."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Quel âge a Sanne ?",
+              "choices": [
+                "31 ans",
+                "13 ans",
+                "41 ans"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "eenendertig = een (1) + en + dertig (30)."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Quel âge a son fils ?",
+              "choices": [
+                "12 ans",
+                "20 ans",
+                "2 ans"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "twaalf = douze. Pour l'âge, le néerlandais utilise le verbe zijn (être) : hij is twaalf."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète les nombres, puis les phrases du formulaire.",
+          "chunks": [
+            {
+              "nl": "tien, elf, twaalf",
+              "fr": "dix, onze, douze"
+            },
+            {
+              "nl": "dertien, veertien, vijftien",
+              "fr": "treize, quatorze, quinze",
+              "hint_fr": "dertien et veertien, pas « drietien » ni « viertien »"
+            },
+            {
+              "nl": "twintig, dertig, veertig, vijftig",
+              "fr": "vingt, trente, quarante, cinquante"
+            },
+            {
+              "nl": "eenentwintig, tweeëntwintig",
+              "fr": "vingt et un, vingt-deux"
+            },
+            {
+              "nl": "Hoe oud ben je?",
+              "fr": "Quel âge as-tu ?"
+            },
+            {
+              "nl": "Ik ben dertig jaar.",
+              "fr": "J'ai trente ans."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-tien",
+              "nl": "tien",
+              "fr": "dix",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "tien euro",
+                  "fr": "dix euros"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-elf",
+              "nl": "elf",
+              "fr": "onze",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "elf uur",
+                  "fr": "onze heures"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-twaalf",
+              "nl": "twaalf",
+              "fr": "douze",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "Hij is twaalf.",
+                  "fr": "Il a douze ans."
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-twintig",
+              "nl": "twintig",
+              "fr": "vingt",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "twintig jaar",
+                  "fr": "vingt ans"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-dertig",
+              "nl": "dertig",
+              "fr": "trente",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "dertig euro",
+                  "fr": "trente euros"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-veertig",
+              "nl": "veertig",
+              "fr": "quarante",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "veertig minuten",
+                  "fr": "quarante minutes"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-honderd",
+              "nl": "honderd",
+              "fr": "cent",
+              "pos": "numeral",
+              "examples": [
+                {
+                  "nl": "honderd euro",
+                  "fr": "cent euros"
+                }
+              ],
+              "tags": [
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-het-jaar",
+              "nl": "het jaar",
+              "fr": "l'année, l'an",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de jaren",
+              "examples": [
+                {
+                  "nl": "Ik ben dertig jaar.",
+                  "fr": "J'ai trente ans."
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "voc-het-nummer",
+              "nl": "het nummer",
+              "fr": "le numéro",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de nummers",
+              "examples": [
+                {
+                  "nl": "Wat is uw telefoonnummer?",
+                  "fr": "Quel est votre numéro de téléphone ?"
+                }
+              ],
+              "tags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "voc-oud",
+              "nl": "oud",
+              "fr": "vieux, âgé",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Hoe oud ben je?",
+                  "fr": "Quel âge as-tu ?"
+                }
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe comment se construisent ces nombres.",
+          "examples": [
+            {
+              "nl": "eenendertig = 31",
+              "fr": "un-et-trente",
+              "highlight": [
+                "een",
+                "dertig"
+              ]
+            },
+            {
+              "nl": "vierentwintig = 24",
+              "fr": "quatre-et-vingt",
+              "highlight": [
+                "vier",
+                "twintig"
+              ]
+            },
+            {
+              "nl": "zevenenveertig = 47",
+              "fr": "sept-et-quarante",
+              "highlight": [
+                "zeven",
+                "veertig"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Dans quel ordre le néerlandais dit-il les nombres composés ?",
+            "choices": [
+              "L'unité d'abord, puis la dizaine",
+              "La dizaine d'abord, puis l'unité",
+              "Les deux ordres sont possibles"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "vierentwintig = 4 + et + 20 = 24. C'est l'inverse du français."
+          },
+          "reveal_fr": "Les nombres composés se disent à l'envers du français : unité + en + dizaine, en un seul mot. C'est une source d'erreurs fréquente : entraîne-toi à les entendre."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "cijfers-10-100",
+          "title_fr": "De 10 à 100",
+          "body_fr": "tien (10), elf (11), twaalf (12), dertien (13), veertien (14), vijftien (15), zestien (16), zeventien (17), achttien (18), negentien (19). Dizaines : twintig (20), dertig (30), veertig (40), vijftig (50), zestig (60), zeventig (70), tachtig (80), negentig (90), honderd (100). Les nombres composés s'écrivent en un mot, unité d'abord : eenentwintig (21), vierenvijftig (54). Pour l'âge, on utilise zijn (être) : Ik ben dertig (jaar). Question : Hoe oud ben je? / Hoe oud bent u?",
+          "examples": [
+            {
+              "nl": "Ik ben eenendertig jaar.",
+              "fr": "J'ai trente et un ans."
+            },
+            {
+              "nl": "Hoe oud bent u?",
+              "fr": "Quel âge avez-vous ?"
+            },
+            {
+              "nl": "vierenvijftig",
+              "fr": "cinquante-quatre"
+            },
+            {
+              "nl": "honderd euro",
+              "fr": "cent euros"
+            }
+          ],
+          "exceptions_fr": [
+            "Formes irrégulières à retenir : dertien et dertig (pas « drie- »), veertien et veertig (pas « vier- »), tachtig (pas « achttig »).",
+            "On ajoute un tréma quand deux voyelles identiques se rencontrent : tweeëntwintig (22), drieëntwintig (23).",
+            "Un numéro de téléphone se lit par groupes de deux chiffres, comme en français."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "vierentwintig",
+              "question_fr": "Quel nombre entends-tu ?",
+              "choices": [
+                "24",
+                "42",
+                "20"
+              ],
+              "answerIndex": 0,
+              "ruleId": "cijfers-10-100",
+              "errorTags": [
+                "cijfers"
+              ],
+              "explain_fr": "vier (4) + en + twintig (20) = 24."
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Hoe oud ben je?",
+              "question_fr": "Que te demande-t-on ?",
+              "choices": [
+                "Ton âge",
+                "Ton numéro",
+                "Ton nom"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "identiteit"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "tachtig",
+              "question_fr": "Quel nombre entends-tu ?",
+              "choices": [
+                "80",
+                "18",
+                "8"
+              ],
+              "answerIndex": 0,
+              "ruleId": "cijfers-10-100",
+              "errorTags": [
+                "cijfers"
+              ],
+              "explain_fr": "tachtig = 80 ; achttien = 18 ; acht = 8."
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "eenendertig",
+              "fr": "trente et un",
+              "errorTags": [
+                "spelling",
+                "cijfers"
+              ],
+              "ruleId": "cijfers-10-100",
+              "explain_fr": "Un seul mot : een + en + dertig."
+            },
+            {
+              "id": "e5",
+              "type": "dictation",
+              "audioNl": "Ik ben dertig jaar.",
+              "fr": "J'ai trente ans.",
+              "errorTags": [
+                "spelling"
+              ],
+              "explain_fr": "Le néerlandais dit « je suis trente ans », avec zijn."
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Hoe oud ben je?",
+              "fr": "Quel âge as-tu ?",
+              "extraTokens": [
+                "bent"
+              ],
+              "errorTags": [
+                "woordorde"
+              ],
+              "ruleId": "cijfers-10-100"
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Donne ton âge en néerlandais.",
+              "expected": [
+                "Ik ben ... jaar."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Structure : Ik ben + nombre + jaar."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande poliment l'âge de quelqu'un (vouvoiement).",
+              "expected": [
+                "Hoe oud bent u?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu comptes jusqu'à cent, tu donnes ton âge et ton numéro. Attention : l'unité se dit avant la dizaine.",
+          "addVocabIds": [
+            "voc-tien",
+            "voc-elf",
+            "voc-twaalf",
+            "voc-twintig",
+            "voc-dertig",
+            "voc-veertig",
+            "voc-honderd",
+            "voc-het-jaar",
+            "voc-het-nummer",
+            "voc-oud"
+          ],
+          "addStructures": [
+            {
+              "id": "str-hoe-oud-ben-je",
+              "nl": "Hoe oud ben je?",
+              "fr": "Quel âge as-tu ?",
+              "ruleId": "cijfers-10-100"
+            },
+            {
+              "id": "str-ik-ben-jaar",
+              "nl": "Ik ben ... jaar.",
+              "fr": "J'ai ... ans.",
+              "ruleId": "cijfers-10-100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0-u4-l3",
+      "order": 3,
+      "title_fr": "Les jours et l'heure",
+      "title_nl": "Hoe laat is het?",
+      "goals_fr": [
+        "Nommer les jours de la semaine",
+        "Demander et dire l'heure",
+        "Comprendre le piège de « half drie »"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Tom et Els cherchent un moment pour se voir.",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "nl": "Heb je morgen tijd?",
+              "fr": "Tu as le temps demain ?",
+              "note_fr": "hebben (avoir) sera conjugué au niveau A1 ; retiens la question telle quelle."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Morgen is het woensdag... Ja, in de middag.",
+              "fr": "Demain, c'est mercredi... Oui, l'après-midi."
+            },
+            {
+              "speaker": "Tom",
+              "nl": "Om twee uur?",
+              "fr": "À deux heures ?"
+            },
+            {
+              "speaker": "Els",
+              "nl": "Om half drie is beter.",
+              "fr": "À deux heures et demie, c'est mieux."
+            },
+            {
+              "speaker": "Tom",
+              "nl": "Oké! Tot woensdag, half drie.",
+              "fr": "OK ! À mercredi, deux heures et demie."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Tot dan!",
+              "fr": "À ce moment-là !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Quel jour se voient-ils ?",
+              "choices": [
+                "Mercredi",
+                "Lundi",
+                "Vendredi"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "woensdag = mercredi."
+            },
+            {
+              "id": "q2",
+              "question_fr": "À quelle heure ?",
+              "choices": [
+                "14 h 30",
+                "15 h 30",
+                "14 h"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« half drie » = la demi-heure avant trois heures, donc 2 h 30 (ici l'après-midi)."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète les jours, puis les expressions de l'heure.",
+          "chunks": [
+            {
+              "nl": "maandag, dinsdag, woensdag",
+              "fr": "lundi, mardi, mercredi"
+            },
+            {
+              "nl": "donderdag, vrijdag",
+              "fr": "jeudi, vendredi"
+            },
+            {
+              "nl": "zaterdag, zondag",
+              "fr": "samedi, dimanche"
+            },
+            {
+              "nl": "Hoe laat is het?",
+              "fr": "Quelle heure est-il ?"
+            },
+            {
+              "nl": "Het is twee uur.",
+              "fr": "Il est deux heures."
+            },
+            {
+              "nl": "Het is half drie.",
+              "fr": "Il est deux heures et demie.",
+              "hint_fr": "half + l'heure qui vient"
+            },
+            {
+              "nl": "Om kwart over twee.",
+              "fr": "À deux heures et quart."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-maandag",
+              "nl": "maandag",
+              "fr": "lundi",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "op maandag",
+                  "fr": "le lundi"
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-dinsdag",
+              "nl": "dinsdag",
+              "fr": "mardi",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "tot dinsdag",
+                  "fr": "à mardi"
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-woensdag",
+              "nl": "woensdag",
+              "fr": "mercredi",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "Morgen is het woensdag.",
+                  "fr": "Demain, c'est mercredi."
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-donderdag",
+              "nl": "donderdag",
+              "fr": "jeudi",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "op donderdag",
+                  "fr": "le jeudi"
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-vrijdag",
+              "nl": "vrijdag",
+              "fr": "vendredi",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "tot vrijdag",
+                  "fr": "à vendredi"
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-zaterdag",
+              "nl": "zaterdag",
+              "fr": "samedi",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "op zaterdag",
+                  "fr": "le samedi"
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-zondag",
+              "nl": "zondag",
+              "fr": "dimanche",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "op zondag",
+                  "fr": "le dimanche"
+                }
+              ],
+              "tags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "voc-het-uur",
+              "nl": "het uur",
+              "fr": "l'heure",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de uren",
+              "examples": [
+                {
+                  "nl": "Het is drie uur.",
+                  "fr": "Il est trois heures."
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "voc-morgen",
+              "nl": "morgen",
+              "fr": "demain",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Tot morgen!",
+                  "fr": "À demain !"
+                }
+              ],
+              "variant": {
+                "note_fr": "Le même mot signifie « matin » dans de morgen et goedemorgen. Le contexte tranche."
+              },
+              "tags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "voc-de-tijd",
+              "nl": "de tijd",
+              "fr": "le temps",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "Heb je tijd?",
+                  "fr": "Tu as le temps ?"
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe ces trois heures et leur traduction.",
+          "examples": [
+            {
+              "nl": "half twee = 1 h 30",
+              "fr": "une heure et demie",
+              "highlight": [
+                "half",
+                "twee"
+              ]
+            },
+            {
+              "nl": "half drie = 2 h 30",
+              "fr": "deux heures et demie",
+              "highlight": [
+                "half",
+                "drie"
+              ]
+            },
+            {
+              "nl": "half negen = 8 h 30",
+              "fr": "huit heures et demie",
+              "highlight": [
+                "half",
+                "negen"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Que désigne « half » + un nombre ?",
+            "choices": [
+              "La demi-heure AVANT l'heure annoncée",
+              "La demi-heure APRÈS l'heure annoncée",
+              "Une heure pile"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "half drie = la moitié du chemin vers trois heures, donc 2 h 30."
+          },
+          "reveal_fr": "C'est le piège le plus classique pour un francophone : « half drie » n'est pas 3 h 30 mais 2 h 30. Le néerlandais compte vers l'heure suivante."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "tijd-uren",
+          "title_fr": "Dire l'heure",
+          "body_fr": "Question : Hoe laat is het? Réponse : Het is + heure. Heure pile : Het is twee uur. Quart : kwart over twee (2 h 15), kwart voor drie (2 h 45). Demie : half drie = 2 h 30, car le néerlandais annonce l'heure vers laquelle on va. Minutes : tien over twee (2 h 10), tien voor drie (2 h 50). Pour fixer un rendez-vous, on utilise om : om half drie (à 2 h 30). Les jours de la semaine s'emploient avec op : op maandag.",
+          "examples": [
+            {
+              "nl": "Hoe laat is het?",
+              "fr": "Quelle heure est-il ?"
+            },
+            {
+              "nl": "Het is kwart over twee.",
+              "fr": "Il est deux heures et quart."
+            },
+            {
+              "nl": "Het is half drie.",
+              "fr": "Il est deux heures et demie."
+            },
+            {
+              "nl": "Om half negen, op maandag.",
+              "fr": "À huit heures et demie, le lundi."
+            }
+          ],
+          "exceptions_fr": [
+            "Les jours de la semaine s'écrivent sans majuscule : maandag, dinsdag...",
+            "Autour de la demie, on peut entendre « vijf voor half drie » (2 h 25) et « vijf over half drie » (2 h 35).",
+            "À l'écrit officiel et dans les horaires, on utilise l'heure chiffrée : 14.30 uur."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Het is half drie.",
+              "question_fr": "Quelle heure est-il ?",
+              "choices": [
+                "2 h 30",
+                "3 h 30",
+                "1 h 30"
+              ],
+              "answerIndex": 0,
+              "ruleId": "tijd-uren",
+              "errorTags": [
+                "tijd"
+              ],
+              "explain_fr": "half drie = la demi-heure avant trois heures."
+            },
+            {
+              "id": "e2",
+              "type": "mcqAudio",
+              "audioNl": "Hoe laat is het?",
+              "question_fr": "Que demande-t-on ?",
+              "choices": [
+                "L'heure",
+                "Le jour",
+                "Le prix"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "woensdag",
+              "question_fr": "Quel jour entends-tu ?",
+              "choices": [
+                "mercredi",
+                "jeudi",
+                "mardi"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "dagen"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Het is half drie.",
+              "fr": "Il est deux heures et demie.",
+              "errorTags": [
+                "spelling",
+                "tijd"
+              ],
+              "ruleId": "tijd-uren"
+            },
+            {
+              "id": "e5",
+              "type": "dictation",
+              "audioNl": "zaterdag",
+              "fr": "samedi",
+              "errorTags": [
+                "spelling",
+                "dagen"
+              ],
+              "explain_fr": "Les jours s'écrivent sans majuscule."
+            },
+            {
+              "id": "e6",
+              "type": "wordOrder",
+              "target": "Hoe laat is het?",
+              "fr": "Quelle heure est-il ?",
+              "errorTags": [
+                "woordorde",
+                "tijd"
+              ],
+              "ruleId": "tijd-uren"
+            },
+            {
+              "id": "e7",
+              "type": "wordOrder",
+              "target": "Tot woensdag, half drie.",
+              "fr": "À mercredi, deux heures et demie.",
+              "errorTags": [
+                "tijd"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Demande l'heure, puis réponds qu'il est 8 h 30.",
+              "expected": [
+                "Hoe laat is het? Het is half negen."
+              ],
+              "acceptAny": false,
+              "tip_fr": "Souviens-toi : half + l'heure suivante."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Propose un rendez-vous mercredi à 14 h 30.",
+              "expected": [
+                "Op woensdag om half drie?",
+                "Woensdag om half drie?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu nommes les jours, tu demandes et donnes l'heure, et tu ne tomberas plus dans le piège de « half drie ». Fin du niveau A0 !",
+          "addVocabIds": [
+            "voc-maandag",
+            "voc-dinsdag",
+            "voc-woensdag",
+            "voc-donderdag",
+            "voc-vrijdag",
+            "voc-zaterdag",
+            "voc-zondag",
+            "voc-het-uur",
+            "voc-morgen",
+            "voc-de-tijd"
+          ],
+          "addStructures": [
+            {
+              "id": "str-hoe-laat-is-het",
+              "nl": "Hoe laat is het?",
+              "fr": "Quelle heure est-il ?",
+              "ruleId": "tijd-uren"
+            },
+            {
+              "id": "str-half-drie",
+              "nl": "Het is half drie.",
+              "fr": "Il est 2 h 30.",
+              "ruleId": "tijd-uren"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
