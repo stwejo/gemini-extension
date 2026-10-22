@@ -19,7 +19,19 @@ function Shell() {
  * Routage par # (VITE_ROUTER=hash) pour les hebergements statiques qui ne
  * savent pas rediriger les routes inconnues vers index.html.
  */
-const createRouter = import.meta.env.VITE_ROUTER === 'hash' ? createHashRouter : createBrowserRouter;
+const useHash = import.meta.env.VITE_ROUTER === 'hash';
+const createRouter = useHash ? createHashRouter : createBrowserRouter;
+
+/**
+ * Prefixe des URL. Le routage par # n'en a pas besoin, et une base relative
+ * ("./", utilisee pour un fichier autonome) n'est pas un prefixe valide.
+ */
+function routerBasename(): string | undefined {
+  if (useHash) return undefined;
+  const base = import.meta.env.BASE_URL;
+  if (!base || !base.startsWith('/') || base === '/') return undefined;
+  return base.replace(/\/$/, '');
+}
 
 export const router = createRouter(
   [
@@ -36,5 +48,5 @@ export const router = createRouter(
       ],
     },
   ],
-  { basename: import.meta.env.BASE_URL.replace(/\/$/, '') || undefined },
+  { basename: routerBasename() },
 );

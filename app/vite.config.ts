@@ -14,6 +14,14 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
+      // Sans le plugin PWA, le module virtuel n'existe pas : on le remplace.
+      ...(withPwa
+        ? {}
+        : {
+            'virtual:pwa-register': fileURLToPath(
+              new URL('./src/pwa-register-stub.ts', import.meta.url),
+            ),
+          }),
     },
   },
   plugins: [
