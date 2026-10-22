@@ -14,11 +14,11 @@ données restent sur l'appareil.
 | Phase | Contenu | État |
 |---|---|---|
 | 1 | Moteur de leçons, synthèse vocale, 3 types d'exercices, niveau A0 complet, stockage local, installation et fonctionnement hors ligne | **terminée** |
-| 2 | Reconnaissance vocale, révision espacée (SM-2), niveau A1 | à venir |
+| 2 | Reconnaissance vocale, révision espacée (SM-2), niveau A1, 5 types d'exercices de plus | **terminée** |
 | 3 | Fiches de grammaire consultables, test de positionnement, tests de fin d'unité, A2–B1 | à venir |
 | 4 | Accessibilité, polissage, tests, déploiement | à venir |
 
-Contenu disponible : **4 unités A0, 12 leçons, 107 mots et expressions, 72 exercices**.
+Contenu disponible : **8 unités (A0 et A1), 24 leçons, 217 mots et expressions, 156 exercices**.
 
 L'application s'installe depuis le navigateur (« Ajouter à l'écran d'accueil ») et fonctionne
 entièrement hors ligne après la première visite — sauf la synthèse vocale si l'appareil n'utilise
@@ -101,9 +101,16 @@ Les 9 types de `steps`, dans l'ordre pédagogique attendu :
 
 Types d'exercices **implémentés** (les autres sont refusés à la validation) :
 
-- `mcqAudio` : écoute puis choix d'une réponse (`audioNl`, `choices`, `answerIndex`)
-- `dictation` : écoute puis écriture (`audioNl`, `fr`)
-- `wordOrder` : remettre les mots dans l'ordre (`target`, `fr`, `alsoAccept`, `extraTokens`)
+| type | description | champs principaux |
+|---|---|---|
+| `mcqAudio` | écoute puis choix d'une réponse | `audioNl`, `choices`, `answerIndex` |
+| `dictation` | écoute puis écriture | `audioNl`, `fr` |
+| `wordOrder` | remettre les mots dans l'ordre | `target`, `fr`, `alsoAccept`, `extraTokens` |
+| `cloze` | texte à trous (`___` dans la phrase) | `sentence`, `answers`, `choices` |
+| `translate` | traduction FR→NL ou NL→FR | `direction`, `prompt`, `expected` |
+| `errorCorrection` | corriger une phrase fausse | `wrong`, `correct`, `fr` |
+| `speakRepeat` | répétition orale (micro ou auto-évaluation) | `nl`, `fr` |
+| `roleplay` | dialogue à rôles | `situation_fr`, `userRole_fr`, `turns` |
 
 Règles de contenu appliquées automatiquement par les tests :
 
@@ -146,7 +153,7 @@ inconnues vers `index.html` (Netlify : `/* /index.html 200`).
 | Application, leçons, exercices | oui | oui | oui |
 | Synthèse vocale (écoute) | oui | oui (une interaction est requise avant le premier son) | oui |
 | Voix néerlandaise | dépend des voix installées sur l'appareil | dépend des voix installées | dépend des voix installées |
-| Reconnaissance vocale (phase 2) | oui (`webkitSpeechRecognition`) | à vérifier selon la version | **non** |
+| Reconnaissance vocale | oui (`webkitSpeechRecognition`) | à vérifier selon la version | **non** (remplacée par l'auto-évaluation) |
 
 Points à connaître :
 
@@ -155,10 +162,23 @@ Points à connaître :
   si aucune voix néerlandaise n'est installée : la prononciation serait alors fausse. Les leçons
   restent utilisables, le texte néerlandais est toujours affiché.
 - La reconnaissance vocale de Chrome passe par un service en ligne : elle **ne fonctionne pas hors
-  ligne**. Firefox ne l'implémente pas. Les exercices concernés (phase 2) seront masqués et
-  remplacés par une auto-évaluation après écoute.
-- La comparaison entre ce que tu prononces et la phrase cible (phase 2) sera une **estimation
-  orthographique**, pas une évaluation phonétique.
+  ligne**. Firefox ne l'implémente pas : les exercices de répétition orale basculent alors
+  automatiquement en auto-évaluation après écoute, et le disent à l'écran.
+- La comparaison entre ce que tu prononces et la phrase cible est une **estimation orthographique
+  sur la transcription du navigateur**, pas une évaluation phonétique. L'application l'affiche à
+  chaque correction.
+
+## Révision espacée
+
+À la fin de chaque leçon, le vocabulaire et les phrases clés deviennent des cartes. L'algorithme
+**SM-2** fixe la date de la prochaine révision :
+
+- échec ou « je ne sais pas » → la carte revient dès le lendemain et son facteur de facilité baisse ;
+- réussite → 1 jour, puis 6 jours, puis intervalle × facteur de facilité (2,5 au départ) ;
+- « Difficile », « Correct », « Facile » ajustent ce facteur, qui ne descend jamais sous 1,3.
+
+La session du jour place **les cartes les plus souvent ratées en premier**, puis les plus en retard.
+Elle est limitée à 20 cartes par défaut.
 
 ## Données et vie privée
 
@@ -174,9 +194,9 @@ Points à connaître :
 src/
 ├─ content/      # contenu pédagogique (JSON) + schéma zod + chargement
 ├─ engine/       # logique pure et testée : correction, SRS, parcours, machine de leçon
-│  ├─ grading/   # normalisation, Levenshtein, correction texte et ordre des mots
-│  └─ srs/       # cartes de révision espacée (SM-2)
-├─ speech/       # synthèse vocale (Web Speech API)
+│  ├─ grading/   # normalisation, Levenshtein, texte, ordre des mots, oral
+│  └─ srs/       # SM-2 (cartes, replanification) et session du jour
+├─ speech/       # synthèse vocale et reconnaissance vocale (Web Speech API)
 ├─ db/           # Dexie (IndexedDB) + dépôts de données
 ├─ components/   # UI : audio, exercices, étapes de leçon
 ├─ pages/        # accueil, parcours, leçon, liste, réglages

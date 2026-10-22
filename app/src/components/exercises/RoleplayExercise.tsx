@@ -171,7 +171,7 @@ export function RoleplayExercise({ exercise, onAnswer }: Props) {
                 </p>
               </Feedback>
               <button type="button" className="btn-primary w-full" onClick={next}>
-                Continuer
+                Réplique suivante
               </button>
             </>
           ) : (

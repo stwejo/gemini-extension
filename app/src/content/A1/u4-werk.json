@@ -1,0 +1,1572 @@
+{
+  "id": "a1-u4",
+  "level": "A1",
+  "order": 4,
+  "theme": "Travail et santé",
+  "title_fr": "Travail, santé et rendez-vous",
+  "description_fr": "Obligations et permissions au travail, expliquer un problème de santé, prendre rendez-vous.",
+  "lessons": [
+    {
+      "id": "a1-u4-l1",
+      "order": 1,
+      "title_fr": "Au travail : moeten et mogen",
+      "title_nl": "Op het werk",
+      "goals_fr": [
+        "Dire ce qu'on doit faire et ce qu'on a le droit de faire",
+        "Parler de ses horaires"
+      ],
+      "minutes": 15,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Premier jour de stage. La responsable explique les horaires à Karim.",
+          "lines": [
+            {
+              "speaker": "De chef",
+              "nl": "Je moet om negen uur beginnen.",
+              "fr": "Tu dois commencer à neuf heures."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "En hoe laat mag ik pauze nemen?",
+              "fr": "Et à quelle heure puis-je prendre une pause ?"
+            },
+            {
+              "speaker": "De chef",
+              "nl": "Je mag om twaalf uur eten. Je moet wel op tijd terug zijn.",
+              "fr": "Tu peux manger à midi. Mais tu dois être de retour à l'heure.",
+              "note_fr": "wel insiste : « par contre », « quand même »."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Natuurlijk. Moet ik hier ook schoenen uitdoen?",
+              "fr": "Bien sûr. Dois-je aussi enlever mes chaussures ici ?"
+            },
+            {
+              "speaker": "De chef",
+              "nl": "Nee, dat hoeft niet.",
+              "fr": "Non, ce n'est pas nécessaire."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Oké, dank u!",
+              "fr": "D'accord, merci !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "À quelle heure Karim doit-il commencer ?",
+              "choices": [
+                "9 h",
+                "12 h",
+                "8 h"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "om negen uur beginnen."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que répond la responsable à propos des chaussures ?",
+              "choices": [
+                "Ce n'est pas nécessaire",
+                "Oui, c'est obligatoire",
+                "Seulement le matin"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Dat hoeft niet » = ce n'est pas nécessaire. C'est la négation de moeten."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces phrases du quotidien professionnel.",
+          "chunks": [
+            {
+              "nl": "Ik moet om negen uur beginnen.",
+              "fr": "Je dois commencer à neuf heures."
+            },
+            {
+              "nl": "Mag ik pauze nemen?",
+              "fr": "Puis-je prendre une pause ?"
+            },
+            {
+              "nl": "Ik moet nog werken.",
+              "fr": "Je dois encore travailler."
+            },
+            {
+              "nl": "Dat hoeft niet.",
+              "fr": "Ce n'est pas nécessaire."
+            },
+            {
+              "nl": "Ik ben op tijd.",
+              "fr": "Je suis à l'heure."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-moeten",
+              "nl": "moeten",
+              "fr": "devoir",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik moet werken.",
+                  "fr": "Je dois travailler."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "modaal"
+              ]
+            },
+            {
+              "id": "voc-hoeven",
+              "nl": "hoeven",
+              "fr": "avoir besoin de (employé à la forme négative)",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Dat hoeft niet.",
+                  "fr": "Ce n'est pas nécessaire."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "modaal"
+              ]
+            },
+            {
+              "id": "voc-beginnen",
+              "nl": "beginnen",
+              "fr": "commencer",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "De cursus begint om acht uur.",
+                  "fr": "Le cours commence à huit heures."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-de-pauze",
+              "nl": "de pauze",
+              "fr": "la pause",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de pauzes",
+              "examples": [
+                {
+                  "nl": "Ik neem pauze.",
+                  "fr": "Je prends une pause."
+                }
+              ],
+              "tags": [
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-de-collega",
+              "nl": "de collega",
+              "fr": "le collègue, la collègue",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de collega's",
+              "examples": [
+                {
+                  "nl": "Mijn collega's zijn aardig.",
+                  "fr": "Mes collègues sont sympathiques."
+                }
+              ],
+              "tags": [
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-de-chef",
+              "nl": "de chef",
+              "fr": "le chef, la responsable",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de chefs",
+              "examples": [
+                {
+                  "nl": "De chef is er niet.",
+                  "fr": "Le chef n'est pas là."
+                }
+              ],
+              "variant": {
+                "note_fr": "On entend aussi « de baas » (le patron), plus familier."
+              },
+              "tags": [
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-op-tijd",
+              "nl": "op tijd",
+              "fr": "à l'heure",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Kom op tijd!",
+                  "fr": "Viens à l'heure !"
+                }
+              ],
+              "tags": [
+                "tijd",
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-te-laat",
+              "nl": "te laat",
+              "fr": "en retard",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Sorry, ik ben te laat.",
+                  "fr": "Désolé, je suis en retard."
+                }
+              ],
+              "tags": [
+                "tijd",
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-nog",
+              "nl": "nog",
+              "fr": "encore",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik moet nog werken.",
+                  "fr": "Je dois encore travailler."
+                }
+              ],
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare obligation, permission et absence d'obligation.",
+          "examples": [
+            {
+              "nl": "Je moet om negen uur beginnen.",
+              "fr": "Tu dois commencer à neuf heures.",
+              "highlight": [
+                "moet"
+              ]
+            },
+            {
+              "nl": "Je mag om twaalf uur eten.",
+              "fr": "Tu peux manger à midi.",
+              "highlight": [
+                "mag"
+              ]
+            },
+            {
+              "nl": "Dat hoeft niet.",
+              "fr": "Ce n'est pas nécessaire.",
+              "highlight": [
+                "hoeft niet"
+              ]
+            },
+            {
+              "nl": "Dat mag niet.",
+              "fr": "Ce n'est pas permis.",
+              "highlight": [
+                "mag niet"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Comment dit-on « ce n'est pas obligatoire » ?",
+            "choices": [
+              "Dat hoeft niet",
+              "Dat mag niet",
+              "Dat moet niet"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "La négation de moeten se fait avec hoeven : « je hoeft niet te komen » = tu n'es pas obligé de venir."
+          },
+          "reveal_fr": "moeten = obligation, mogen = permission. Attention : « niet moeten » n'est pas la bonne négation de l'obligation ; on emploie hoeven niet."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "modale-werkwoorden-2",
+          "title_fr": "moeten, mogen, hoeven",
+          "body_fr": "moeten (devoir) : ik moet, jij moet, hij moet, wij moeten. mogen (avoir le droit) : ik mag, jij mag, hij mag, wij mogen. Comme willen et kunnen, ils placent l'autre verbe à l'infinitif en fin de phrase : Ik moet om negen uur beginnen. Pour dire qu'une chose n'est pas obligatoire, on n'emploie pas « niet moeten » mais hoeven niet (+ te + infinitif) : Je hoeft niet te komen. « Dat mag niet » signifie en revanche que c'est interdit.",
+          "examples": [
+            {
+              "nl": "Ik moet werken.",
+              "fr": "Je dois travailler."
+            },
+            {
+              "nl": "Mag ik hier parkeren?",
+              "fr": "Puis-je me garer ici ?"
+            },
+            {
+              "nl": "Je hoeft niet te betalen.",
+              "fr": "Tu n'as pas besoin de payer."
+            },
+            {
+              "nl": "Dat mag niet.",
+              "fr": "Ce n'est pas permis."
+            }
+          ],
+          "exceptions_fr": [
+            "hoeven s'emploie presque uniquement en phrase négative ou avec « alleen maar ».",
+            "Après hoeven, l'infinitif est précédé de te : « Je hoeft niet te komen »."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "Ik ___ om negen uur beginnen.",
+              "fr": "Je dois commencer à neuf heures.",
+              "answers": [
+                "moet"
+              ],
+              "choices": [
+                "moet",
+                "mag",
+                "hoef"
+              ],
+              "ruleId": "modale-werkwoorden-2",
+              "errorTags": [
+                "modaal"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "___ ik hier parkeren?",
+              "fr": "Puis-je me garer ici ?",
+              "answers": [
+                "Mag",
+                "mag"
+              ],
+              "choices": [
+                "Mag",
+                "Moet",
+                "Hoef"
+              ],
+              "ruleId": "modale-werkwoorden-2",
+              "errorTags": [
+                "modaal"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "Dat hoeft niet.",
+              "question_fr": "Que signifie cette réponse ?",
+              "choices": [
+                "Ce n'est pas nécessaire",
+                "C'est interdit",
+                "C'est obligatoire"
+              ],
+              "answerIndex": 0,
+              "ruleId": "modale-werkwoorden-2",
+              "errorTags": [
+                "modaal",
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "wordOrder",
+              "target": "Ik moet vandaag lang werken.",
+              "fr": "Je dois travailler longtemps aujourd'hui.",
+              "alsoAccept": [
+                "Vandaag moet ik lang werken."
+              ],
+              "errorTags": [
+                "woordorde",
+                "modaal"
+              ],
+              "ruleId": "modale-werkwoorden-2"
+            },
+            {
+              "id": "e5",
+              "type": "errorCorrection",
+              "wrong": "Ik moet niet komen, het is vrij.",
+              "correct": [
+                "Ik hoef niet te komen, het is vrij."
+              ],
+              "fr": "Je ne suis pas obligé de venir, c'est congé.",
+              "ruleId": "modale-werkwoorden-2",
+              "errorTags": [
+                "modaal",
+                "ontkenning"
+              ],
+              "explain_fr": "Absence d'obligation : hoeven niet te + infinitif."
+            },
+            {
+              "id": "e6",
+              "type": "dictation",
+              "audioNl": "Ik ben te laat.",
+              "fr": "Je suis en retard.",
+              "errorTags": [
+                "spelling",
+                "werk"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "speakRepeat",
+              "nl": "Hoe laat mag ik pauze nemen?",
+              "fr": "À quelle heure puis-je prendre une pause ?",
+              "errorTags": [
+                "uitspraak"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis à quelle heure tu dois commencer demain.",
+              "expected": [
+                "Ik moet morgen om acht uur beginnen."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Ik moet + heure + beginnen."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande poliment si tu peux prendre une pause.",
+              "expected": [
+                "Mag ik pauze nemen?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu exprimes l'obligation, la permission et l'absence d'obligation — et tu évites le piège de « niet moeten ».",
+          "addVocabIds": [
+            "voc-moeten",
+            "voc-hoeven",
+            "voc-beginnen",
+            "voc-de-pauze",
+            "voc-de-collega",
+            "voc-de-chef",
+            "voc-op-tijd",
+            "voc-te-laat",
+            "voc-nog"
+          ],
+          "addStructures": [
+            {
+              "id": "str-ik-moet",
+              "nl": "Ik moet om negen uur beginnen.",
+              "fr": "Je dois commencer à neuf heures.",
+              "ruleId": "modale-werkwoorden-2"
+            },
+            {
+              "id": "str-hoeft-niet",
+              "nl": "Dat hoeft niet.",
+              "fr": "Ce n'est pas nécessaire.",
+              "ruleId": "modale-werkwoorden-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u4-l2",
+      "order": 2,
+      "title_fr": "Chez le médecin : les mots interrogatifs",
+      "title_nl": "Bij de dokter",
+      "goals_fr": [
+        "Dire où on a mal",
+        "Utiliser les mots interrogatifs (wie, wat, waar, wanneer, waarom, hoe)"
+      ],
+      "minutes": 15,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Au cabinet médical.",
+          "lines": [
+            {
+              "speaker": "De dokter",
+              "nl": "Goedemiddag. Wat is er aan de hand?",
+              "fr": "Bonjour. Qu'est-ce qui ne va pas ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Ik heb pijn in mijn rug.",
+              "fr": "J'ai mal au dos.",
+              "note_fr": "pijn hebben in / aan : avoir mal à."
+            },
+            {
+              "speaker": "De dokter",
+              "nl": "Sinds wanneer?",
+              "fr": "Depuis quand ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Sinds drie dagen. 's Nachts is het erger.",
+              "fr": "Depuis trois jours. La nuit, c'est pire."
+            },
+            {
+              "speaker": "De dokter",
+              "nl": "Waarom denkt u dat? Tilt u zwaar op het werk?",
+              "fr": "Pourquoi pensez-vous cela ? Vous portez des charges lourdes au travail ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Ja, soms wel.",
+              "fr": "Oui, parfois."
+            },
+            {
+              "speaker": "De dokter",
+              "nl": "Goed. Ik geef u een recept.",
+              "fr": "Bien. Je vous donne une ordonnance."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Où Sanne a-t-elle mal ?",
+              "choices": [
+                "Au dos",
+                "À la tête",
+                "Au ventre"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "pijn in mijn rug = mal au dos."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Depuis quand ?",
+              "choices": [
+                "Trois jours",
+                "Trois semaines",
+                "Depuis hier"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "sinds drie dagen."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète les mots interrogatifs, puis les phrases du cabinet.",
+          "chunks": [
+            {
+              "nl": "wie, wat, waar",
+              "fr": "qui, quoi, où"
+            },
+            {
+              "nl": "wanneer, waarom, hoe",
+              "fr": "quand, pourquoi, comment"
+            },
+            {
+              "nl": "Wat is er aan de hand?",
+              "fr": "Qu'est-ce qui ne va pas ?"
+            },
+            {
+              "nl": "Ik heb pijn in mijn rug.",
+              "fr": "J'ai mal au dos."
+            },
+            {
+              "nl": "Ik ben ziek.",
+              "fr": "Je suis malade."
+            },
+            {
+              "nl": "Sinds wanneer?",
+              "fr": "Depuis quand ?"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-de-dokter",
+              "nl": "de dokter",
+              "fr": "le médecin",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de dokters",
+              "examples": [
+                {
+                  "nl": "Ik ga naar de dokter.",
+                  "fr": "Je vais chez le médecin."
+                }
+              ],
+              "variant": {
+                "note_fr": "« de arts » est le terme plus officiel ; « de huisarts » est le médecin généraliste."
+              },
+              "tags": [
+                "gezondheid"
+              ]
+            },
+            {
+              "id": "voc-de-pijn",
+              "nl": "de pijn",
+              "fr": "la douleur",
+              "pos": "nom",
+              "article": "de",
+              "examples": [
+                {
+                  "nl": "Ik heb pijn.",
+                  "fr": "J'ai mal."
+                }
+              ],
+              "tags": [
+                "gezondheid"
+              ]
+            },
+            {
+              "id": "voc-ziek",
+              "nl": "ziek",
+              "fr": "malade",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Ik ben ziek.",
+                  "fr": "Je suis malade."
+                }
+              ],
+              "tags": [
+                "gezondheid"
+              ]
+            },
+            {
+              "id": "voc-de-rug",
+              "nl": "de rug",
+              "fr": "le dos",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de ruggen",
+              "examples": [
+                {
+                  "nl": "pijn in mijn rug",
+                  "fr": "mal au dos"
+                }
+              ],
+              "tags": [
+                "lichaam"
+              ]
+            },
+            {
+              "id": "voc-het-hoofd",
+              "nl": "het hoofd",
+              "fr": "la tête",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de hoofden",
+              "examples": [
+                {
+                  "nl": "Ik heb hoofdpijn.",
+                  "fr": "J'ai mal à la tête."
+                }
+              ],
+              "tags": [
+                "lichaam"
+              ]
+            },
+            {
+              "id": "voc-de-keel",
+              "nl": "de keel",
+              "fr": "la gorge",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de kelen",
+              "examples": [
+                {
+                  "nl": "Ik heb keelpijn.",
+                  "fr": "J'ai mal à la gorge."
+                }
+              ],
+              "tags": [
+                "lichaam"
+              ]
+            },
+            {
+              "id": "voc-wanneer",
+              "nl": "wanneer",
+              "fr": "quand",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Wanneer kom je?",
+                  "fr": "Quand viens-tu ?"
+                }
+              ],
+              "tags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "voc-waarom",
+              "nl": "waarom",
+              "fr": "pourquoi",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Waarom niet?",
+                  "fr": "Pourquoi pas ?"
+                }
+              ],
+              "tags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "voc-wat",
+              "nl": "wat",
+              "fr": "quoi, que",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Wat doe je?",
+                  "fr": "Que fais-tu ?"
+                }
+              ],
+              "tags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "voc-soms",
+              "nl": "soms",
+              "fr": "parfois",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Soms werk ik thuis.",
+                  "fr": "Parfois, je travaille à la maison."
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe la construction de ces questions.",
+          "examples": [
+            {
+              "nl": "Wat doe je?",
+              "fr": "Que fais-tu ?",
+              "highlight": [
+                "Wat",
+                "doe"
+              ]
+            },
+            {
+              "nl": "Waar woont u?",
+              "fr": "Où habitez-vous ?",
+              "highlight": [
+                "Waar",
+                "woont"
+              ]
+            },
+            {
+              "nl": "Wanneer begint de cursus?",
+              "fr": "Quand commence le cours ?",
+              "highlight": [
+                "Wanneer",
+                "begint"
+              ]
+            },
+            {
+              "nl": "Waarom ben je te laat?",
+              "fr": "Pourquoi es-tu en retard ?",
+              "highlight": [
+                "Waarom",
+                "ben"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Qu'est-ce qui suit immédiatement le mot interrogatif ?",
+            "choices": [
+              "Le verbe conjugué",
+              "Le sujet",
+              "Le complément"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Le mot interrogatif prend la première place, le verbe reste en deuxième position, le sujet suit."
+          },
+          "reveal_fr": "Mot interrogatif + verbe + sujet : c'est la même règle du verbe en deuxième position que tu connais déjà. Pas besoin de « est-ce que »."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "vraagwoorden",
+          "title_fr": "Les mots interrogatifs",
+          "body_fr": "wie (qui), wat (quoi), waar (où), wanneer (quand), waarom (pourquoi), hoe (comment), hoeveel (combien), welk / welke (quel). Construction : mot interrogatif + verbe conjugué + sujet : Waar woon je? Wanneer begint het? welk s'emploie devant un het-woord, welke devant un de-woord et devant un pluriel : welk boek, welke straat, welke boeken. Pour dire où on a mal : Ik heb pijn in / aan + partie du corps, ou un mot composé : hoofdpijn, keelpijn, buikpijn.",
+          "examples": [
+            {
+              "nl": "Wie is dat?",
+              "fr": "Qui est-ce ?"
+            },
+            {
+              "nl": "Waarom ben je te laat?",
+              "fr": "Pourquoi es-tu en retard ?"
+            },
+            {
+              "nl": "Welke straat is het?",
+              "fr": "Quelle rue est-ce ?"
+            },
+            {
+              "nl": "Ik heb hoofdpijn.",
+              "fr": "J'ai mal à la tête."
+            }
+          ],
+          "exceptions_fr": [
+            "Après une préposition, « wat » devient « waar » soudé à la préposition : waarover (de quoi), waarmee (avec quoi). Ces formes sont travaillées au niveau A2.",
+            "Une question fermée (réponse oui / non) se construit sans mot interrogatif : le verbe passe en tête (Werk je vandaag?)."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "___ heb je pijn?",
+              "fr": "Où as-tu mal ?",
+              "answers": [
+                "Waar",
+                "waar"
+              ],
+              "choices": [
+                "Waar",
+                "Wanneer",
+                "Waarom"
+              ],
+              "ruleId": "vraagwoorden",
+              "errorTags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "___ ben je te laat?",
+              "fr": "Pourquoi es-tu en retard ?",
+              "answers": [
+                "Waarom",
+                "waarom"
+              ],
+              "choices": [
+                "Waarom",
+                "Waar",
+                "Wie"
+              ],
+              "ruleId": "vraagwoorden",
+              "errorTags": [
+                "vraagwoord"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "Ik heb pijn in mijn rug.",
+              "question_fr": "Où cette personne a-t-elle mal ?",
+              "choices": [
+                "Au dos",
+                "À la gorge",
+                "À la tête"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "lichaam"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Ik ben ziek.",
+              "fr": "Je suis malade.",
+              "errorTags": [
+                "spelling",
+                "gezondheid"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Wanneer begint de cursus?",
+              "fr": "Quand commence le cours ?",
+              "errorTags": [
+                "woordorde",
+                "vraagwoord"
+              ],
+              "ruleId": "vraagwoorden"
+            },
+            {
+              "id": "e6",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "J'ai mal à la tête.",
+              "expected": [
+                "Ik heb hoofdpijn.",
+                "Ik heb pijn in mijn hoofd."
+              ],
+              "ruleId": "vraagwoorden",
+              "errorTags": [
+                "vertaling",
+                "lichaam"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "roleplay",
+              "situation_fr": "Tu consultes un médecin parce que tu as mal à la gorge depuis deux jours.",
+              "userRole_fr": "le patient",
+              "turns": [
+                {
+                  "speaker": "app",
+                  "nl": "Goedemiddag. Wat is er aan de hand?",
+                  "fr": "Bonjour. Qu'est-ce qui ne va pas ?",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Ik heb keelpijn.",
+                  "fr": "Dis que tu as mal à la gorge.",
+                  "expected": [
+                    "Ik heb keelpijn.",
+                    "Ik heb pijn in mijn keel."
+                  ]
+                },
+                {
+                  "speaker": "app",
+                  "nl": "Sinds wanneer?",
+                  "fr": "Depuis quand ?",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Sinds twee dagen.",
+                  "fr": "Réponds : depuis deux jours.",
+                  "expected": [
+                    "Sinds twee dagen.",
+                    "Twee dagen."
+                  ]
+                }
+              ],
+              "errorTags": [
+                "gezondheid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis que tu es malade et que tu as mal à la tête.",
+              "expected": [
+                "Ik ben ziek en ik heb hoofdpijn."
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande à quelqu'un pourquoi il est en retard.",
+              "expected": [
+                "Waarom ben je te laat?",
+                "Waarom bent u te laat?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu peux expliquer un problème de santé et poser toutes les questions ouvertes de base.",
+          "addVocabIds": [
+            "voc-de-dokter",
+            "voc-de-pijn",
+            "voc-ziek",
+            "voc-de-rug",
+            "voc-het-hoofd",
+            "voc-de-keel",
+            "voc-wanneer",
+            "voc-waarom",
+            "voc-wat",
+            "voc-soms"
+          ],
+          "addStructures": [
+            {
+              "id": "str-ik-heb-pijn",
+              "nl": "Ik heb pijn in mijn rug.",
+              "fr": "J'ai mal au dos.",
+              "ruleId": "vraagwoorden"
+            },
+            {
+              "id": "str-wat-is-er",
+              "nl": "Wat is er aan de hand?",
+              "fr": "Qu'est-ce qui ne va pas ?",
+              "ruleId": "vraagwoorden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u4-l3",
+      "order": 3,
+      "title_fr": "Prendre rendez-vous : l'ordre des compléments",
+      "title_nl": "Een afspraak maken",
+      "goals_fr": [
+        "Fixer un rendez-vous par téléphone",
+        "Placer les compléments dans le bon ordre : temps, manière, lieu"
+      ],
+      "minutes": 15,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Karim téléphone au cabinet médical pour un rendez-vous.",
+          "lines": [
+            {
+              "speaker": "De assistente",
+              "nl": "Praktijk De Linde, goedemorgen.",
+              "fr": "Cabinet De Linde, bonjour."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Goedemorgen. Ik wil graag een afspraak maken.",
+              "fr": "Bonjour. Je voudrais prendre rendez-vous."
+            },
+            {
+              "speaker": "De assistente",
+              "nl": "Kan het donderdag om tien uur?",
+              "fr": "Jeudi à dix heures, ça irait ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Donderdag kan ik niet. Ik werk dan.",
+              "fr": "Jeudi, je ne peux pas. Je travaille à ce moment-là.",
+              "note_fr": "dan = à ce moment-là."
+            },
+            {
+              "speaker": "De assistente",
+              "nl": "En vrijdag om half vier?",
+              "fr": "Et vendredi à quinze heures trente ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Ja, dat is goed. Ik kom vrijdag met de fiets naar de praktijk.",
+              "fr": "Oui, c'est bon. Je viendrai vendredi à vélo au cabinet."
+            },
+            {
+              "speaker": "De assistente",
+              "nl": "Prima, tot vrijdag!",
+              "fr": "Parfait, à vendredi !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Quand est fixé le rendez-vous ?",
+              "choices": [
+                "Vendredi à 15 h 30",
+                "Jeudi à 10 h",
+                "Vendredi à 16 h"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "vrijdag om half vier = vendredi à 15 h 30."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Comment Karim vient-il ?",
+              "choices": [
+                "À vélo",
+                "En bus",
+                "À pied"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "met de fiets = à vélo."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces phrases de prise de rendez-vous.",
+          "chunks": [
+            {
+              "nl": "Ik wil graag een afspraak maken.",
+              "fr": "Je voudrais prendre rendez-vous."
+            },
+            {
+              "nl": "Kan het donderdag om tien uur?",
+              "fr": "Jeudi à dix heures, est-ce possible ?"
+            },
+            {
+              "nl": "Donderdag kan ik niet.",
+              "fr": "Jeudi, je ne peux pas."
+            },
+            {
+              "nl": "Ik kom met de fiets.",
+              "fr": "Je viens à vélo."
+            },
+            {
+              "nl": "Tot vrijdag!",
+              "fr": "À vendredi !"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-de-afspraak",
+              "nl": "de afspraak",
+              "fr": "le rendez-vous",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de afspraken",
+              "examples": [
+                {
+                  "nl": "Ik heb een afspraak om drie uur.",
+                  "fr": "J'ai un rendez-vous à trois heures."
+                }
+              ],
+              "tags": [
+                "tijd",
+                "werk"
+              ]
+            },
+            {
+              "id": "voc-maken",
+              "nl": "maken",
+              "fr": "faire, fabriquer",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "een afspraak maken",
+                  "fr": "prendre rendez-vous"
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-de-fiets",
+              "nl": "de fiets",
+              "fr": "le vélo",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de fietsen",
+              "examples": [
+                {
+                  "nl": "Ik kom met de fiets.",
+                  "fr": "Je viens à vélo."
+                }
+              ],
+              "tags": [
+                "vervoer"
+              ]
+            },
+            {
+              "id": "voc-de-bus",
+              "nl": "de bus",
+              "fr": "le bus",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de bussen",
+              "examples": [
+                {
+                  "nl": "Ik neem de bus.",
+                  "fr": "Je prends le bus."
+                }
+              ],
+              "tags": [
+                "vervoer"
+              ]
+            },
+            {
+              "id": "voc-de-trein",
+              "nl": "de trein",
+              "fr": "le train",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de treinen",
+              "examples": [
+                {
+                  "nl": "De trein is te laat.",
+                  "fr": "Le train est en retard."
+                }
+              ],
+              "tags": [
+                "vervoer"
+              ]
+            },
+            {
+              "id": "voc-de-auto",
+              "nl": "de auto",
+              "fr": "la voiture",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de auto's",
+              "examples": [
+                {
+                  "nl": "met de auto",
+                  "fr": "en voiture"
+                }
+              ],
+              "tags": [
+                "vervoer"
+              ]
+            },
+            {
+              "id": "voc-dan",
+              "nl": "dan",
+              "fr": "alors, à ce moment-là",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik werk dan.",
+                  "fr": "Je travaille à ce moment-là."
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "voc-naar",
+              "nl": "naar",
+              "fr": "vers, à (direction)",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "Ik ga naar de dokter.",
+                  "fr": "Je vais chez le médecin."
+                }
+              ],
+              "tags": [
+                "voorzetsel",
+                "richting"
+              ]
+            },
+            {
+              "id": "voc-volgende-week",
+              "nl": "volgende week",
+              "fr": "la semaine prochaine",
+              "pos": "expression",
+              "examples": [
+                {
+                  "nl": "Tot volgende week!",
+                  "fr": "À la semaine prochaine !"
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe l'ordre des compléments en fin de phrase.",
+          "examples": [
+            {
+              "nl": "Ik kom vrijdag met de fiets naar de praktijk.",
+              "fr": "Je viens vendredi à vélo au cabinet.",
+              "highlight": [
+                "vrijdag",
+                "met de fiets",
+                "naar de praktijk"
+              ]
+            },
+            {
+              "nl": "Wij gaan morgen met de trein naar Gent.",
+              "fr": "Nous allons demain en train à Gand.",
+              "highlight": [
+                "morgen",
+                "met de trein",
+                "naar Gent"
+              ]
+            },
+            {
+              "nl": "Zij werkt elke dag thuis.",
+              "fr": "Elle travaille chaque jour à la maison.",
+              "highlight": [
+                "elke dag",
+                "thuis"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Dans quel ordre apparaissent les compléments ?",
+            "choices": [
+              "Temps, puis manière, puis lieu",
+              "Lieu, puis temps, puis manière",
+              "L'ordre est libre"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "vrijdag (quand) – met de fiets (comment) – naar de praktijk (où). C'est l'inverse de l'ordre français habituel."
+          },
+          "reveal_fr": "Le néerlandais place les compléments dans l'ordre temps – manière – lieu. Le français dit plutôt « je viens au cabinet à vélo vendredi » : l'ordre est presque inversé."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "woordorde-tijd-wijze-plaats",
+          "title_fr": "Temps, manière, lieu",
+          "body_fr": "Dans la phrase néerlandaise, les compléments se suivent dans cet ordre : d'abord le temps (wanneer), puis la manière ou le moyen (hoe), puis le lieu (waar) : Ik ga morgen met de bus naar het station. Le verbe conjugué reste en deuxième position. Si on met le temps en tête pour le mettre en valeur, le sujet passe après le verbe : Morgen ga ik met de bus naar het station.",
+          "examples": [
+            {
+              "nl": "Ik ga morgen met de bus naar het station.",
+              "fr": "Je vais demain en bus à la gare."
+            },
+            {
+              "nl": "Morgen ga ik met de bus naar het station.",
+              "fr": "Demain, je vais en bus à la gare."
+            },
+            {
+              "nl": "Wij eten vanavond thuis.",
+              "fr": "Nous mangeons ce soir à la maison."
+            },
+            {
+              "nl": "Hij komt vrijdag met de fiets.",
+              "fr": "Il vient vendredi à vélo."
+            }
+          ],
+          "exceptions_fr": [
+            "L'ordre temps – manière – lieu est la tendance générale, pas une loi absolue : on peut déplacer un complément pour le mettre en relief.",
+            "Un seul élément peut occuper la première place : « Morgen met de bus ga ik… » est incorrect."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "wordOrder",
+              "target": "Ik ga morgen met de bus naar het station.",
+              "fr": "Je vais demain en bus à la gare.",
+              "errorTags": [
+                "woordorde"
+              ],
+              "ruleId": "woordorde-tijd-wijze-plaats",
+              "hint_fr": "Temps, puis manière, puis lieu."
+            },
+            {
+              "id": "e2",
+              "type": "wordOrder",
+              "target": "Morgen ga ik met de fiets naar het werk.",
+              "fr": "Demain, je vais à vélo au travail.",
+              "errorTags": [
+                "woordorde"
+              ],
+              "ruleId": "woordorde-tijd-wijze-plaats",
+              "hint_fr": "La phrase commence par le temps : le sujet passe après le verbe."
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "Kan het donderdag om tien uur?",
+              "question_fr": "Que propose-t-on ?",
+              "choices": [
+                "Jeudi à 10 h",
+                "Jeudi à 2 h",
+                "Mardi à 10 h"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "tijd"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "cloze",
+              "sentence": "Ik wil graag een afspraak ___.",
+              "fr": "Je voudrais prendre rendez-vous.",
+              "answers": [
+                "maken"
+              ],
+              "ruleId": "modale-werkwoorden",
+              "errorTags": [
+                "modaal",
+                "woordorde"
+              ],
+              "explain_fr": "Avec willen, l'infinitif se place à la fin."
+            },
+            {
+              "id": "e5",
+              "type": "errorCorrection",
+              "wrong": "Ik ga naar het station morgen met de bus.",
+              "correct": [
+                "Ik ga morgen met de bus naar het station."
+              ],
+              "fr": "Je vais demain en bus à la gare.",
+              "ruleId": "woordorde-tijd-wijze-plaats",
+              "errorTags": [
+                "woordorde"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "dictation",
+              "audioNl": "Ik kom met de fiets.",
+              "fr": "Je viens à vélo.",
+              "errorTags": [
+                "spelling",
+                "vervoer"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "roleplay",
+              "situation_fr": "Tu téléphones pour prendre rendez-vous chez le médecin.",
+              "userRole_fr": "le patient",
+              "turns": [
+                {
+                  "speaker": "app",
+                  "nl": "Praktijk De Linde, goedemorgen.",
+                  "fr": "Cabinet De Linde, bonjour.",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Goedemorgen. Ik wil graag een afspraak maken.",
+                  "fr": "Salue et dis que tu voudrais prendre rendez-vous.",
+                  "expected": [
+                    "Goedemorgen. Ik wil graag een afspraak maken.",
+                    "Ik wil graag een afspraak maken."
+                  ]
+                },
+                {
+                  "speaker": "app",
+                  "nl": "Kan het donderdag om tien uur?",
+                  "fr": "Jeudi à dix heures, est-ce possible ?",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Donderdag kan ik niet.",
+                  "fr": "Dis que jeudi tu ne peux pas.",
+                  "expected": [
+                    "Donderdag kan ik niet.",
+                    "Ik kan donderdag niet."
+                  ]
+                }
+              ],
+              "errorTags": [
+                "tijd",
+                "woordorde"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis comment et quand tu vas au travail (ou au cours).",
+              "expected": [
+                "Ik ga morgen met de fiets naar het werk."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Ordre : temps, manière, lieu."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande par téléphone à prendre rendez-vous.",
+              "expected": [
+                "Ik wil graag een afspraak maken."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu prends rendez-vous et tu ranges tes compléments dans l'ordre néerlandais : temps, manière, lieu. Fin du niveau A1 !",
+          "addVocabIds": [
+            "voc-de-afspraak",
+            "voc-maken",
+            "voc-de-fiets",
+            "voc-de-bus",
+            "voc-de-trein",
+            "voc-de-auto",
+            "voc-dan",
+            "voc-naar",
+            "voc-volgende-week"
+          ],
+          "addStructures": [
+            {
+              "id": "str-afspraak-maken",
+              "nl": "Ik wil graag een afspraak maken.",
+              "fr": "Je voudrais prendre rendez-vous.",
+              "ruleId": "modale-werkwoorden"
+            },
+            {
+              "id": "str-tijd-wijze-plaats",
+              "nl": "Ik ga morgen met de bus naar het station.",
+              "fr": "Je vais demain en bus à la gare.",
+              "ruleId": "woordorde-tijd-wijze-plaats"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

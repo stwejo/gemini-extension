@@ -1,0 +1,1536 @@
+{
+  "id": "a1-u2",
+  "level": "A1",
+  "order": 2,
+  "theme": "Courses et magasins",
+  "title_fr": "Faire ses courses",
+  "description_fr": "Acheter, demander un prix, payer, et dire non avec niet ou geen.",
+  "lessons": [
+    {
+      "id": "a1-u2-l1",
+      "order": 1,
+      "title_fr": "Au supermarché : willen et kunnen",
+      "title_nl": "In de supermarkt",
+      "goals_fr": [
+        "Dire ce qu'on veut et ce qu'on peut",
+        "Placer l'infinitif à la fin de la phrase"
+      ],
+      "minutes": 15,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Au rayon fromage d'un supermarché, un client demande de l'aide.",
+          "lines": [
+            {
+              "speaker": "De klant",
+              "nl": "Pardon, kunt u mij helpen?",
+              "fr": "Pardon, pouvez-vous m'aider ?"
+            },
+            {
+              "speaker": "De medewerker",
+              "nl": "Natuurlijk. Wat wilt u?",
+              "fr": "Bien sûr. Que voulez-vous ?"
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Ik wil graag een stuk kaas kopen.",
+              "fr": "Je voudrais acheter un morceau de fromage.",
+              "note_fr": "« willen + graag » adoucit la demande : c'est le « je voudrais » français."
+            },
+            {
+              "speaker": "De medewerker",
+              "nl": "Hoeveel wilt u?",
+              "fr": "Vous en voulez combien ?"
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Driehonderd gram, alstublieft. Kan ik ook brood kopen?",
+              "fr": "Trois cents grammes, s'il vous plaît. Je peux aussi acheter du pain ?"
+            },
+            {
+              "speaker": "De medewerker",
+              "nl": "Ja, brood vindt u daar.",
+              "fr": "Oui, le pain se trouve là-bas."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Que veut acheter le client ?",
+              "choices": [
+                "Du fromage",
+                "Du lait",
+                "Des pommes"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "een stuk kaas = un morceau de fromage."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Quelle quantité demande-t-il ?",
+              "choices": [
+                "300 grammes",
+                "200 grammes",
+                "Un kilo"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "driehonderd gram = 300 grammes."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces formules : elles servent dans tous les magasins.",
+          "chunks": [
+            {
+              "nl": "Kunt u mij helpen?",
+              "fr": "Pouvez-vous m'aider ?"
+            },
+            {
+              "nl": "Ik wil graag een brood kopen.",
+              "fr": "Je voudrais acheter un pain."
+            },
+            {
+              "nl": "Kan ik hier betalen?",
+              "fr": "Je peux payer ici ?"
+            },
+            {
+              "nl": "Wat wilt u?",
+              "fr": "Que voulez-vous ?"
+            },
+            {
+              "nl": "Driehonderd gram, alstublieft.",
+              "fr": "Trois cents grammes, s'il vous plaît."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-willen",
+              "nl": "willen",
+              "fr": "vouloir",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik wil graag koffie.",
+                  "fr": "Je voudrais un café."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "modaal"
+              ]
+            },
+            {
+              "id": "voc-kunnen",
+              "nl": "kunnen",
+              "fr": "pouvoir, savoir faire",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik kan Nederlands spreken.",
+                  "fr": "Je sais parler néerlandais."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "modaal"
+              ]
+            },
+            {
+              "id": "voc-kopen",
+              "nl": "kopen",
+              "fr": "acheter",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik koop brood.",
+                  "fr": "J'achète du pain."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-helpen",
+              "nl": "helpen",
+              "fr": "aider",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Kunt u mij helpen?",
+                  "fr": "Pouvez-vous m'aider ?"
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-de-kaas",
+              "nl": "de kaas",
+              "fr": "le fromage",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de kazen",
+              "examples": [
+                {
+                  "nl": "Hollandse kaas is bekend.",
+                  "fr": "Le fromage hollandais est connu."
+                }
+              ],
+              "tags": [
+                "eten"
+              ]
+            },
+            {
+              "id": "voc-de-winkel",
+              "nl": "de winkel",
+              "fr": "le magasin",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de winkels",
+              "examples": [
+                {
+                  "nl": "De winkel is open.",
+                  "fr": "Le magasin est ouvert."
+                }
+              ],
+              "tags": [
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-graag",
+              "nl": "graag",
+              "fr": "volontiers (sert à dire « je voudrais »)",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik wil graag thee.",
+                  "fr": "Je voudrais du thé."
+                }
+              ],
+              "tags": [
+                "hoffelijkheid"
+              ]
+            },
+            {
+              "id": "voc-natuurlijk",
+              "nl": "natuurlijk",
+              "fr": "bien sûr",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Natuurlijk!",
+                  "fr": "Bien sûr !"
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-het-stuk",
+              "nl": "het stuk",
+              "fr": "le morceau",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de stukken",
+              "examples": [
+                {
+                  "nl": "een stuk kaas",
+                  "fr": "un morceau de fromage"
+                }
+              ],
+              "tags": [
+                "eten"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe la place des deux verbes dans ces phrases.",
+          "examples": [
+            {
+              "nl": "Ik wil een brood kopen.",
+              "fr": "Je veux acheter un pain.",
+              "highlight": [
+                "wil",
+                "kopen"
+              ]
+            },
+            {
+              "nl": "Kunt u mij helpen?",
+              "fr": "Pouvez-vous m'aider ?",
+              "highlight": [
+                "Kunt",
+                "helpen"
+              ]
+            },
+            {
+              "nl": "Ik kan hier betalen.",
+              "fr": "Je peux payer ici.",
+              "highlight": [
+                "kan",
+                "betalen"
+              ]
+            },
+            {
+              "nl": "Zij wil Nederlands leren.",
+              "fr": "Elle veut apprendre le néerlandais.",
+              "highlight": [
+                "wil",
+                "leren"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Où se place le deuxième verbe (celui qui n'est pas conjugué) ?",
+            "choices": [
+              "À la fin de la phrase",
+              "Juste après le premier verbe",
+              "Au début"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Le verbe conjugué reste en deuxième position ; l'infinitif part à la fin."
+          },
+          "reveal_fr": "Avec un verbe modal (willen, kunnen, moeten, mogen), la phrase a deux verbes : le modal conjugué en deuxième position, et l'infinitif rejeté à la fin."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "modale-werkwoorden",
+          "title_fr": "willen et kunnen + infinitif à la fin",
+          "body_fr": "willen (vouloir) : ik wil, jij wilt (wil je ?), hij wil, wij willen. kunnen (pouvoir) : ik kan, jij kunt ou jij kan, hij kan, wij kunnen. Le verbe modal se conjugue et reste en deuxième position ; l'autre verbe reste à l'infinitif et se place à la fin de la phrase : Ik wil een brood kopen. Pour demander poliment, on ajoute graag : Ik wil graag een brood.",
+          "examples": [
+            {
+              "nl": "Ik wil graag een brood kopen.",
+              "fr": "Je voudrais acheter un pain."
+            },
+            {
+              "nl": "Kunt u mij helpen?",
+              "fr": "Pouvez-vous m'aider ?"
+            },
+            {
+              "nl": "Kun je Nederlands spreken?",
+              "fr": "Sais-tu parler néerlandais ?"
+            },
+            {
+              "nl": "Wij willen hier eten.",
+              "fr": "Nous voulons manger ici."
+            }
+          ],
+          "exceptions_fr": [
+            "À la 2e personne, « jij kunt » et « jij kan » sont tous deux employés ; « kunt u » est la forme de politesse habituelle.",
+            "Avec je ou jij après le verbe, le -t tombe : wil je, kun je.",
+            "kunnen traduit aussi bien « pouvoir » que « savoir faire » : Ik kan zwemmen = je sais nager."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "wordOrder",
+              "target": "Ik wil een brood kopen.",
+              "fr": "Je veux acheter un pain.",
+              "errorTags": [
+                "woordorde",
+                "modaal"
+              ],
+              "ruleId": "modale-werkwoorden",
+              "hint_fr": "L'infinitif part à la fin."
+            },
+            {
+              "id": "e2",
+              "type": "wordOrder",
+              "target": "Kunt u mij helpen?",
+              "fr": "Pouvez-vous m'aider ?",
+              "errorTags": [
+                "woordorde",
+                "modaal"
+              ],
+              "ruleId": "modale-werkwoorden"
+            },
+            {
+              "id": "e3",
+              "type": "cloze",
+              "sentence": "Ik ___ graag een kilo kaas.",
+              "fr": "Je voudrais un kilo de fromage.",
+              "answers": [
+                "wil"
+              ],
+              "choices": [
+                "wil",
+                "wilt",
+                "willen"
+              ],
+              "ruleId": "modale-werkwoorden",
+              "errorTags": [
+                "modaal"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "mcqAudio",
+              "audioNl": "Kan ik hier betalen?",
+              "question_fr": "Que demande cette personne ?",
+              "choices": [
+                "Si elle peut payer ici",
+                "Où est la sortie",
+                "Si le magasin est ouvert"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "winkel"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "Je voudrais acheter du fromage.",
+              "expected": [
+                "Ik wil graag kaas kopen.",
+                "Ik wil kaas kopen."
+              ],
+              "ruleId": "modale-werkwoorden",
+              "errorTags": [
+                "vertaling",
+                "modaal"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "errorCorrection",
+              "wrong": "Ik wil kopen een brood.",
+              "correct": [
+                "Ik wil een brood kopen."
+              ],
+              "fr": "Je veux acheter un pain.",
+              "ruleId": "modale-werkwoorden",
+              "errorTags": [
+                "woordorde",
+                "modaal"
+              ],
+              "explain_fr": "L'infinitif se place à la fin, pas juste après le verbe conjugué."
+            },
+            {
+              "id": "e7",
+              "type": "roleplay",
+              "situation_fr": "Tu es dans un magasin et tu veux acheter du fromage.",
+              "userRole_fr": "le client",
+              "turns": [
+                {
+                  "speaker": "app",
+                  "nl": "Goedemiddag! Kan ik u helpen?",
+                  "fr": "Bonjour ! Puis-je vous aider ?",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Ik wil graag kaas kopen.",
+                  "fr": "Dis que tu voudrais acheter du fromage.",
+                  "expected": [
+                    "Ik wil graag kaas kopen.",
+                    "Ik wil kaas kopen."
+                  ]
+                },
+                {
+                  "speaker": "app",
+                  "nl": "Hoeveel wilt u?",
+                  "fr": "Vous en voulez combien ?",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Driehonderd gram, alstublieft.",
+                  "fr": "Demande 300 grammes poliment.",
+                  "expected": [
+                    "Driehonderd gram, alstublieft.",
+                    "300 gram, alstublieft."
+                  ]
+                }
+              ],
+              "errorTags": [
+                "winkel",
+                "modaal"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Demande poliment de l'aide dans un magasin (vouvoiement).",
+              "expected": [
+                "Kunt u mij helpen?"
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Dis ce que tu voudrais acheter aujourd'hui.",
+              "expected": [
+                "Ik wil graag brood kopen."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Ik wil graag + objet + kopen."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu demandes de l'aide, tu dis ce que tu veux, et tu places l'infinitif à la fin — une structure que tu retrouveras partout.",
+          "addVocabIds": [
+            "voc-willen",
+            "voc-kunnen",
+            "voc-kopen",
+            "voc-helpen",
+            "voc-de-kaas",
+            "voc-de-winkel",
+            "voc-graag",
+            "voc-natuurlijk",
+            "voc-het-stuk"
+          ],
+          "addStructures": [
+            {
+              "id": "str-kunt-u-helpen",
+              "nl": "Kunt u mij helpen?",
+              "fr": "Pouvez-vous m'aider ?",
+              "ruleId": "modale-werkwoorden"
+            },
+            {
+              "id": "str-ik-wil-graag",
+              "nl": "Ik wil graag ... kopen.",
+              "fr": "Je voudrais acheter ...",
+              "ruleId": "modale-werkwoorden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u2-l2",
+      "order": 2,
+      "title_fr": "Combien ça coûte ? Payer et demander poliment",
+      "title_nl": "Hoeveel kost het?",
+      "goals_fr": [
+        "Demander un prix et comprendre la réponse",
+        "Demander poliment avec mogen",
+        "Dire les prix en euros et centimes"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "À la caisse d'une boulangerie.",
+          "lines": [
+            {
+              "speaker": "De klant",
+              "nl": "Mag ik twee broodjes, alstublieft?",
+              "fr": "Je peux avoir deux petits pains, s'il vous plaît ?"
+            },
+            {
+              "speaker": "De verkoopster",
+              "nl": "Zeker. Anders nog iets?",
+              "fr": "Certainement. Avec ceci ?"
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Nee, dat is alles. Hoeveel kost het?",
+              "fr": "Non, c'est tout. Combien ça coûte ?"
+            },
+            {
+              "speaker": "De verkoopster",
+              "nl": "Dat is drie euro vijftig.",
+              "fr": "Ça fait trois euros cinquante.",
+              "note_fr": "On dit le montant sans le mot « cent » : drie euro vijftig."
+            },
+            {
+              "speaker": "De klant",
+              "nl": "Kan ik met de kaart betalen?",
+              "fr": "Je peux payer par carte ?"
+            },
+            {
+              "speaker": "De verkoopster",
+              "nl": "Ja hoor. Alstublieft, de bon.",
+              "fr": "Oui bien sûr. Voilà, le ticket."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Combien coûte la commande ?",
+              "choices": [
+                "3,50 €",
+                "13,50 €",
+                "3,15 €"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "drie euro vijftig = 3 euros 50."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Comment le client paie-t-il ?",
+              "choices": [
+                "Par carte",
+                "En espèces",
+                "Il ne paie pas"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "met de kaart betalen = payer par carte."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces phrases de caisse.",
+          "chunks": [
+            {
+              "nl": "Mag ik twee broodjes?",
+              "fr": "Je peux avoir deux petits pains ?"
+            },
+            {
+              "nl": "Hoeveel kost het?",
+              "fr": "Combien ça coûte ?"
+            },
+            {
+              "nl": "Dat is drie euro vijftig.",
+              "fr": "Ça fait trois euros cinquante."
+            },
+            {
+              "nl": "Kan ik met de kaart betalen?",
+              "fr": "Je peux payer par carte ?"
+            },
+            {
+              "nl": "Nee, dat is alles.",
+              "fr": "Non, c'est tout."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-mogen",
+              "nl": "mogen",
+              "fr": "avoir le droit, pouvoir (permission)",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Mag ik een koffie?",
+                  "fr": "Je peux avoir un café ?"
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "modaal"
+              ]
+            },
+            {
+              "id": "voc-kosten",
+              "nl": "kosten",
+              "fr": "coûter",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Wat kost dat?",
+                  "fr": "Combien ça coûte ?"
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-betalen",
+              "nl": "betalen",
+              "fr": "payer",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik wil graag betalen.",
+                  "fr": "Je voudrais payer."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-het-broodje",
+              "nl": "het broodje",
+              "fr": "le petit pain, le sandwich",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de broodjes",
+              "examples": [
+                {
+                  "nl": "een broodje kaas",
+                  "fr": "un sandwich au fromage"
+                }
+              ],
+              "tags": [
+                "eten"
+              ]
+            },
+            {
+              "id": "voc-de-kaart",
+              "nl": "de kaart",
+              "fr": "la carte (bancaire)",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de kaarten",
+              "examples": [
+                {
+                  "nl": "met de kaart betalen",
+                  "fr": "payer par carte"
+                }
+              ],
+              "tags": [
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-het-geld",
+              "nl": "het geld",
+              "fr": "l'argent",
+              "pos": "nom",
+              "article": "het",
+              "examples": [
+                {
+                  "nl": "Ik heb geen geld bij me.",
+                  "fr": "Je n'ai pas d'argent sur moi."
+                }
+              ],
+              "tags": [
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-de-euro",
+              "nl": "de euro",
+              "fr": "l'euro",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de euro's",
+              "examples": [
+                {
+                  "nl": "Dat is twee euro.",
+                  "fr": "Ça fait deux euros."
+                }
+              ],
+              "tags": [
+                "winkel",
+                "cijfers"
+              ]
+            },
+            {
+              "id": "voc-duur",
+              "nl": "duur",
+              "fr": "cher",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Dat is te duur.",
+                  "fr": "C'est trop cher."
+                }
+              ],
+              "tags": [
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-goedkoop",
+              "nl": "goedkoop",
+              "fr": "bon marché",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Hier is het goedkoop.",
+                  "fr": "Ici, c'est bon marché."
+                }
+              ],
+              "tags": [
+                "winkel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare ces trois demandes, de la plus directe à la plus polie.",
+          "examples": [
+            {
+              "nl": "Ik wil twee broodjes.",
+              "fr": "Je veux deux petits pains.",
+              "highlight": [
+                "wil"
+              ]
+            },
+            {
+              "nl": "Ik wil graag twee broodjes.",
+              "fr": "Je voudrais deux petits pains.",
+              "highlight": [
+                "graag"
+              ]
+            },
+            {
+              "nl": "Mag ik twee broodjes, alstublieft?",
+              "fr": "Je peux avoir deux petits pains, s'il vous plaît ?",
+              "highlight": [
+                "Mag ik"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Quelle formule est la plus polie dans un magasin ?",
+            "choices": [
+              "Mag ik ... , alstublieft?",
+              "Ik wil ...",
+              "Geef mij ..."
+            ],
+            "answerIndex": 0,
+            "explain_fr": "« Mag ik … ? » demande la permission : c'est la formule la plus courante à la caisse."
+          },
+          "reveal_fr": "« Ik wil » tout seul sonne brusque. Ajoute graag, ou commence par « Mag ik … ? »."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "beleefd-vragen",
+          "title_fr": "Demander poliment : mogen et les prix",
+          "body_fr": "mogen (avoir le droit) : ik mag, jij mag, hij mag, wij mogen. « Mag ik …? » est la façon normale de demander quelque chose dans un commerce. Pour le prix : Hoeveel kost het? ou Wat kost dat? La réponse donne d'abord les euros, puis les centimes, sans le mot cent : drie euro vijftig (3,50 €). Après un chiffre, euro reste au singulier.",
+          "examples": [
+            {
+              "nl": "Mag ik een koffie, alstublieft?",
+              "fr": "Je peux avoir un café, s'il vous plaît ?"
+            },
+            {
+              "nl": "Hoeveel kost het?",
+              "fr": "Combien ça coûte ?"
+            },
+            {
+              "nl": "Dat is vier euro vijfentwintig.",
+              "fr": "Ça fait 4,25 €."
+            },
+            {
+              "nl": "Kan ik met de kaart betalen?",
+              "fr": "Je peux payer par carte ?"
+            }
+          ],
+          "exceptions_fr": [
+            "On écrit le prix avec une virgule : € 3,50, mais on le lit « drie euro vijftig ».",
+            "« Alstublieft » sert aussi bien à demander qu'à tendre un objet ou de l'argent."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Dat is drie euro vijftig.",
+              "question_fr": "Quel est le prix ?",
+              "choices": [
+                "3,50 €",
+                "3,15 €",
+                "13,50 €"
+              ],
+              "answerIndex": 0,
+              "ruleId": "beleefd-vragen",
+              "errorTags": [
+                "cijfers",
+                "winkel"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "___ ik een broodje, alstublieft?",
+              "fr": "Je peux avoir un petit pain, s'il vous plaît ?",
+              "answers": [
+                "Mag",
+                "mag"
+              ],
+              "choices": [
+                "Mag",
+                "Wil",
+                "Kost"
+              ],
+              "ruleId": "beleefd-vragen",
+              "errorTags": [
+                "hoffelijkheid",
+                "modaal"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Hoeveel kost het?",
+              "fr": "Combien ça coûte ?",
+              "errorTags": [
+                "spelling",
+                "winkel"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "translate",
+              "direction": "nl-fr",
+              "prompt": "Kan ik met de kaart betalen?",
+              "expected": [
+                "Je peux payer par carte ?",
+                "Puis-je payer par carte ?",
+                "Est-ce que je peux payer par carte ?"
+              ],
+              "errorTags": [
+                "vertaling"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Mag ik twee broodjes, alstublieft?",
+              "fr": "Je peux avoir deux petits pains, s'il vous plaît ?",
+              "errorTags": [
+                "woordorde",
+                "hoffelijkheid"
+              ],
+              "ruleId": "beleefd-vragen"
+            },
+            {
+              "id": "e6",
+              "type": "speakRepeat",
+              "nl": "Hoeveel kost het?",
+              "fr": "Combien ça coûte ?",
+              "errorTags": [
+                "uitspraak"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "roleplay",
+              "situation_fr": "Tu commandes à la boulangerie et tu paies.",
+              "userRole_fr": "le client",
+              "turns": [
+                {
+                  "speaker": "app",
+                  "nl": "Goedemorgen! Zegt u het maar.",
+                  "fr": "Bonjour ! Je vous écoute.",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Mag ik twee broodjes, alstublieft?",
+                  "fr": "Demande poliment deux petits pains.",
+                  "expected": [
+                    "Mag ik twee broodjes, alstublieft?",
+                    "Ik wil graag twee broodjes."
+                  ]
+                },
+                {
+                  "speaker": "app",
+                  "nl": "Anders nog iets?",
+                  "fr": "Avec ceci ?",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Nee, dat is alles. Hoeveel kost het?",
+                  "fr": "Dis que c'est tout et demande le prix.",
+                  "expected": [
+                    "Nee, dat is alles. Hoeveel kost het?",
+                    "Nee, dank u. Hoeveel kost het?"
+                  ]
+                }
+              ],
+              "errorTags": [
+                "winkel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Demande poliment un café.",
+              "expected": [
+                "Mag ik een koffie, alstublieft?",
+                "Ik wil graag een koffie."
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande si tu peux payer par carte.",
+              "expected": [
+                "Kan ik met de kaart betalen?",
+                "Mag ik met de kaart betalen?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu commandes, tu demandes le prix et tu paies. Les trois phrases de ce dialogue suffisent dans la plupart des commerces.",
+          "addVocabIds": [
+            "voc-mogen",
+            "voc-kosten",
+            "voc-betalen",
+            "voc-het-broodje",
+            "voc-de-kaart",
+            "voc-het-geld",
+            "voc-de-euro",
+            "voc-duur",
+            "voc-goedkoop"
+          ],
+          "addStructures": [
+            {
+              "id": "str-mag-ik",
+              "nl": "Mag ik ..., alstublieft?",
+              "fr": "Je peux avoir ..., s'il vous plaît ?",
+              "ruleId": "beleefd-vragen"
+            },
+            {
+              "id": "str-hoeveel-kost",
+              "nl": "Hoeveel kost het?",
+              "fr": "Combien ça coûte ?",
+              "ruleId": "beleefd-vragen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u2-l3",
+      "order": 3,
+      "title_fr": "Dire non : niet ou geen",
+      "title_nl": "Niet of geen?",
+      "goals_fr": [
+        "Choisir entre niet et geen",
+        "Placer la négation au bon endroit",
+        "Refuser poliment"
+      ],
+      "minutes": 15,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Deux collègues décident où déjeuner.",
+          "lines": [
+            {
+              "speaker": "Bram",
+              "nl": "Wil je mee naar de Italiaan?",
+              "fr": "Tu viens avec moi chez l'Italien ?"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Nee, ik heb geen tijd vandaag.",
+              "fr": "Non, je n'ai pas le temps aujourd'hui."
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Jammer. Eet je niet?",
+              "fr": "Dommage. Tu ne manges pas ?"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Jawel, maar ik eet hier. Ik heb een broodje bij me.",
+              "fr": "Si, mais je mange ici. J'ai un sandwich avec moi.",
+              "note_fr": "jawel = si (pour contredire une question négative)."
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Is het broodje niet koud?",
+              "fr": "Le sandwich n'est pas froid ?"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Nee hoor, het is niet koud. Tot straks!",
+              "fr": "Mais non, il n'est pas froid. À tout à l'heure !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Pourquoi Anna refuse-t-elle ?",
+              "choices": [
+                "Elle n'a pas le temps",
+                "Elle n'aime pas l'italien",
+                "Elle n'a pas faim"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« Ik heb geen tijd » = je n'ai pas le temps."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que signifie « jawel » ?",
+              "choices": [
+                "Si (je mange)",
+                "Non",
+                "Peut-être"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "jawel contredit une question posée à la forme négative, comme « si » en français."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète les deux formes de négation.",
+          "chunks": [
+            {
+              "nl": "Ik heb geen tijd.",
+              "fr": "Je n'ai pas le temps."
+            },
+            {
+              "nl": "Ik heb geen geld.",
+              "fr": "Je n'ai pas d'argent."
+            },
+            {
+              "nl": "Het is niet koud.",
+              "fr": "Ce n'est pas froid."
+            },
+            {
+              "nl": "Ik werk vandaag niet.",
+              "fr": "Je ne travaille pas aujourd'hui."
+            },
+            {
+              "nl": "Ik ken hem niet.",
+              "fr": "Je ne le connais pas."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-niet",
+              "nl": "niet",
+              "fr": "ne … pas",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik werk niet.",
+                  "fr": "Je ne travaille pas."
+                }
+              ],
+              "tags": [
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "voc-geen",
+              "nl": "geen",
+              "fr": "pas de, aucun",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Ik heb geen tijd.",
+                  "fr": "Je n'ai pas le temps."
+                }
+              ],
+              "tags": [
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "voc-jawel",
+              "nl": "jawel",
+              "fr": "si (pour contredire)",
+              "pos": "interjection",
+              "examples": [
+                {
+                  "nl": "Jawel, ik kom.",
+                  "fr": "Si, je viens."
+                }
+              ],
+              "tags": [
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "voc-eten",
+              "nl": "eten",
+              "fr": "manger",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Wij eten om zes uur.",
+                  "fr": "Nous mangeons à six heures."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "eten"
+              ]
+            },
+            {
+              "id": "voc-drinken",
+              "nl": "drinken",
+              "fr": "boire",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik drink water.",
+                  "fr": "Je bois de l'eau."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "eten"
+              ]
+            },
+            {
+              "id": "voc-jammer",
+              "nl": "jammer",
+              "fr": "dommage",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Jammer!",
+                  "fr": "Dommage !"
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-koud",
+              "nl": "koud",
+              "fr": "froid",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Het is koud buiten.",
+                  "fr": "Il fait froid dehors."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-warm",
+              "nl": "warm",
+              "fr": "chaud",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Warme soep.",
+                  "fr": "De la soupe chaude."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-mee",
+              "nl": "mee",
+              "fr": "avec (quelqu'un)",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ga je mee?",
+                  "fr": "Tu viens avec ?"
+                }
+              ],
+              "variant": {
+                "note_fr": "« Ga je mee? » est une invitation très courante : littéralement « tu vas avec ? »."
+              },
+              "tags": []
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe ce qui suit la négation dans chaque phrase.",
+          "examples": [
+            {
+              "nl": "Ik heb geen tijd.",
+              "fr": "Je n'ai pas le temps.",
+              "highlight": [
+                "geen",
+                "tijd"
+              ]
+            },
+            {
+              "nl": "Ik heb geen auto.",
+              "fr": "Je n'ai pas de voiture.",
+              "highlight": [
+                "geen",
+                "auto"
+              ]
+            },
+            {
+              "nl": "Het is niet koud.",
+              "fr": "Ce n'est pas froid.",
+              "highlight": [
+                "niet",
+                "koud"
+              ]
+            },
+            {
+              "nl": "Ik werk vandaag niet.",
+              "fr": "Je ne travaille pas aujourd'hui.",
+              "highlight": [
+                "niet"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Quand emploie-t-on « geen » plutôt que « niet » ?",
+            "choices": [
+              "Devant un nom sans article défini",
+              "Devant un adjectif",
+              "À la fin de la phrase"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "geen remplace een ou l'absence d'article : een auto → geen auto."
+          },
+          "reveal_fr": "geen s'emploie devant un nom indéterminé : een auto → geen auto, tijd → geen tijd. niet s'emploie partout ailleurs : avec un verbe, un adjectif, ou un nom précédé de de, het ou mijn."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "ontkenning-niet-geen",
+          "title_fr": "niet ou geen",
+          "body_fr": "geen s'emploie devant un nom indéterminé, c'est-à-dire là où l'affirmation aurait een ou aucun article : Ik heb een auto → Ik heb geen auto ; Ik heb tijd → Ik heb geen tijd. niet s'emploie dans tous les autres cas : avec un verbe (Ik werk niet), un adjectif (Het is niet koud), ou un nom déterminé (Ik ken de buurman niet). Place de niet : après le verbe conjugué et après le complément d'objet défini, mais avant un adjectif, une préposition ou un infinitif : Ik ga vandaag niet werken.",
+          "examples": [
+            {
+              "nl": "Ik heb geen geld.",
+              "fr": "Je n'ai pas d'argent."
+            },
+            {
+              "nl": "Dat is geen probleem.",
+              "fr": "Ce n'est pas un problème."
+            },
+            {
+              "nl": "Het is niet duur.",
+              "fr": "Ce n'est pas cher."
+            },
+            {
+              "nl": "Ik ken haar niet.",
+              "fr": "Je ne la connais pas."
+            }
+          ],
+          "exceptions_fr": [
+            "Pour contredire une question négative, on répond jawel (= si) et non ja.",
+            "« geen » ne s'emploie jamais devant de, het, mijn, deze : on dit « Ik ken de buurman niet », pas « geen de buurman »."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "Ik heb ___ tijd vandaag.",
+              "fr": "Je n'ai pas le temps aujourd'hui.",
+              "answers": [
+                "geen"
+              ],
+              "choices": [
+                "geen",
+                "niet"
+              ],
+              "ruleId": "ontkenning-niet-geen",
+              "errorTags": [
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "Het is ___ koud.",
+              "fr": "Ce n'est pas froid.",
+              "answers": [
+                "niet"
+              ],
+              "choices": [
+                "geen",
+                "niet"
+              ],
+              "ruleId": "ontkenning-niet-geen",
+              "errorTags": [
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "cloze",
+              "sentence": "Ik ken de buurvrouw ___.",
+              "fr": "Je ne connais pas la voisine.",
+              "answers": [
+                "niet"
+              ],
+              "choices": [
+                "geen",
+                "niet"
+              ],
+              "ruleId": "ontkenning-niet-geen",
+              "errorTags": [
+                "ontkenning"
+              ],
+              "explain_fr": "Le nom est déterminé (de buurvrouw) : on emploie niet, placé à la fin."
+            },
+            {
+              "id": "e4",
+              "type": "mcqAudio",
+              "audioNl": "Ik heb geen geld bij me.",
+              "question_fr": "Que dit cette personne ?",
+              "choices": [
+                "Elle n'a pas d'argent sur elle",
+                "Elle a oublié sa carte",
+                "Elle ne veut pas payer"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "errorCorrection",
+              "wrong": "Ik heb niet tijd.",
+              "correct": [
+                "Ik heb geen tijd."
+              ],
+              "fr": "Je n'ai pas le temps.",
+              "ruleId": "ontkenning-niet-geen",
+              "errorTags": [
+                "ontkenning"
+              ],
+              "explain_fr": "Nom indéterminé : geen, pas niet."
+            },
+            {
+              "id": "e6",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "Ce n'est pas cher.",
+              "expected": [
+                "Het is niet duur.",
+                "Dat is niet duur."
+              ],
+              "ruleId": "ontkenning-niet-geen",
+              "errorTags": [
+                "vertaling",
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "wordOrder",
+              "target": "Ik werk vandaag niet.",
+              "fr": "Je ne travaille pas aujourd'hui.",
+              "alsoAccept": [
+                "Vandaag werk ik niet."
+              ],
+              "errorTags": [
+                "woordorde",
+                "ontkenning"
+              ],
+              "ruleId": "ontkenning-niet-geen"
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Refuse une invitation en disant que tu n'as pas le temps.",
+              "expected": [
+                "Nee, ik heb geen tijd.",
+                "Sorry, ik heb geen tijd."
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Dis que tu ne travailles pas demain.",
+              "expected": [
+                "Ik werk morgen niet.",
+                "Morgen werk ik niet."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu sais dire non de deux façons : geen devant un nom indéterminé, niet partout ailleurs. Fin de l'unité sur les courses.",
+          "addVocabIds": [
+            "voc-niet",
+            "voc-geen",
+            "voc-jawel",
+            "voc-eten",
+            "voc-drinken",
+            "voc-jammer",
+            "voc-koud",
+            "voc-warm",
+            "voc-mee"
+          ],
+          "addStructures": [
+            {
+              "id": "str-geen-tijd",
+              "nl": "Ik heb geen tijd.",
+              "fr": "Je n'ai pas le temps.",
+              "ruleId": "ontkenning-niet-geen"
+            },
+            {
+              "id": "str-niet-duur",
+              "nl": "Het is niet duur.",
+              "fr": "Ce n'est pas cher.",
+              "ruleId": "ontkenning-niet-geen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

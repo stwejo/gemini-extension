@@ -1,0 +1,1544 @@
+{
+  "id": "a1-u3",
+  "level": "A1",
+  "order": 3,
+  "theme": "Logement et ville",
+  "title_fr": "Chez soi et en ville",
+  "description_fr": "Situer les objets, dire ce qu'il y a dans le quartier, demander son chemin.",
+  "lessons": [
+    {
+      "id": "a1-u3-l1",
+      "order": 1,
+      "title_fr": "Chez moi : où sont les choses ?",
+      "title_nl": "Waar staat het?",
+      "goals_fr": [
+        "Nommer les pièces et les meubles",
+        "Situer un objet avec in, op, naast, onder, boven, tussen"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Lotte cherche ses clés ; son colocataire l'aide.",
+          "lines": [
+            {
+              "speaker": "Lotte",
+              "nl": "Waar zijn mijn sleutels?",
+              "fr": "Où sont mes clés ?"
+            },
+            {
+              "speaker": "Tom",
+              "nl": "Liggen ze niet op de tafel?",
+              "fr": "Elles ne sont pas sur la table ?"
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Nee, daar liggen ze niet.",
+              "fr": "Non, elles n'y sont pas."
+            },
+            {
+              "speaker": "Tom",
+              "nl": "Kijk eens in de la, naast de deur.",
+              "fr": "Regarde dans le tiroir, à côté de la porte.",
+              "note_fr": "liggen (être couché) et staan (être debout) remplacent souvent « être » pour situer un objet."
+            },
+            {
+              "speaker": "Lotte",
+              "nl": "Ja! Ze liggen onder de krant. Dank je!",
+              "fr": "Oui ! Elles sont sous le journal. Merci !"
+            },
+            {
+              "speaker": "Tom",
+              "nl": "Graag gedaan.",
+              "fr": "De rien."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Où sont les clés ?",
+              "choices": [
+                "Dans le tiroir, sous le journal",
+                "Sur la table",
+                "À côté de la porte, par terre"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "in de la … onder de krant."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que veut dire « naast de deur » ?",
+              "choices": [
+                "À côté de la porte",
+                "Derrière la porte",
+                "Devant la porte"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "naast = à côté de."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète chaque préposition dans sa phrase.",
+          "chunks": [
+            {
+              "nl": "op de tafel",
+              "fr": "sur la table"
+            },
+            {
+              "nl": "in de la",
+              "fr": "dans le tiroir"
+            },
+            {
+              "nl": "naast de deur",
+              "fr": "à côté de la porte"
+            },
+            {
+              "nl": "onder de krant",
+              "fr": "sous le journal"
+            },
+            {
+              "nl": "boven de bank",
+              "fr": "au-dessus du canapé"
+            },
+            {
+              "nl": "tussen de stoelen",
+              "fr": "entre les chaises"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-de-sleutel",
+              "nl": "de sleutel",
+              "fr": "la clé",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de sleutels",
+              "examples": [
+                {
+                  "nl": "Waar zijn mijn sleutels?",
+                  "fr": "Où sont mes clés ?"
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-tafel",
+              "nl": "de tafel",
+              "fr": "la table",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de tafels",
+              "examples": [
+                {
+                  "nl": "op de tafel",
+                  "fr": "sur la table"
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-stoel",
+              "nl": "de stoel",
+              "fr": "la chaise",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de stoelen",
+              "examples": [
+                {
+                  "nl": "Ga op de stoel zitten.",
+                  "fr": "Assieds-toi sur la chaise."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-deur",
+              "nl": "de deur",
+              "fr": "la porte",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de deuren",
+              "examples": [
+                {
+                  "nl": "De deur is open.",
+                  "fr": "La porte est ouverte."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-op",
+              "nl": "op",
+              "fr": "sur",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "Het boek ligt op de tafel.",
+                  "fr": "Le livre est sur la table."
+                }
+              ],
+              "tags": [
+                "voorzetsel",
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-naast",
+              "nl": "naast",
+              "fr": "à côté de",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "naast de deur",
+                  "fr": "à côté de la porte"
+                }
+              ],
+              "tags": [
+                "voorzetsel",
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-onder",
+              "nl": "onder",
+              "fr": "sous",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "onder de tafel",
+                  "fr": "sous la table"
+                }
+              ],
+              "tags": [
+                "voorzetsel",
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-boven",
+              "nl": "boven",
+              "fr": "au-dessus de",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "boven de bank",
+                  "fr": "au-dessus du canapé"
+                }
+              ],
+              "tags": [
+                "voorzetsel",
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-tussen",
+              "nl": "tussen",
+              "fr": "entre",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "tussen de stoelen",
+                  "fr": "entre les chaises"
+                }
+              ],
+              "tags": [
+                "voorzetsel",
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-liggen",
+              "nl": "liggen",
+              "fr": "être posé, être couché",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "De krant ligt op de tafel.",
+                  "fr": "Le journal est sur la table."
+                }
+              ],
+              "tags": [
+                "werkwoord",
+                "plaats"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe les verbes employés pour situer un objet.",
+          "examples": [
+            {
+              "nl": "De krant ligt op de tafel.",
+              "fr": "Le journal est (posé) sur la table.",
+              "highlight": [
+                "ligt"
+              ]
+            },
+            {
+              "nl": "De fles staat in de koelkast.",
+              "fr": "La bouteille est (debout) dans le frigo.",
+              "highlight": [
+                "staat"
+              ]
+            },
+            {
+              "nl": "De sleutels liggen in de la.",
+              "fr": "Les clés sont dans le tiroir.",
+              "highlight": [
+                "liggen"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Pourquoi le néerlandais n'utilise-t-il pas simplement « zijn » (être) ici ?",
+            "choices": [
+              "Parce qu'il précise la position : couché (liggen) ou debout (staan)",
+              "Parce que zijn est réservé aux personnes",
+              "Parce que c'est une forme ancienne"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Un objet plat ou couché : liggen. Un objet vertical : staan."
+          },
+          "reveal_fr": "Pour dire où se trouve une chose, le néerlandais choisit souvent liggen (à plat) ou staan (debout) au lieu de zijn. « Zijn » reste possible, mais sonne moins naturel."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "voorzetsels-plaats",
+          "title_fr": "Situer : prépositions et verbes de position",
+          "body_fr": "Prépositions de lieu les plus utiles : in (dans), op (sur), onder (sous), boven (au-dessus de), naast (à côté de), tussen (entre), voor (devant), achter (derrière), bij (près de, chez). Pour situer un objet, on emploie souvent liggen (objet à plat), staan (objet debout), zitten (objet contenu) plutôt que zijn : De sleutels liggen in de la. De fles staat op tafel. La question correspondante est Waar … ? : Waar ligt mijn telefoon?",
+          "examples": [
+            {
+              "nl": "De krant ligt op de tafel.",
+              "fr": "Le journal est sur la table."
+            },
+            {
+              "nl": "De fles staat in de koelkast.",
+              "fr": "La bouteille est dans le frigo."
+            },
+            {
+              "nl": "De auto staat voor het huis.",
+              "fr": "La voiture est devant la maison."
+            },
+            {
+              "nl": "Waar liggen mijn sleutels?",
+              "fr": "Où sont mes clés ?"
+            }
+          ],
+          "exceptions_fr": [
+            "Dans certaines expressions figées, l'article disparaît : « op tafel », « op kantoor ».",
+            "Avec une personne, on utilise zijn : « Anna is in de keuken », pas « ligt »."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "De krant ligt ___ de tafel.",
+              "fr": "Le journal est sur la table.",
+              "answers": [
+                "op"
+              ],
+              "choices": [
+                "op",
+                "in",
+                "onder"
+              ],
+              "ruleId": "voorzetsels-plaats",
+              "errorTags": [
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "De sleutels liggen ___ de la.",
+              "fr": "Les clés sont dans le tiroir.",
+              "answers": [
+                "in"
+              ],
+              "choices": [
+                "op",
+                "in",
+                "naast"
+              ],
+              "ruleId": "voorzetsels-plaats",
+              "errorTags": [
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "De fles staat naast de deur.",
+              "question_fr": "Où est la bouteille ?",
+              "choices": [
+                "À côté de la porte",
+                "Derrière la porte",
+                "Sous la table"
+              ],
+              "answerIndex": 0,
+              "ruleId": "voorzetsels-plaats",
+              "errorTags": [
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "De sleutels liggen op de tafel.",
+              "fr": "Les clés sont sur la table.",
+              "errorTags": [
+                "spelling",
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Mijn telefoon ligt onder de krant.",
+              "fr": "Mon téléphone est sous le journal.",
+              "errorTags": [
+                "woordorde",
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "La voiture est devant la maison.",
+              "expected": [
+                "De auto staat voor het huis.",
+                "De auto is voor het huis."
+              ],
+              "ruleId": "voorzetsels-plaats",
+              "errorTags": [
+                "vertaling",
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "speakRepeat",
+              "nl": "Waar liggen mijn sleutels?",
+              "fr": "Où sont mes clés ?",
+              "errorTags": [
+                "uitspraak"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis où se trouve ton téléphone en ce moment.",
+              "expected": [
+                "Mijn telefoon ligt op de tafel."
+              ],
+              "acceptAny": true,
+              "tip_fr": "liggen pour un objet à plat, staan pour un objet debout."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande où sont tes clés.",
+              "expected": [
+                "Waar liggen mijn sleutels?",
+                "Waar zijn mijn sleutels?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu situes un objet dans l'espace et tu sais pourquoi le néerlandais dit « le journal est couché sur la table ».",
+          "addVocabIds": [
+            "voc-de-sleutel",
+            "voc-de-tafel",
+            "voc-de-stoel",
+            "voc-de-deur",
+            "voc-op",
+            "voc-naast",
+            "voc-onder",
+            "voc-boven",
+            "voc-tussen",
+            "voc-liggen"
+          ],
+          "addStructures": [
+            {
+              "id": "str-waar-ligt",
+              "nl": "Waar liggen mijn sleutels?",
+              "fr": "Où sont mes clés ?",
+              "ruleId": "voorzetsels-plaats"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u3-l2",
+      "order": 2,
+      "title_fr": "Er is, er zijn : il y a",
+      "title_nl": "Er is een probleem",
+      "goals_fr": [
+        "Dire « il y a » au singulier et au pluriel",
+        "Décrire un quartier",
+        "Poser la question « Is er … ? »"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Karim vient d'emménager et pose des questions à sa voisine.",
+          "lines": [
+            {
+              "speaker": "Karim",
+              "nl": "Is er een supermarkt in de buurt?",
+              "fr": "Il y a un supermarché dans le quartier ?"
+            },
+            {
+              "speaker": "De buurvrouw",
+              "nl": "Ja, er is een supermarkt naast de school.",
+              "fr": "Oui, il y a un supermarché à côté de l'école."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "En zijn er ook winkels in de straat?",
+              "fr": "Et il y a aussi des magasins dans la rue ?"
+            },
+            {
+              "speaker": "De buurvrouw",
+              "nl": "Er zijn twee bakkers en een apotheek.",
+              "fr": "Il y a deux boulangeries et une pharmacie.",
+              "note_fr": "er is + singulier, er zijn + pluriel."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Fijn! Is er ook een park?",
+              "fr": "Super ! Il y a aussi un parc ?"
+            },
+            {
+              "speaker": "De buurvrouw",
+              "nl": "Nee, er is geen park, maar het bos is dichtbij.",
+              "fr": "Non, il n'y a pas de parc, mais la forêt est tout près."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Qu'y a-t-il à côté de l'école ?",
+              "choices": [
+                "Un supermarché",
+                "Une pharmacie",
+                "Un parc"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "er is een supermarkt naast de school."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Y a-t-il un parc ?",
+              "choices": [
+                "Non, mais la forêt est proche",
+                "Oui, derrière l'école",
+                "Oui, dans la rue"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« er is geen park » : négation avec geen."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète en faisant attention au singulier et au pluriel.",
+          "chunks": [
+            {
+              "nl": "Er is een supermarkt.",
+              "fr": "Il y a un supermarché."
+            },
+            {
+              "nl": "Er zijn twee bakkers.",
+              "fr": "Il y a deux boulangeries."
+            },
+            {
+              "nl": "Is er een apotheek in de buurt?",
+              "fr": "Il y a une pharmacie dans le quartier ?"
+            },
+            {
+              "nl": "Er is geen park.",
+              "fr": "Il n'y a pas de parc."
+            },
+            {
+              "nl": "Het bos is dichtbij.",
+              "fr": "La forêt est tout près."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-de-buurt",
+              "nl": "de buurt",
+              "fr": "le quartier",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de buurten",
+              "examples": [
+                {
+                  "nl": "in de buurt",
+                  "fr": "dans le quartier, à proximité"
+                }
+              ],
+              "tags": [
+                "stad"
+              ]
+            },
+            {
+              "id": "voc-de-straat",
+              "nl": "de straat",
+              "fr": "la rue",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de straten",
+              "examples": [
+                {
+                  "nl": "Ik woon in deze straat.",
+                  "fr": "J'habite dans cette rue."
+                }
+              ],
+              "tags": [
+                "stad"
+              ]
+            },
+            {
+              "id": "voc-de-supermarkt",
+              "nl": "de supermarkt",
+              "fr": "le supermarché",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de supermarkten",
+              "examples": [
+                {
+                  "nl": "De supermarkt is open.",
+                  "fr": "Le supermarché est ouvert."
+                }
+              ],
+              "tags": [
+                "stad",
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-de-bakker",
+              "nl": "de bakker",
+              "fr": "le boulanger, la boulangerie",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de bakkers",
+              "examples": [
+                {
+                  "nl": "Ik ga naar de bakker.",
+                  "fr": "Je vais à la boulangerie."
+                }
+              ],
+              "tags": [
+                "stad",
+                "winkel"
+              ]
+            },
+            {
+              "id": "voc-de-apotheek",
+              "nl": "de apotheek",
+              "fr": "la pharmacie",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de apotheken",
+              "examples": [
+                {
+                  "nl": "Waar is de apotheek?",
+                  "fr": "Où est la pharmacie ?"
+                }
+              ],
+              "tags": [
+                "stad",
+                "gezondheid"
+              ]
+            },
+            {
+              "id": "voc-het-park",
+              "nl": "het park",
+              "fr": "le parc",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de parken",
+              "examples": [
+                {
+                  "nl": "We lopen in het park.",
+                  "fr": "Nous marchons dans le parc."
+                }
+              ],
+              "tags": [
+                "stad"
+              ]
+            },
+            {
+              "id": "voc-dichtbij",
+              "nl": "dichtbij",
+              "fr": "tout près",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "De school is dichtbij.",
+                  "fr": "L'école est tout près."
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-ver",
+              "nl": "ver",
+              "fr": "loin",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Is het ver?",
+                  "fr": "C'est loin ?"
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-er",
+              "nl": "er",
+              "fr": "y (dans « il y a »)",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Er is een probleem.",
+                  "fr": "Il y a un problème."
+                }
+              ],
+              "variant": {
+                "note_fr": "« er » a d'autres emplois, vus au niveau A2."
+              },
+              "tags": [
+                "er"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare ces quatre phrases.",
+          "examples": [
+            {
+              "nl": "Er is een supermarkt.",
+              "fr": "Il y a un supermarché.",
+              "highlight": [
+                "is"
+              ]
+            },
+            {
+              "nl": "Er zijn twee bakkers.",
+              "fr": "Il y a deux boulangeries.",
+              "highlight": [
+                "zijn"
+              ]
+            },
+            {
+              "nl": "Is er een apotheek?",
+              "fr": "Y a-t-il une pharmacie ?",
+              "highlight": [
+                "Is er"
+              ]
+            },
+            {
+              "nl": "Er is geen park.",
+              "fr": "Il n'y a pas de parc.",
+              "highlight": [
+                "geen"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Pourquoi dit-on « er zijn » dans la deuxième phrase ?",
+            "choices": [
+              "Parce que ce qui suit est au pluriel",
+              "Parce que la phrase est plus polie",
+              "Parce que c'est une question"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Le verbe s'accorde avec ce qui suit : een supermarkt → is ; twee bakkers → zijn."
+          },
+          "reveal_fr": "Le français dit toujours « il y a ». Le néerlandais accorde : er is au singulier, er zijn au pluriel."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "er-is-er-zijn",
+          "title_fr": "er is / er zijn (il y a)",
+          "body_fr": "Pour signaler l'existence de quelque chose : er is + singulier, er zijn + pluriel. Question : Is er …? / Zijn er …? Négation : er is geen … / er zijn geen … Si la phrase commence par un complément, er vient après le verbe : In de buurt is er een supermarkt, ou plus simplement In de buurt is een supermarkt.",
+          "examples": [
+            {
+              "nl": "Er is een probleem.",
+              "fr": "Il y a un problème."
+            },
+            {
+              "nl": "Er zijn veel mensen.",
+              "fr": "Il y a beaucoup de gens."
+            },
+            {
+              "nl": "Is er een toilet?",
+              "fr": "Y a-t-il des toilettes ?"
+            },
+            {
+              "nl": "Er is geen plaats meer.",
+              "fr": "Il n'y a plus de place."
+            }
+          ],
+          "exceptions_fr": [
+            "« er » a d'autres emplois (pronom, complément de lieu) qui sont travaillés au niveau A2.",
+            "Avec un nom déterminé, on n'emploie pas er is : on dit « De supermarkt is open », pas « Er is de supermarkt open »."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "Er ___ twee bakkers in de straat.",
+              "fr": "Il y a deux boulangeries dans la rue.",
+              "answers": [
+                "zijn"
+              ],
+              "choices": [
+                "is",
+                "zijn"
+              ],
+              "ruleId": "er-is-er-zijn",
+              "errorTags": [
+                "er"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "Er ___ een apotheek in de buurt.",
+              "fr": "Il y a une pharmacie dans le quartier.",
+              "answers": [
+                "is"
+              ],
+              "choices": [
+                "is",
+                "zijn"
+              ],
+              "ruleId": "er-is-er-zijn",
+              "errorTags": [
+                "er"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "mcqAudio",
+              "audioNl": "Is er een supermarkt in de buurt?",
+              "question_fr": "Que demande cette personne ?",
+              "choices": [
+                "S'il y a un supermarché dans le quartier",
+                "Où se trouve l'école",
+                "Si le supermarché est ouvert"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "stad"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Er is geen park.",
+              "fr": "Il n'y a pas de parc.",
+              "errorTags": [
+                "spelling",
+                "ontkenning"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "wordOrder",
+              "target": "Er zijn twee winkels in de straat.",
+              "fr": "Il y a deux magasins dans la rue.",
+              "errorTags": [
+                "woordorde",
+                "er"
+              ],
+              "ruleId": "er-is-er-zijn"
+            },
+            {
+              "id": "e6",
+              "type": "errorCorrection",
+              "wrong": "Er is twee bakkers in de buurt.",
+              "correct": [
+                "Er zijn twee bakkers in de buurt."
+              ],
+              "fr": "Il y a deux boulangeries dans le quartier.",
+              "ruleId": "er-is-er-zijn",
+              "errorTags": [
+                "er"
+              ],
+              "explain_fr": "Pluriel qui suit : er zijn."
+            },
+            {
+              "id": "e7",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "Y a-t-il une pharmacie dans le quartier ?",
+              "expected": [
+                "Is er een apotheek in de buurt?"
+              ],
+              "ruleId": "er-is-er-zijn",
+              "errorTags": [
+                "vertaling",
+                "er"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis ce qu'il y a dans ton quartier (deux commerces).",
+              "expected": [
+                "Er zijn twee winkels en een apotheek in mijn buurt."
+              ],
+              "acceptAny": true
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande s'il y a un supermarché à proximité.",
+              "expected": [
+                "Is er een supermarkt in de buurt?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu dis ce qu'il y a (et ce qu'il n'y a pas) autour de toi, au singulier comme au pluriel.",
+          "addVocabIds": [
+            "voc-de-buurt",
+            "voc-de-straat",
+            "voc-de-supermarkt",
+            "voc-de-bakker",
+            "voc-de-apotheek",
+            "voc-het-park",
+            "voc-dichtbij",
+            "voc-ver",
+            "voc-er"
+          ],
+          "addStructures": [
+            {
+              "id": "str-er-is",
+              "nl": "Er is een supermarkt.",
+              "fr": "Il y a un supermarché.",
+              "ruleId": "er-is-er-zijn"
+            },
+            {
+              "id": "str-is-er",
+              "nl": "Is er een apotheek in de buurt?",
+              "fr": "Y a-t-il une pharmacie dans le quartier ?",
+              "ruleId": "er-is-er-zijn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u3-l3",
+      "order": 3,
+      "title_fr": "Demander son chemin : l'impératif",
+      "title_nl": "De weg vragen",
+      "goals_fr": [
+        "Demander et comprendre un itinéraire",
+        "Utiliser l'impératif (ga, neem, loop)",
+        "Comprendre links, rechts, rechtdoor"
+      ],
+      "minutes": 15,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Dans la rue, un passant cherche la gare.",
+          "lines": [
+            {
+              "speaker": "De toerist",
+              "nl": "Pardon, waar is het station?",
+              "fr": "Pardon, où est la gare ?"
+            },
+            {
+              "speaker": "De vrouw",
+              "nl": "Ga rechtdoor tot het plein.",
+              "fr": "Allez tout droit jusqu'à la place.",
+              "note_fr": "Ga = impératif de gaan : le verbe sans terminaison, en tête de phrase."
+            },
+            {
+              "speaker": "De toerist",
+              "nl": "En dan?",
+              "fr": "Et ensuite ?"
+            },
+            {
+              "speaker": "De vrouw",
+              "nl": "Neem daar de tweede straat links.",
+              "fr": "Prenez là la deuxième rue à gauche."
+            },
+            {
+              "speaker": "De toerist",
+              "nl": "Is het ver?",
+              "fr": "C'est loin ?"
+            },
+            {
+              "speaker": "De vrouw",
+              "nl": "Nee, tien minuten lopen.",
+              "fr": "Non, dix minutes à pied."
+            },
+            {
+              "speaker": "De toerist",
+              "nl": "Dank u wel!",
+              "fr": "Merci beaucoup !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Quel est le premier conseil ?",
+              "choices": [
+                "Aller tout droit jusqu'à la place",
+                "Tourner à droite",
+                "Prendre le bus"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "Ga rechtdoor tot het plein."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Combien de temps faut-il à pied ?",
+              "choices": [
+                "Dix minutes",
+                "Deux minutes",
+                "Une demi-heure"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "tien minuten lopen."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète ces indications : tu les entendras telles quelles.",
+          "chunks": [
+            {
+              "nl": "Waar is het station?",
+              "fr": "Où est la gare ?"
+            },
+            {
+              "nl": "Ga rechtdoor.",
+              "fr": "Allez tout droit."
+            },
+            {
+              "nl": "Neem de tweede straat links.",
+              "fr": "Prenez la deuxième rue à gauche."
+            },
+            {
+              "nl": "Sla rechts af.",
+              "fr": "Tournez à droite."
+            },
+            {
+              "nl": "Is het ver?",
+              "fr": "C'est loin ?"
+            },
+            {
+              "nl": "Tien minuten lopen.",
+              "fr": "Dix minutes à pied."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-het-station",
+              "nl": "het station",
+              "fr": "la gare",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de stations",
+              "examples": [
+                {
+                  "nl": "Waar is het station?",
+                  "fr": "Où est la gare ?"
+                }
+              ],
+              "tags": [
+                "stad",
+                "vervoer"
+              ]
+            },
+            {
+              "id": "voc-het-plein",
+              "nl": "het plein",
+              "fr": "la place",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de pleinen",
+              "examples": [
+                {
+                  "nl": "tot het plein",
+                  "fr": "jusqu'à la place"
+                }
+              ],
+              "tags": [
+                "stad"
+              ]
+            },
+            {
+              "id": "voc-links",
+              "nl": "links",
+              "fr": "à gauche",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "de eerste straat links",
+                  "fr": "la première rue à gauche"
+                }
+              ],
+              "tags": [
+                "richting"
+              ]
+            },
+            {
+              "id": "voc-rechts",
+              "nl": "rechts",
+              "fr": "à droite",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Sla rechts af.",
+                  "fr": "Tournez à droite."
+                }
+              ],
+              "tags": [
+                "richting"
+              ]
+            },
+            {
+              "id": "voc-rechtdoor",
+              "nl": "rechtdoor",
+              "fr": "tout droit",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ga rechtdoor.",
+                  "fr": "Allez tout droit."
+                }
+              ],
+              "tags": [
+                "richting"
+              ]
+            },
+            {
+              "id": "voc-gaan",
+              "nl": "gaan",
+              "fr": "aller",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik ga naar huis.",
+                  "fr": "Je rentre à la maison."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-lopen",
+              "nl": "lopen",
+              "fr": "marcher, aller à pied",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "tien minuten lopen",
+                  "fr": "dix minutes à pied"
+                }
+              ],
+              "variant": {
+                "nlBE": "lopen signifie aussi « courir » en Flandre",
+                "note_fr": "Aux Pays-Bas, lopen = marcher ; en Belgique, lopen signifie souvent courir et « stappen » est utilisé pour marcher."
+              },
+              "needsReview": true,
+              "tags": [
+                "werkwoord",
+                "vervoer"
+              ]
+            },
+            {
+              "id": "voc-nemen",
+              "nl": "nemen",
+              "fr": "prendre",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Neem de bus.",
+                  "fr": "Prends le bus."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-de-minuut",
+              "nl": "de minuut",
+              "fr": "la minute",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de minuten",
+              "examples": [
+                {
+                  "nl": "vijf minuten",
+                  "fr": "cinq minutes"
+                }
+              ],
+              "tags": [
+                "tijd"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe la forme du verbe au début de ces consignes.",
+          "examples": [
+            {
+              "nl": "Ga rechtdoor.",
+              "fr": "Va / Allez tout droit.",
+              "highlight": [
+                "Ga"
+              ]
+            },
+            {
+              "nl": "Neem de tweede straat.",
+              "fr": "Prends / Prenez la deuxième rue.",
+              "highlight": [
+                "Neem"
+              ]
+            },
+            {
+              "nl": "Loop tot het plein.",
+              "fr": "Marche / Marchez jusqu'à la place.",
+              "highlight": [
+                "Loop"
+              ]
+            },
+            {
+              "nl": "Wacht hier.",
+              "fr": "Attends / Attendez ici.",
+              "highlight": [
+                "Wacht"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Quelle forme du verbe est utilisée pour donner une consigne ?",
+            "choices": [
+              "Le radical seul, sans terminaison",
+              "L'infinitif complet",
+              "Le verbe avec -t"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "gaan → ga, nemen → neem : c'est le radical, celui de « ik »."
+          },
+          "reveal_fr": "L'impératif néerlandais est simplement le radical du verbe, en tête de phrase. Une seule forme pour le tutoiement et le vouvoiement."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "gebiedende-wijs",
+          "title_fr": "L'impératif",
+          "body_fr": "Pour donner une consigne, on utilise le radical du verbe (la forme de ik), placé au début de la phrase : Ga rechtdoor. Neem de bus. Wacht even. La forme est la même qu'on tutoie ou qu'on vouvoie. Pour adoucir, on ajoute eens, even ou alstublieft : Kijk eens. Wacht even, alstublieft. Avec u, on peut aussi employer la forme polie du verbe : Gaat u zitten (asseyez-vous).",
+          "examples": [
+            {
+              "nl": "Ga rechtdoor.",
+              "fr": "Allez tout droit."
+            },
+            {
+              "nl": "Neem de tweede straat links.",
+              "fr": "Prenez la deuxième rue à gauche."
+            },
+            {
+              "nl": "Wacht even, alstublieft.",
+              "fr": "Attendez un instant, s'il vous plaît."
+            },
+            {
+              "nl": "Kom binnen!",
+              "fr": "Entre ! / Entrez !"
+            }
+          ],
+          "exceptions_fr": [
+            "zijn (être) a un impératif irrégulier : Wees voorzichtig (sois prudent).",
+            "La forme « Gaat u zitten » (avec -t et u) existe pour une politesse appuyée ; elle est surtout employée aux Pays-Bas.",
+            "Certains verbes à particule séparent la particule : « Sla rechts af » (afslaan). Ces verbes sont travaillés au niveau A2."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Neem de tweede straat links.",
+              "question_fr": "Quelle consigne entends-tu ?",
+              "choices": [
+                "Prendre la deuxième rue à gauche",
+                "Prendre la première rue à droite",
+                "Aller tout droit"
+              ],
+              "answerIndex": 0,
+              "ruleId": "gebiedende-wijs",
+              "errorTags": [
+                "richting"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "___ rechtdoor tot het plein.",
+              "fr": "Allez tout droit jusqu'à la place.",
+              "answers": [
+                "Ga",
+                "ga"
+              ],
+              "choices": [
+                "Ga",
+                "Gaat",
+                "Gaan"
+              ],
+              "ruleId": "gebiedende-wijs",
+              "errorTags": [
+                "gebiedende-wijs"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "dictation",
+              "audioNl": "Waar is het station?",
+              "fr": "Où est la gare ?",
+              "errorTags": [
+                "spelling",
+                "stad"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "wordOrder",
+              "target": "Neem de eerste straat rechts.",
+              "fr": "Prenez la première rue à droite.",
+              "errorTags": [
+                "woordorde",
+                "richting"
+              ],
+              "ruleId": "gebiedende-wijs"
+            },
+            {
+              "id": "e5",
+              "type": "translate",
+              "direction": "nl-fr",
+              "prompt": "Het is tien minuten lopen.",
+              "expected": [
+                "C'est à dix minutes à pied.",
+                "Il y a dix minutes à pied.",
+                "C'est dix minutes à pied."
+              ],
+              "errorTags": [
+                "vertaling"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "speakRepeat",
+              "nl": "Pardon, waar is het station?",
+              "fr": "Pardon, où est la gare ?",
+              "errorTags": [
+                "uitspraak"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "roleplay",
+              "situation_fr": "Tu es perdu dans une ville néerlandaise et tu cherches la gare.",
+              "userRole_fr": "le touriste",
+              "turns": [
+                {
+                  "speaker": "user",
+                  "nl": "Pardon, waar is het station?",
+                  "fr": "Demande poliment où est la gare.",
+                  "expected": [
+                    "Pardon, waar is het station?",
+                    "Waar is het station?"
+                  ]
+                },
+                {
+                  "speaker": "app",
+                  "nl": "Ga rechtdoor tot het plein.",
+                  "fr": "Allez tout droit jusqu'à la place.",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Is het ver?",
+                  "fr": "Demande si c'est loin.",
+                  "expected": [
+                    "Is het ver?",
+                    "Is het ver van hier?"
+                  ]
+                },
+                {
+                  "speaker": "app",
+                  "nl": "Nee, tien minuten lopen.",
+                  "fr": "Non, dix minutes à pied.",
+                  "expected": []
+                },
+                {
+                  "speaker": "user",
+                  "nl": "Dank u wel!",
+                  "fr": "Remercie poliment.",
+                  "expected": [
+                    "Dank u wel!",
+                    "Dank u!",
+                    "Hartelijk dank!"
+                  ]
+                }
+              ],
+              "errorTags": [
+                "richting",
+                "stad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Demande poliment où se trouve la pharmacie.",
+              "expected": [
+                "Pardon, waar is de apotheek?",
+                "Waar is de apotheek?"
+              ],
+              "acceptAny": false
+            },
+            {
+              "id": "p2",
+              "task_fr": "Explique à quelqu'un d'aller tout droit et de prendre la première rue à gauche.",
+              "expected": [
+                "Ga rechtdoor en neem de eerste straat links."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu demandes ton chemin, tu comprends les indications et tu peux en donner. Fin de l'unité sur le logement et la ville.",
+          "addVocabIds": [
+            "voc-het-station",
+            "voc-het-plein",
+            "voc-links",
+            "voc-rechts",
+            "voc-rechtdoor",
+            "voc-gaan",
+            "voc-lopen",
+            "voc-nemen",
+            "voc-de-minuut"
+          ],
+          "addStructures": [
+            {
+              "id": "str-waar-is-het-station",
+              "nl": "Waar is het station?",
+              "fr": "Où est la gare ?"
+            },
+            {
+              "id": "str-ga-rechtdoor",
+              "nl": "Ga rechtdoor.",
+              "fr": "Allez tout droit.",
+              "ruleId": "gebiedende-wijs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

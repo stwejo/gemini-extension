@@ -51,7 +51,9 @@ describe('buildPath', () => {
   it('compte l avancement du niveau', () => {
     const [levelA0] = buildPath(course, progressFor(['a0-u1-l1', 'a0-u1-l2']));
     expect(levelA0.done).toBe(2);
-    expect(levelA0.total).toBe(course.reduce((sum, u) => sum + u.lessons.length, 0));
+    expect(levelA0.total).toBe(
+      course.filter((u) => u.level === 'A0').reduce((sum, u) => sum + u.lessons.length, 0),
+    );
   });
 
   it('marque en-cours une lecon commencee mais pas terminee', () => {
@@ -78,5 +80,31 @@ describe('findNextLesson', () => {
   it('renvoie null quand tout le cours est termine', () => {
     const all = course.flatMap((unit) => unit.lessons.map((l) => l.id));
     expect(findNextLesson(buildPath(course, progressFor(all)))).toBeNull();
+  });
+});
+
+describe('enchaînement des niveaux', () => {
+  it('classe les unités par niveau puis par ordre', () => {
+    const levels = buildPath(course, []);
+    expect(levels.map((l) => l.level)).toEqual(['A0', 'A1']);
+    for (const level of levels) {
+      expect(level.units.map((u) => u.unit.order)).toEqual(
+        [...level.units.map((u) => u.unit.order)].sort((a, b) => a - b),
+      );
+    }
+  });
+
+  it('verrouille le niveau A1 tant que le A0 n est pas terminé', () => {
+    const [, levelA1] = buildPath(course, []);
+    expect(levelA1.units[0].unlocked).toBe(false);
+  });
+
+  it('ouvre la première unité A1 quand tout le A0 est terminé', () => {
+    const allA0 = course
+      .filter((unit) => unit.level === 'A0')
+      .flatMap((unit) => unit.lessons.map((l) => l.id));
+    const [, levelA1] = buildPath(course, progressFor(allA0));
+    expect(levelA1.units[0].unlocked).toBe(true);
+    expect(levelA1.units[0].lessons[0].status).toBe('disponible');
   });
 });

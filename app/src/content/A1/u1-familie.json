@@ -1,0 +1,1503 @@
+{
+  "id": "a1-u1",
+  "level": "A1",
+  "order": 1,
+  "theme": "Famille et personnes",
+  "title_fr": "La famille",
+  "description_fr": "Parler de sa famille, choisir entre de et het, former le pluriel.",
+  "lessons": [
+    {
+      "id": "a1-u1-l1",
+      "order": 1,
+      "title_fr": "Ma famille : le verbe hebben",
+      "title_nl": "Mijn familie",
+      "goals_fr": [
+        "Parler de ses frères et sœurs",
+        "Conjuguer hebben (avoir) au présent"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Karim et Anna parlent de leur famille pendant la pause.",
+          "lines": [
+            {
+              "speaker": "Karim",
+              "nl": "Heb je broers of zussen?",
+              "fr": "Tu as des frères ou des sœurs ?"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Ja, ik heb een broer en twee zussen.",
+              "fr": "Oui, j'ai un frère et deux sœurs."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "En hoe heet je broer?",
+              "fr": "Et comment s'appelle ton frère ?"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Hij heet Thomas. Hij is achttien.",
+              "fr": "Il s'appelle Thomas. Il a dix-huit ans."
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Woont hij nog thuis?",
+              "fr": "Il habite encore chez vos parents ?"
+            },
+            {
+              "speaker": "Anna",
+              "nl": "Ja, hij woont nog bij mijn ouders. En jij?",
+              "fr": "Oui, il habite encore chez mes parents. Et toi ?"
+            },
+            {
+              "speaker": "Karim",
+              "nl": "Ik heb geen broers of zussen. Ik ben enig kind.",
+              "fr": "Je n'ai ni frère ni sœur. Je suis fils unique.",
+              "note_fr": "geen = pas de : la négation devant un nom. Elle est travaillée dans l'unité 2."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Combien de sœurs a Anna ?",
+              "choices": [
+                "Deux",
+                "Une",
+                "Aucune"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« twee zussen » = deux sœurs."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Que dit Karim de sa famille ?",
+              "choices": [
+                "Il est fils unique",
+                "Il a un frère",
+                "Il a deux sœurs"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "enig kind = enfant unique."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète, puis adapte à ta famille.",
+          "chunks": [
+            {
+              "nl": "Heb je broers of zussen?",
+              "fr": "Tu as des frères ou des sœurs ?"
+            },
+            {
+              "nl": "Ik heb een broer.",
+              "fr": "J'ai un frère."
+            },
+            {
+              "nl": "Ik heb twee zussen.",
+              "fr": "J'ai deux sœurs."
+            },
+            {
+              "nl": "Hij woont bij mijn ouders.",
+              "fr": "Il habite chez mes parents."
+            },
+            {
+              "nl": "Ik ben enig kind.",
+              "fr": "Je suis enfant unique."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-hebben",
+              "nl": "hebben",
+              "fr": "avoir",
+              "pos": "verbe",
+              "examples": [
+                {
+                  "nl": "Ik heb een broer.",
+                  "fr": "J'ai un frère."
+                }
+              ],
+              "tags": [
+                "werkwoord"
+              ]
+            },
+            {
+              "id": "voc-de-broer",
+              "nl": "de broer",
+              "fr": "le frère",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de broers",
+              "examples": [
+                {
+                  "nl": "Mijn broer heet Thomas.",
+                  "fr": "Mon frère s'appelle Thomas."
+                }
+              ],
+              "tags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "voc-de-zus",
+              "nl": "de zus",
+              "fr": "la sœur",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de zussen",
+              "examples": [
+                {
+                  "nl": "Ik heb twee zussen.",
+                  "fr": "J'ai deux sœurs."
+                }
+              ],
+              "variant": {
+                "note_fr": "« zus » est la forme courante ; « zuster » existe aussi, surtout en Belgique et dans un registre plus ancien."
+              },
+              "tags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "voc-de-ouders",
+              "nl": "de ouders",
+              "fr": "les parents",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de ouders",
+              "examples": [
+                {
+                  "nl": "Ik woon bij mijn ouders.",
+                  "fr": "J'habite chez mes parents."
+                }
+              ],
+              "tags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "voc-de-moeder",
+              "nl": "de moeder",
+              "fr": "la mère",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de moeders",
+              "examples": [
+                {
+                  "nl": "Mijn moeder werkt in Gent.",
+                  "fr": "Ma mère travaille à Gand."
+                }
+              ],
+              "tags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "voc-de-vader",
+              "nl": "de vader",
+              "fr": "le père",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de vaders",
+              "examples": [
+                {
+                  "nl": "Mijn vader is zestig.",
+                  "fr": "Mon père a soixante ans."
+                }
+              ],
+              "tags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "voc-het-kind",
+              "nl": "het kind",
+              "fr": "l'enfant",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de kinderen",
+              "examples": [
+                {
+                  "nl": "Ze hebben twee kinderen.",
+                  "fr": "Ils ont deux enfants."
+                }
+              ],
+              "tags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "voc-thuis",
+              "nl": "thuis",
+              "fr": "à la maison, chez soi",
+              "pos": "adverbe",
+              "examples": [
+                {
+                  "nl": "Ik ben vandaag thuis.",
+                  "fr": "Je suis à la maison aujourd'hui."
+                }
+              ],
+              "tags": [
+                "plaats"
+              ]
+            },
+            {
+              "id": "voc-bij",
+              "nl": "bij",
+              "fr": "chez, près de",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "Hij woont bij zijn ouders.",
+                  "fr": "Il habite chez ses parents."
+                }
+              ],
+              "tags": [
+                "voorzetsel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe la forme du verbe hebben dans ces phrases du dialogue.",
+          "examples": [
+            {
+              "nl": "Ik heb een broer.",
+              "fr": "J'ai un frère.",
+              "highlight": [
+                "heb"
+              ]
+            },
+            {
+              "nl": "Heb je broers of zussen?",
+              "fr": "Tu as des frères ou des sœurs ?",
+              "highlight": [
+                "Heb"
+              ]
+            },
+            {
+              "nl": "Jij hebt twee zussen.",
+              "fr": "Tu as deux sœurs.",
+              "highlight": [
+                "hebt"
+              ]
+            },
+            {
+              "nl": "Hij heeft een zus.",
+              "fr": "Il a une sœur.",
+              "highlight": [
+                "heeft"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Quelle forme accompagne « hij » (il) ?",
+            "choices": [
+              "heeft",
+              "heb",
+              "hebt"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "hij / zij / het → heeft. Avec « jij » placé après le verbe, le -t tombe : heb je."
+          },
+          "reveal_fr": "hebben est irrégulier : ik heb, jij hebt, hij heeft, wij hebben. Comme pour les autres verbes, le -t disparaît dans « heb je ? »."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "werkwoord-hebben",
+          "title_fr": "Le verbe hebben (avoir) au présent",
+          "body_fr": "ik heb / jij hebt (heb je ?) / u hebt ou u heeft / hij, zij, het heeft / wij hebben / jullie hebben / zij hebben. Comme pour tous les verbes, le -t disparaît quand jij ou je suit le verbe : Heb je tijd? Pour l'âge, le néerlandais utilise zijn, pas hebben : Ik ben dertig (j'ai trente ans).",
+          "examples": [
+            {
+              "nl": "Ik heb een broer.",
+              "fr": "J'ai un frère."
+            },
+            {
+              "nl": "Heb je kinderen?",
+              "fr": "Tu as des enfants ?"
+            },
+            {
+              "nl": "Zij heeft twee zussen.",
+              "fr": "Elle a deux sœurs."
+            },
+            {
+              "nl": "Wij hebben tijd.",
+              "fr": "Nous avons le temps."
+            }
+          ],
+          "exceptions_fr": [
+            "Avec u, « u hebt » et « u heeft » sont tous deux corrects.",
+            "L'âge se dit avec zijn : « Ik ben dertig jaar », jamais « ik heb dertig jaar »."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "mcqAudio",
+              "audioNl": "Heb je broers of zussen?",
+              "question_fr": "Que te demande-t-on ?",
+              "choices": [
+                "Si tu as des frères et sœurs",
+                "Si tu as des enfants",
+                "Où habitent tes parents"
+              ],
+              "answerIndex": 0,
+              "ruleId": "werkwoord-hebben",
+              "errorTags": [
+                "familie"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "Ik ___ een broer en twee zussen.",
+              "fr": "J'ai un frère et deux sœurs.",
+              "answers": [
+                "heb"
+              ],
+              "choices": [
+                "heb",
+                "hebt",
+                "heeft"
+              ],
+              "ruleId": "werkwoord-hebben",
+              "errorTags": [
+                "werkwoord",
+                "hebben"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "cloze",
+              "sentence": "Hij ___ geen kinderen.",
+              "fr": "Il n'a pas d'enfants.",
+              "answers": [
+                "heeft"
+              ],
+              "choices": [
+                "heb",
+                "hebt",
+                "heeft"
+              ],
+              "ruleId": "werkwoord-hebben",
+              "errorTags": [
+                "werkwoord",
+                "hebben"
+              ]
+            },
+            {
+              "id": "e4",
+              "type": "dictation",
+              "audioNl": "Ik heb een broer.",
+              "fr": "J'ai un frère.",
+              "errorTags": [
+                "spelling"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "J'ai deux sœurs.",
+              "expected": [
+                "Ik heb twee zussen."
+              ],
+              "ruleId": "werkwoord-hebben",
+              "errorTags": [
+                "vertaling"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "errorCorrection",
+              "wrong": "Hij hebt een zus.",
+              "correct": [
+                "Hij heeft een zus."
+              ],
+              "fr": "Il a une sœur.",
+              "ruleId": "werkwoord-hebben",
+              "errorTags": [
+                "werkwoord",
+                "hebben"
+              ],
+              "explain_fr": "Avec hij / zij / het, hebben donne heeft."
+            },
+            {
+              "id": "e7",
+              "type": "speakRepeat",
+              "nl": "Ik heb een broer en twee zussen.",
+              "fr": "J'ai un frère et deux sœurs.",
+              "errorTags": [
+                "uitspraak"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis combien de frères et sœurs tu as (ou que tu es enfant unique).",
+              "expected": [
+                "Ik heb een broer en twee zussen.",
+                "Ik ben enig kind."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Structure : Ik heb + nombre + broers / zussen."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Demande à quelqu'un s'il a des enfants (tutoiement).",
+              "expected": [
+                "Heb je kinderen?"
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu parles de ta famille et tu conjugues hebben, le deuxième verbe le plus utile après zijn.",
+          "addVocabIds": [
+            "voc-hebben",
+            "voc-de-broer",
+            "voc-de-zus",
+            "voc-de-ouders",
+            "voc-de-moeder",
+            "voc-de-vader",
+            "voc-het-kind",
+            "voc-thuis",
+            "voc-bij"
+          ],
+          "addStructures": [
+            {
+              "id": "str-heb-je",
+              "nl": "Heb je broers of zussen?",
+              "fr": "Tu as des frères ou des sœurs ?",
+              "ruleId": "werkwoord-hebben"
+            },
+            {
+              "id": "str-ik-heb",
+              "nl": "Ik heb een broer.",
+              "fr": "J'ai un frère.",
+              "ruleId": "werkwoord-hebben"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u1-l2",
+      "order": 2,
+      "title_fr": "de ou het ? Les deux articles",
+      "title_nl": "De of het?",
+      "goals_fr": [
+        "Comprendre la différence entre de et het",
+        "Connaître les cas où l'on peut prévoir l'article",
+        "Utiliser mijn, jouw, zijn, haar"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Sanne fait visiter son appartement à une amie.",
+          "lines": [
+            {
+              "speaker": "Sanne",
+              "nl": "Dit is de keuken en dat is de badkamer.",
+              "fr": "Voici la cuisine et voilà la salle de bains."
+            },
+            {
+              "speaker": "Els",
+              "nl": "En dit? Is dat het bureau?",
+              "fr": "Et ici ? C'est le bureau ?"
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Ja, dat is het bureau van mijn man.",
+              "fr": "Oui, c'est le bureau de mon mari."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Het huis is mooi! En de tuin ook.",
+              "fr": "La maison est belle ! Et le jardin aussi."
+            },
+            {
+              "speaker": "Sanne",
+              "nl": "Dank je. Het kleine kamertje is voor onze dochter.",
+              "fr": "Merci. La petite chambre est pour notre fille.",
+              "note_fr": "kamertje est un diminutif : tous les diminutifs prennent het."
+            },
+            {
+              "speaker": "Els",
+              "nl": "Wat een leuk huis!",
+              "fr": "Quelle jolie maison !"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "À qui est le bureau ?",
+              "choices": [
+                "Au mari de Sanne",
+                "À Els",
+                "À leur fille"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "« het bureau van mijn man » : van = de (appartenance)."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Quel mot prend « het » dans le dialogue ?",
+              "choices": [
+                "huis",
+                "keuken",
+                "tuin"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "het huis, mais de keuken et de tuin."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète chaque mot avec son article : c'est ainsi qu'on le retient.",
+          "chunks": [
+            {
+              "nl": "de keuken",
+              "fr": "la cuisine"
+            },
+            {
+              "nl": "het huis",
+              "fr": "la maison"
+            },
+            {
+              "nl": "de tuin",
+              "fr": "le jardin"
+            },
+            {
+              "nl": "het bureau",
+              "fr": "le bureau"
+            },
+            {
+              "nl": "het kamertje",
+              "fr": "la petite chambre",
+              "hint_fr": "diminutif en -tje : toujours het"
+            },
+            {
+              "nl": "Wat een leuk huis!",
+              "fr": "Quelle jolie maison !"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-het-huis",
+              "nl": "het huis",
+              "fr": "la maison",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de huizen",
+              "examples": [
+                {
+                  "nl": "Het huis is mooi.",
+                  "fr": "La maison est belle."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-keuken",
+              "nl": "de keuken",
+              "fr": "la cuisine",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de keukens",
+              "examples": [
+                {
+                  "nl": "De keuken is klein.",
+                  "fr": "La cuisine est petite."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-badkamer",
+              "nl": "de badkamer",
+              "fr": "la salle de bains",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de badkamers",
+              "examples": [
+                {
+                  "nl": "Waar is de badkamer?",
+                  "fr": "Où est la salle de bains ?"
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-tuin",
+              "nl": "de tuin",
+              "fr": "le jardin",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de tuinen",
+              "examples": [
+                {
+                  "nl": "We eten in de tuin.",
+                  "fr": "Nous mangeons dans le jardin."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-kamer",
+              "nl": "de kamer",
+              "fr": "la chambre, la pièce",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de kamers",
+              "examples": [
+                {
+                  "nl": "Dit is mijn kamer.",
+                  "fr": "C'est ma chambre."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-van",
+              "nl": "van",
+              "fr": "de (appartenance)",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "het bureau van mijn man",
+                  "fr": "le bureau de mon mari"
+                }
+              ],
+              "tags": [
+                "voorzetsel"
+              ]
+            },
+            {
+              "id": "voc-jouw",
+              "nl": "jouw / je",
+              "fr": "ton, ta, tes",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Is dat jouw huis?",
+                  "fr": "C'est ta maison ?"
+                }
+              ],
+              "tags": [
+                "bezit"
+              ]
+            },
+            {
+              "id": "voc-zijn-bezit",
+              "nl": "zijn",
+              "fr": "son, sa, ses (à lui)",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Dat is zijn kamer.",
+                  "fr": "C'est sa chambre (à lui)."
+                }
+              ],
+              "tags": [
+                "bezit"
+              ]
+            },
+            {
+              "id": "voc-haar",
+              "nl": "haar",
+              "fr": "son, sa, ses (à elle)",
+              "pos": "pronom",
+              "examples": [
+                {
+                  "nl": "Dat is haar tuin.",
+                  "fr": "C'est son jardin (à elle)."
+                }
+              ],
+              "tags": [
+                "bezit"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Compare ces groupes de mots.",
+          "examples": [
+            {
+              "nl": "de keuken, de tuin, de kamer",
+              "fr": "la cuisine, le jardin, la chambre",
+              "highlight": [
+                "de"
+              ]
+            },
+            {
+              "nl": "het huis, het bureau, het kind",
+              "fr": "la maison, le bureau, l'enfant",
+              "highlight": [
+                "het"
+              ]
+            },
+            {
+              "nl": "de huizen, de bureaus, de kinderen",
+              "fr": "les maisons, les bureaux, les enfants",
+              "highlight": [
+                "de"
+              ]
+            },
+            {
+              "nl": "het kamertje, het huisje",
+              "fr": "la petite chambre, la petite maison",
+              "highlight": [
+                "het"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Quel article prend un nom au pluriel ?",
+            "choices": [
+              "Toujours de",
+              "Toujours het",
+              "Celui du singulier"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "Au pluriel, tous les noms prennent de : het huis → de huizen."
+          },
+          "reveal_fr": "Le néerlandais a deux articles définis : de (environ deux tiers des noms) et het. Au pluriel, tout devient de. Les diminutifs en -je / -tje prennent toujours het."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "lidwoorden-de-het",
+          "title_fr": "de ou het : ce qui est prévisible",
+          "body_fr": "L'article défini est de ou het selon le mot ; il n'y a pas de règle générale, il faut l'apprendre avec le mot. Mais certains cas sont sûrs : au pluriel, toujours de ; les diminutifs (-je, -tje, -pje) sont toujours het ; les langues et les métaux sont het (het Nederlands, het goud) ; les noms d'êtres humains et d'animaux sont le plus souvent de (de man, de hond). L'article indéfini est een pour tous les noms : een huis, een keuken. Apprends donc chaque nom avec son article, comme un seul bloc : « de keuken », « het huis ».",
+          "examples": [
+            {
+              "nl": "de keuken → de keukens",
+              "fr": "la cuisine → les cuisines"
+            },
+            {
+              "nl": "het huis → de huizen",
+              "fr": "la maison → les maisons"
+            },
+            {
+              "nl": "het huisje",
+              "fr": "la petite maison (diminutif)"
+            },
+            {
+              "nl": "een huis, een keuken",
+              "fr": "une maison, une cuisine"
+            }
+          ],
+          "exceptions_fr": [
+            "Environ deux tiers des noms sont des « de-woorden » : en cas de doute, de est statistiquement plus probable, mais ce n'est pas une règle.",
+            "Un même mot peut changer de sens avec l'article : « de bureau » n'existe pas, mais d'autres mots comme « het blad » et « de blad- » n'ont pas le même emploi. Vérifie dans un dictionnaire en cas de doute."
+          ],
+          "needsReview": true
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "___ huis is mooi.",
+              "fr": "La maison est belle.",
+              "answers": [
+                "Het",
+                "het"
+              ],
+              "choices": [
+                "De",
+                "Het"
+              ],
+              "ruleId": "lidwoorden-de-het",
+              "errorTags": [
+                "lidwoord"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "___ keuken is klein.",
+              "fr": "La cuisine est petite.",
+              "answers": [
+                "De",
+                "de"
+              ],
+              "choices": [
+                "De",
+                "Het"
+              ],
+              "ruleId": "lidwoorden-de-het",
+              "errorTags": [
+                "lidwoord"
+              ]
+            },
+            {
+              "id": "e3",
+              "type": "cloze",
+              "sentence": "___ huizen zijn groot.",
+              "fr": "Les maisons sont grandes.",
+              "answers": [
+                "De",
+                "de"
+              ],
+              "choices": [
+                "De",
+                "Het"
+              ],
+              "ruleId": "lidwoorden-de-het",
+              "errorTags": [
+                "lidwoord",
+                "meervoud"
+              ],
+              "explain_fr": "Au pluriel, toujours de."
+            },
+            {
+              "id": "e4",
+              "type": "mcqAudio",
+              "audioNl": "Dat is het bureau van mijn man.",
+              "question_fr": "De qui parle-t-on ?",
+              "choices": [
+                "Du mari",
+                "De la fille",
+                "De l'amie"
+              ],
+              "answerIndex": 0,
+              "errorTags": [
+                "bezit"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "dictation",
+              "audioNl": "Het huis is mooi.",
+              "fr": "La maison est belle.",
+              "errorTags": [
+                "spelling",
+                "lidwoord"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "errorCorrection",
+              "wrong": "De huis is groot.",
+              "correct": [
+                "Het huis is groot."
+              ],
+              "fr": "La maison est grande.",
+              "ruleId": "lidwoorden-de-het",
+              "errorTags": [
+                "lidwoord"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "translate",
+              "direction": "fr-nl",
+              "prompt": "C'est sa chambre (à elle).",
+              "expected": [
+                "Dat is haar kamer.",
+                "Dit is haar kamer."
+              ],
+              "errorTags": [
+                "bezit",
+                "vertaling"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Décris une pièce de ton logement avec son article.",
+              "expected": [
+                "De keuken is klein.",
+                "Het huis is mooi."
+              ],
+              "acceptAny": true,
+              "tip_fr": "Pense à dire l'article à voix haute avec le nom."
+            },
+            {
+              "id": "p2",
+              "task_fr": "Dis : « C'est le jardin de mes parents. »",
+              "expected": [
+                "Dat is de tuin van mijn ouders.",
+                "Dit is de tuin van mijn ouders."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu sais que l'article fait partie du mot, que le pluriel est toujours de, et tu peux exprimer l'appartenance avec van, mijn, jouw, zijn, haar.",
+          "addVocabIds": [
+            "voc-het-huis",
+            "voc-de-keuken",
+            "voc-de-badkamer",
+            "voc-de-tuin",
+            "voc-de-kamer",
+            "voc-van",
+            "voc-jouw",
+            "voc-zijn-bezit",
+            "voc-haar"
+          ],
+          "addStructures": [
+            {
+              "id": "str-dat-is-van",
+              "nl": "Dat is het bureau van mijn man.",
+              "fr": "C'est le bureau de mon mari.",
+              "ruleId": "lidwoorden-de-het"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u1-l3",
+      "order": 3,
+      "title_fr": "Un ou plusieurs ? Le pluriel",
+      "title_nl": "Eén of meer?",
+      "goals_fr": [
+        "Former le pluriel en -en et en -s",
+        "Respecter l'orthographe (voyelle longue, consonne double)",
+        "Connaître les pluriels irréguliers les plus courants"
+      ],
+      "minutes": 14,
+      "steps": [
+        {
+          "id": "s1",
+          "type": "listen",
+          "situation_fr": "Au téléphone, Bram décrit son nouvel appartement à sa mère.",
+          "lines": [
+            {
+              "speaker": "De moeder",
+              "nl": "Hoeveel kamers heeft het appartement?",
+              "fr": "Combien de pièces a l'appartement ?"
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Drie kamers en een grote keuken.",
+              "fr": "Trois pièces et une grande cuisine."
+            },
+            {
+              "speaker": "De moeder",
+              "nl": "En de buren? Zijn het aardige mensen?",
+              "fr": "Et les voisins ? Ce sont des gens sympathiques ?"
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Ja, het zijn twee vrouwen met twee kinderen.",
+              "fr": "Oui, ce sont deux femmes avec deux enfants.",
+              "note_fr": "vrouw → vrouwen, kind → kinderen : deux pluriels à retenir."
+            },
+            {
+              "speaker": "De moeder",
+              "nl": "En hoeveel ramen heeft je kamer?",
+              "fr": "Et combien de fenêtres a ta chambre ?"
+            },
+            {
+              "speaker": "Bram",
+              "nl": "Twee ramen. Het is heel licht.",
+              "fr": "Deux fenêtres. C'est très lumineux."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "comprehension",
+          "items": [
+            {
+              "id": "q1",
+              "question_fr": "Combien de pièces a l'appartement ?",
+              "choices": [
+                "Trois",
+                "Deux",
+                "Quatre"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "drie kamers = trois pièces."
+            },
+            {
+              "id": "q2",
+              "question_fr": "Qui sont les voisins ?",
+              "choices": [
+                "Deux femmes et deux enfants",
+                "Un couple",
+                "Une famille de quatre enfants"
+              ],
+              "answerIndex": 0,
+              "explain_fr": "twee vrouwen met twee kinderen."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "repeat",
+          "instructions_fr": "Répète chaque paire singulier / pluriel.",
+          "chunks": [
+            {
+              "nl": "de kamer – de kamers",
+              "fr": "la pièce – les pièces"
+            },
+            {
+              "nl": "het raam – de ramen",
+              "fr": "la fenêtre – les fenêtres",
+              "hint_fr": "voyelle longue : raam → ra-men"
+            },
+            {
+              "nl": "de man – de mannen",
+              "fr": "l'homme – les hommes",
+              "hint_fr": "voyelle courte : on double la consonne"
+            },
+            {
+              "nl": "de vrouw – de vrouwen",
+              "fr": "la femme – les femmes"
+            },
+            {
+              "nl": "het kind – de kinderen",
+              "fr": "l'enfant – les enfants",
+              "hint_fr": "pluriel irrégulier"
+            },
+            {
+              "nl": "de buur – de buren",
+              "fr": "le voisin – les voisins"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "vocab",
+          "items": [
+            {
+              "id": "voc-het-appartement",
+              "nl": "het appartement",
+              "fr": "l'appartement",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de appartementen",
+              "examples": [
+                {
+                  "nl": "Het appartement is klein.",
+                  "fr": "L'appartement est petit."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-het-raam",
+              "nl": "het raam",
+              "fr": "la fenêtre",
+              "pos": "nom",
+              "article": "het",
+              "plural": "de ramen",
+              "examples": [
+                {
+                  "nl": "Doe het raam open.",
+                  "fr": "Ouvre la fenêtre."
+                }
+              ],
+              "tags": [
+                "wonen"
+              ]
+            },
+            {
+              "id": "voc-de-vrouw",
+              "nl": "de vrouw",
+              "fr": "la femme",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de vrouwen",
+              "examples": [
+                {
+                  "nl": "Twee vrouwen wachten.",
+                  "fr": "Deux femmes attendent."
+                }
+              ],
+              "tags": [
+                "mensen"
+              ]
+            },
+            {
+              "id": "voc-de-buur",
+              "nl": "de buur",
+              "fr": "le voisin, la voisine",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de buren",
+              "examples": [
+                {
+                  "nl": "De buren zijn aardig.",
+                  "fr": "Les voisins sont sympathiques."
+                }
+              ],
+              "tags": [
+                "mensen"
+              ]
+            },
+            {
+              "id": "voc-de-mensen",
+              "nl": "de mensen",
+              "fr": "les gens",
+              "pos": "nom",
+              "article": "de",
+              "plural": "de mensen",
+              "examples": [
+                {
+                  "nl": "Aardige mensen!",
+                  "fr": "Des gens sympathiques !"
+                }
+              ],
+              "variant": {
+                "note_fr": "Le singulier « de mens » signifie « l'être humain » ; pour une personne on dit « de persoon »."
+              },
+              "tags": [
+                "mensen"
+              ]
+            },
+            {
+              "id": "voc-aardig",
+              "nl": "aardig",
+              "fr": "gentil, sympathique",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Zij is heel aardig.",
+                  "fr": "Elle est très gentille."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-groot",
+              "nl": "groot",
+              "fr": "grand",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Een grote keuken.",
+                  "fr": "Une grande cuisine."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-klein",
+              "nl": "klein",
+              "fr": "petit",
+              "pos": "adjectif",
+              "examples": [
+                {
+                  "nl": "Een kleine kamer.",
+                  "fr": "Une petite chambre."
+                }
+              ],
+              "tags": []
+            },
+            {
+              "id": "voc-met",
+              "nl": "met",
+              "fr": "avec",
+              "pos": "preposition",
+              "examples": [
+                {
+                  "nl": "een vrouw met twee kinderen",
+                  "fr": "une femme avec deux enfants"
+                }
+              ],
+              "tags": [
+                "voorzetsel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "discover",
+          "intro_fr": "Observe comment se forme le pluriel.",
+          "examples": [
+            {
+              "nl": "de kamer → de kamers",
+              "fr": "la pièce → les pièces",
+              "highlight": [
+                "kamers"
+              ]
+            },
+            {
+              "nl": "de vrouw → de vrouwen",
+              "fr": "la femme → les femmes",
+              "highlight": [
+                "vrouwen"
+              ]
+            },
+            {
+              "nl": "het raam → de ramen",
+              "fr": "la fenêtre → les fenêtres",
+              "highlight": [
+                "ramen"
+              ]
+            },
+            {
+              "nl": "de man → de mannen",
+              "fr": "l'homme → les hommes",
+              "highlight": [
+                "mannen"
+              ]
+            }
+          ],
+          "question": {
+            "id": "d1",
+            "question_fr": "Pourquoi « man » donne-t-il « mannen » avec deux n ?",
+            "choices": [
+              "Pour garder la voyelle courte",
+              "Parce que tous les pluriels doublent la consonne",
+              "Parce que c'est un mot irrégulier"
+            ],
+            "answerIndex": 0,
+            "explain_fr": "man-nen : la syllabe reste fermée, donc le a reste court. raam → ra-men : un seul a suffit en syllabe ouverte."
+          },
+          "reveal_fr": "Le pluriel est le plus souvent -en. L'orthographe suit la règle des voyelles longues et courtes vue au niveau A0."
+        },
+        {
+          "id": "s6",
+          "type": "rule",
+          "ruleId": "meervoud",
+          "title_fr": "Former le pluriel",
+          "body_fr": "La terminaison la plus fréquente est -en : de vrouw → de vrouwen, het kind → de kinderen. L'orthographe s'adapte : voyelle courte, on double la consonne (man → mannen) ; voyelle longue écrite double, on en enlève une (raam → ramen). La terminaison -s s'emploie après -el, -em, -en, -er, -je, et après une voyelle (avec apostrophe) : de kamer → de kamers, het meisje → de meisjes, de foto → de foto's. Au pluriel, l'article est toujours de.",
+          "examples": [
+            {
+              "nl": "de vrouw → de vrouwen",
+              "fr": "la femme → les femmes"
+            },
+            {
+              "nl": "de man → de mannen",
+              "fr": "l'homme → les hommes"
+            },
+            {
+              "nl": "het raam → de ramen",
+              "fr": "la fenêtre → les fenêtres"
+            },
+            {
+              "nl": "de foto → de foto's",
+              "fr": "la photo → les photos"
+            }
+          ],
+          "exceptions_fr": [
+            "Pluriels irréguliers courants : het kind → de kinderen, het ei → de eieren, de stad → de steden, het schip → de schepen.",
+            "Certains mots changent la consonne finale : het huis → de huizen, de brief → de brieven (s → z, f → v).",
+            "L'apostrophe du pluriel en -s n'apparaît qu'après a, i, o, u, y : foto's, taxi's, mais tram → trams."
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "practice",
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "cloze",
+              "sentence": "Ik heb twee ___.",
+              "fr": "J'ai deux sœurs.",
+              "answers": [
+                "zussen"
+              ],
+              "ruleId": "meervoud",
+              "errorTags": [
+                "meervoud"
+              ]
+            },
+            {
+              "id": "e2",
+              "type": "cloze",
+              "sentence": "Het appartement heeft drie ___.",
+              "fr": "L'appartement a trois pièces.",
+              "answers": [
+                "kamers"
+              ],
+              "ruleId": "meervoud",
+              "errorTags": [
+                "meervoud"
+              ],
+              "explain_fr": "kamer finit par -er : pluriel en -s."
+            },
+            {
+              "id": "e3",
+              "type": "cloze",
+              "sentence": "De buren hebben twee ___.",
+              "fr": "Les voisins ont deux enfants.",
+              "answers": [
+                "kinderen"
+              ],
+              "ruleId": "meervoud",
+              "errorTags": [
+                "meervoud"
+              ],
+              "explain_fr": "Pluriel irrégulier : kind → kinderen."
+            },
+            {
+              "id": "e4",
+              "type": "mcqAudio",
+              "audioNl": "Twee ramen",
+              "question_fr": "Qu'entends-tu ?",
+              "choices": [
+                "Deux fenêtres",
+                "Une fenêtre",
+                "Deux chambres"
+              ],
+              "answerIndex": 0,
+              "ruleId": "meervoud",
+              "errorTags": [
+                "meervoud"
+              ]
+            },
+            {
+              "id": "e5",
+              "type": "dictation",
+              "audioNl": "De buren zijn aardig.",
+              "fr": "Les voisins sont sympathiques.",
+              "errorTags": [
+                "spelling",
+                "meervoud"
+              ]
+            },
+            {
+              "id": "e6",
+              "type": "errorCorrection",
+              "wrong": "Ik heb twee kinds.",
+              "correct": [
+                "Ik heb twee kinderen."
+              ],
+              "fr": "J'ai deux enfants.",
+              "ruleId": "meervoud",
+              "errorTags": [
+                "meervoud"
+              ]
+            },
+            {
+              "id": "e7",
+              "type": "wordOrder",
+              "target": "Het zijn twee aardige vrouwen.",
+              "fr": "Ce sont deux femmes sympathiques.",
+              "errorTags": [
+                "woordorde"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "production",
+          "prompts": [
+            {
+              "id": "p1",
+              "task_fr": "Dis combien de pièces a ton logement.",
+              "expected": [
+                "Mijn huis heeft vier kamers.",
+                "Mijn appartement heeft drie kamers."
+              ],
+              "acceptAny": true
+            },
+            {
+              "id": "p2",
+              "task_fr": "Dis : « Les voisins ont deux enfants. »",
+              "expected": [
+                "De buren hebben twee kinderen."
+              ],
+              "acceptAny": false
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "type": "wrapup",
+          "summary_fr": "Tu formes le pluriel en -en ou en -s et tu sais pourquoi l'orthographe change. Fin de l'unité sur la famille et les personnes.",
+          "addVocabIds": [
+            "voc-het-appartement",
+            "voc-het-raam",
+            "voc-de-vrouw",
+            "voc-de-buur",
+            "voc-de-mensen",
+            "voc-aardig",
+            "voc-groot",
+            "voc-klein",
+            "voc-met"
+          ],
+          "addStructures": [
+            {
+              "id": "str-meervoud-en",
+              "nl": "de vrouw → de vrouwen",
+              "fr": "la femme → les femmes",
+              "ruleId": "meervoud"
+            },
+            {
+              "id": "str-meervoud-s",
+              "nl": "de kamer → de kamers",
+              "fr": "la pièce → les pièces",
+              "ruleId": "meervoud"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import type { Lesson, Level, Unit } from '@/content/schema';
+import { LEVELS, type Lesson, type Level, type Unit } from '@/content/schema';
 import type { LessonProgressRow } from '@/db/db';
 
 export type LessonStatus = 'termine' | 'en-cours' | 'disponible' | 'verrouille';
@@ -38,7 +38,12 @@ export function buildPath(course: Unit[], progress: LessonProgressRow[]): PathLe
   const levels: PathLevel[] = [];
   let previousUnitComplete: boolean = true;
 
-  for (const unit of [...course].sort((a, b) => a.order - b.order)) {
+  // Les unites s'enchainent par niveau (A0 puis A1...), puis par ordre interne.
+  const ordered = [...course].sort(
+    (a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level) || a.order - b.order,
+  );
+
+  for (const unit of ordered) {
     const unitUnlocked: boolean = previousUnitComplete;
     const lessons = [...unit.lessons].sort((a, b) => a.order - b.order);
     const pathLessons: PathLesson[] = [];
